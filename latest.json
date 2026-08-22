@@ -1,8 +1,17 @@
 {
-  "version": "0.0.0",
-  "released": "1970-01-01",
-  "url": "",
-  "size": 0,
-  "md5": "",
-  "changes": ["seed"]
+  "version": "2.17.97",
+  "released": "2026-08-22",
+  "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.97/lexola_v2.17.97.rbz",
+  "size": 90584956,
+  "md5": "58f02cb0325c53b0b986f02269634b37",
+  "changes": [
+    "Hinge plate LEX-HP-LBU-01 Rev A.11 on every unit with doors: LBU, LBQ, LHU, LMU (per section), LCU, LCU-V2, LCU-V3",
+    "2 plates per door, 3 when the door exceeds 1000 mm; side follows hingeside, both posts on a two-door opening",
+    "LCU back and side end doors, and LCU-V3's diagonal 45 degree opening",
+    "Flip-up doors excluded: LHU's upper leaves take an AVENTOS lift, not a cup-hinge plate",
+    "Rebuilding a unit no longer duplicates its plates",
+    "Overlay and FingerRail no longer shift the plates: the opening is clamped to the frame",
+    "Plates bill as fittings, not cut stock, and carry the Metal_10_1K finish",
+    "Deliverable set builds on the builders' own default materials again"
+  ]
 }
