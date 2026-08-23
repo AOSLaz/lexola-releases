@@ -1,17 +1,25 @@
 {
-  "version": "2.17.97",
-  "released": "2026-08-22",
-  "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.97/lexola_v2.17.97.rbz",
-  "size": 90584956,
-  "md5": "58f02cb0325c53b0b986f02269634b37",
+  "version": "2.17.98",
+  "released": "2026-08-23",
+  "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.98/lexola_v2.17.98.rbz",
+  "size": 94786755,
+  "md5": "724a26e47a7a6a831a4c5ebb485fa8b3",
   "changes": [
-    "Hinge plate LEX-HP-LBU-01 Rev A.11 on every unit with doors: LBU, LBQ, LHU, LMU (per section), LCU, LCU-V2, LCU-V3",
-    "2 plates per door, 3 when the door exceeds 1000 mm; side follows hingeside, both posts on a two-door opening",
-    "LCU back and side end doors, and LCU-V3's diagonal 45 degree opening",
-    "Flip-up doors excluded: LHU's upper leaves take an AVENTOS lift, not a cup-hinge plate",
-    "Rebuilding a unit no longer duplicates its plates",
-    "Overlay and FingerRail no longer shift the plates: the opening is clamped to the frame",
-    "Plates bill as fittings, not cut stock, and carry the Metal_10_1K finish",
-    "Deliverable set builds on the builders' own default materials again"
+    "BOM: hardware schedule derived from data/hardware.json - hinge plates counted from the model, LEGRABOX 1 set per drawer",
+    "BOM: feet, logos, vent covers and plates billed on the supplier documents; POD lid hinges + end caps are counted hardware, not bar cuts",
+    "BOM: LCU-V2 worktop is a worktop on every document; hinge plates and pod hinges are separate rows with their SKUs",
+    "Report: the two Frame sheets (order + cut list) print again on every document (hidden since 2026-08-09)",
+    "Report: AOS sheet numbering starts at 1, contents index derived from the printed sequence, date always today",
+    "Report: real AOS logo header; Dekton/Equitone/Granite/anodised textures print; slab labels fit; no orphan pages",
+    "Report: plan view solid with the POD lid panels hidden; no cast shadow on the plan render; take-off swatches use library colours/textures",
+    "FingerRail pull rail is solid timber (Oak default, Walnut) billed per piece on the report, the unit sheet, the take-off, the combined HTML and the CSVs",
+    "LCU-V3 carries the LCU code (LCU-0N) on every document",
+    "Extensions > Lexola > Check for Updates... (check-only, never installs)",
+    "Report: bigger type on every sheet at the same layout (base 11.5 px, no label under 9.5 px, 28 px headlines); codes, SKUs and numbers never wrap",
+    "Report: X-ray parts sheet grouped by class - frame profiles left (gold), panels/doors right (slate/green), legend in the drawing",
+    "Report: finish-board tiles from 600 px texture thumbs",
+    "Cut lists: the sheet nester tries four saw-legal split rules and keeps the fewest sheets (a merged two-unit kitchen: Alu sandwich 5 -> 4 sheets, waste 32% -> 15%)",
+    "Report: the POD unit sheet \"Frame only\" view shows the complete frame including the lid (nine lid members were dropped before)",
+    "BOM: a merged BBQ unit no longer reports two phantom 10 mm rails (a SKU-less placeholder could be revealed by merging); engine and export agree part-for-part on a merged kitchen"
   ]
 }
