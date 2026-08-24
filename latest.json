@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.100",
+    "version":  "2.17.101",
     "released":  "2026-08-24",
-    "asset":  "lexola_v2.17.100.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.100/lexola_v2.17.100.rbz",
-    "size":  96175229,
-    "md5":  "3298628E04869B09CE254403DF0A0444",
+    "asset":  "lexola_v2.17.101.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.101/lexola_v2.17.101.rbz",
+    "size":  96175695,
+    "md5":  "43161ACCCBA3E0015239ABE6F2ADE7A3",
     "entries":  470,
-    "commit":  "8c7748b",
+    "commit":  "e01579c",
     "changes":  [
+                    "v2.17.101: hinge-plate BOM name fix released (flap split bills correctly)",
+                    "Hinge plates carry their INSTANCE name into both BOM walks (flap split now bills live)",
                     "v2.17.100: LHU flip-up hinge plates on LHU_PX_UFT + flap-hinge TBC billing split",
                     "v2.17.99: smooth-restamp fix + D5 dense finish board + D6 Oak/Walnut textures",
                     "D5 dense finish board + D6 Oak/Walnut albedo textures",
@@ -15,8 +17,6 @@
                     "Record the v2.17.98 release: published, asset re-downloaded and hashed, checker reads it as :current",
                     "P0-13: a merged BBQ unit revealed two SKU-less 10mm placeholder rails",
                     "Regenerate the v3 report sample at the new type scale; mark the LPP comment superseded",
-                    "Report type scale + X-ray classes + 600px thumbs + 4-policy nester; POD frame lid; test-kitchen assembly gets ONE owner",
-                    "Release notes: repair the gh path (a heredoc turned \\b into a backspace byte); written via a .py file this time",
-                    "Release notes: v2.17.98 draft (archive facts, 12 change lines, not-in-this-release, release steps) + v2.17.97 from the live manifest"
+                    "Report type scale + X-ray classes + 600px thumbs + 4-policy nester; POD frame lid; test-kitchen assembly gets ONE owner"
                 ]
 }
