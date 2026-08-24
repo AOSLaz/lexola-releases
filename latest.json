@@ -1,25 +1,22 @@
 {
-  "version": "2.17.98",
-  "released": "2026-08-23",
-  "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.98/lexola_v2.17.98.rbz",
-  "size": 94786755,
-  "md5": "724a26e47a7a6a831a4c5ebb485fa8b3",
-  "changes": [
-    "BOM: hardware schedule derived from data/hardware.json - hinge plates counted from the model, LEGRABOX 1 set per drawer",
-    "BOM: feet, logos, vent covers and plates billed on the supplier documents; POD lid hinges + end caps are counted hardware, not bar cuts",
-    "BOM: LCU-V2 worktop is a worktop on every document; hinge plates and pod hinges are separate rows with their SKUs",
-    "Report: the two Frame sheets (order + cut list) print again on every document (hidden since 2026-08-09)",
-    "Report: AOS sheet numbering starts at 1, contents index derived from the printed sequence, date always today",
-    "Report: real AOS logo header; Dekton/Equitone/Granite/anodised textures print; slab labels fit; no orphan pages",
-    "Report: plan view solid with the POD lid panels hidden; no cast shadow on the plan render; take-off swatches use library colours/textures",
-    "FingerRail pull rail is solid timber (Oak default, Walnut) billed per piece on the report, the unit sheet, the take-off, the combined HTML and the CSVs",
-    "LCU-V3 carries the LCU code (LCU-0N) on every document",
-    "Extensions > Lexola > Check for Updates... (check-only, never installs)",
-    "Report: bigger type on every sheet at the same layout (base 11.5 px, no label under 9.5 px, 28 px headlines); codes, SKUs and numbers never wrap",
-    "Report: X-ray parts sheet grouped by class - frame profiles left (gold), panels/doors right (slate/green), legend in the drawing",
-    "Report: finish-board tiles from 600 px texture thumbs",
-    "Cut lists: the sheet nester tries four saw-legal split rules and keeps the fewest sheets (a merged two-unit kitchen: Alu sandwich 5 -> 4 sheets, waste 32% -> 15%)",
-    "Report: the POD unit sheet \"Frame only\" view shows the complete frame including the lid (nine lid members were dropped before)",
-    "BOM: a merged BBQ unit no longer reports two phantom 10 mm rails (a SKU-less placeholder could be revealed by merging); engine and export agree part-for-part on a merged kitchen"
-  ]
+    "version":  "2.17.100",
+    "released":  "2026-08-24",
+    "asset":  "lexola_v2.17.100.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.100/lexola_v2.17.100.rbz",
+    "size":  96175229,
+    "md5":  "3298628E04869B09CE254403DF0A0444",
+    "entries":  470,
+    "commit":  "8c7748b",
+    "changes":  [
+                    "v2.17.100: LHU flip-up hinge plates on LHU_PX_UFT + flap-hinge TBC billing split",
+                    "v2.17.99: smooth-restamp fix + D5 dense finish board + D6 Oak/Walnut textures",
+                    "D5 dense finish board + D6 Oak/Walnut albedo textures",
+                    "Dialog Apply restamps pre-2026-08-10 smooth-end stamps instead of silently dropping them",
+                    "Record the v2.17.98 release: published, asset re-downloaded and hashed, checker reads it as :current",
+                    "P0-13: a merged BBQ unit revealed two SKU-less 10mm placeholder rails",
+                    "Regenerate the v3 report sample at the new type scale; mark the LPP comment superseded",
+                    "Report type scale + X-ray classes + 600px thumbs + 4-policy nester; POD frame lid; test-kitchen assembly gets ONE owner",
+                    "Release notes: repair the gh path (a heredoc turned \\b into a backspace byte); written via a .py file this time",
+                    "Release notes: v2.17.98 draft (archive facts, 12 change lines, not-in-this-release, release steps) + v2.17.97 from the live manifest"
+                ]
 }
