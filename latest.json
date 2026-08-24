@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.101",
+    "version":  "2.17.102",
     "released":  "2026-08-24",
-    "asset":  "lexola_v2.17.101.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.101/lexola_v2.17.101.rbz",
-    "size":  96175695,
-    "md5":  "43161ACCCBA3E0015239ABE6F2ADE7A3",
+    "asset":  "lexola_v2.17.102.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.102/lexola_v2.17.102.rbz",
+    "size":  96179872,
+    "md5":  "005C86F97E6CFEF768A5E98804FDEB57",
     "entries":  470,
-    "commit":  "e01579c",
+    "commit":  "c1853cc",
     "changes":  [
+                    "v2.17.102: LHU two-plane FR upper + AVENTOS HK-XS / 72T550A.TL flip-up hardware",
+                    "LHU upper FingerRail rebuilt as the lower FR unit inverted (two-plane front)",
+                    "LHU upper FingerRail: stop cutting the post in two, cut the rail instead (rule 0c)",
+                    "Flip-up leaves bill a free-swing CLIP top 72T550A.TL - our plate already matches Blum",
+                    "Flip-up lift line = the RESEARCHED Blum AVENTOS HK-XS, one set per leaf",
                     "v2.17.101: hinge-plate BOM name fix released (flap split bills correctly)",
                     "Hinge plates carry their INSTANCE name into both BOM walks (flap split now bills live)",
                     "v2.17.100: LHU flip-up hinge plates on LHU_PX_UFT + flap-hinge TBC billing split",
                     "v2.17.99: smooth-restamp fix + D5 dense finish board + D6 Oak/Walnut textures",
-                    "D5 dense finish board + D6 Oak/Walnut albedo textures",
-                    "Dialog Apply restamps pre-2026-08-10 smooth-end stamps instead of silently dropping them",
-                    "Record the v2.17.98 release: published, asset re-downloaded and hashed, checker reads it as :current",
-                    "P0-13: a merged BBQ unit revealed two SKU-less 10mm placeholder rails",
-                    "Regenerate the v3 report sample at the new type scale; mark the LPP comment superseded",
-                    "Report type scale + X-ray classes + 600px thumbs + 4-policy nester; POD frame lid; test-kitchen assembly gets ONE owner"
+                    "D5 dense finish board + D6 Oak/Walnut albedo textures"
                 ]
 }
