@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.103",
+    "version":  "2.17.104",
     "released":  "2026-08-26",
-    "asset":  "lexola_v2.17.103.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.103/lexola_v2.17.103.rbz",
-    "size":  96180072,
-    "md5":  "943FF5047EF0B83F005B3DB879AEE72B",
+    "asset":  "lexola_v2.17.104.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.104/lexola_v2.17.104.rbz",
+    "size":  96181330,
+    "md5":  "88391F514D4416003B00C176EF20FF93",
     "entries":  470,
-    "commit":  "92dba7c",
+    "commit":  "41ca17f",
     "changes":  [
+                    "v2.17.104: interact toggle + LHU upper-FR profile fix (2 rounds) + worktop corner spur fix",
+                    "LHU worktop: drop the duplicated back-corner vertex ÔÇö notched_back_edge owns both corners; the double-back spur extruded a residual skin across the right 4080 cutout",
+                    "LHU upper FR round 2: whole PY_UF family un-shifted (bottom rails +40 to the fascia), duplicate PY_U rail family retired (DUPLA)",
+                    "LHU upper FR: fascia posts +40 to section top, rear posts float 40 off both ends, top Y-rails +40 fill the top corners",
+                    "Interact icon toggles: click while active returns to Select (flag-keyed, not blind)",
                     "v2.17.103: mint \u0027Alu Sandwich\u0027 on every build (POD panels wore no SU material)",
                     "Mint \u0027Alu Sandwich\u0027 on every build: add it to DEFAULT_LIBRARY_MATERIALS + POD passes params (P11)",
                     "v2.17.102: LHU two-plane FR upper + AVENTOS HK-XS / 72T550A.TL flip-up hardware",
                     "LHU upper FingerRail rebuilt as the lower FR unit inverted (two-plane front)",
-                    "LHU upper FingerRail: stop cutting the post in two, cut the rail instead (rule 0c)",
-                    "Flip-up leaves bill a free-swing CLIP top 72T550A.TL - our plate already matches Blum",
-                    "Flip-up lift line = the RESEARCHED Blum AVENTOS HK-XS, one set per leaf",
-                    "v2.17.101: hinge-plate BOM name fix released (flap split bills correctly)",
-                    "Hinge plates carry their INSTANCE name into both BOM walks (flap split now bills live)",
-                    "v2.17.100: LHU flip-up hinge plates on LHU_PX_UFT + flap-hinge TBC billing split"
+                    "LHU upper FingerRail: stop cutting the post in two, cut the rail instead (rule 0c)"
                 ]
 }
