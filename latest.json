@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.105",
-    "released":  "2026-08-26",
-    "asset":  "lexola_v2.17.105.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.105/lexola_v2.17.105.rbz",
-    "size":  96352013,
-    "md5":  "4FB1F784A0E09B82C6F0E20B8107F7DA",
+    "version":  "2.17.106",
+    "released":  "2026-08-27",
+    "asset":  "lexola_v2.17.106.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.106/lexola_v2.17.106.rbz",
+    "size":  96355794,
+    "md5":  "0B66AF11D2C214D71E2030FBAB674553",
     "entries":  475,
-    "commit":  "052c280",
+    "commit":  "5704f51",
     "changes":  [
+                    "About page shows update status and offers the update",
+                    "About dialog: update status + guarded update action (updater plan step 3 of 3)",
                     "v2.17.105: LMU front-card Door Style + LFU fridge-preset previews (5 icons)",
                     "LMU door style is the FRONT card\u0027s own Style row (unit-level, mirrors to sections on change; Dividers-card control removed)",
                     "LFU fridge-preset previews (dialog branch + renderer presets; 5 icons on disk, untracked per icon convention) + LMU single front Door Style control",
@@ -15,8 +17,6 @@
                     "LHU worktop: drop the duplicated back-corner vertex ÔÇö notched_back_edge owns both corners; the double-back spur extruded a residual skin across the right 4080 cutout",
                     "LHU upper FR round 2: whole PY_UF family un-shifted (bottom rails +40 to the fascia), duplicate PY_U rail family retired (DUPLA)",
                     "LHU upper FR: fascia posts +40 to section top, rear posts float 40 off both ends, top Y-rails +40 fill the top corners",
-                    "Interact icon toggles: click while active returns to Select (flag-keyed, not blind)",
-                    "v2.17.103: mint \u0027Alu Sandwich\u0027 on every build (POD panels wore no SU material)",
-                    "Mint \u0027Alu Sandwich\u0027 on every build: add it to DEFAULT_LIBRARY_MATERIALS + POD passes params (P11)"
+                    "Interact icon toggles: click while active returns to Select (flag-keyed, not blind)"
                 ]
 }
