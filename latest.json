@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.109",
+    "version":  "2.17.110",
     "released":  "2026-09-02",
-    "asset":  "lexola_v2.17.109.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.109/lexola_v2.17.109.rbz",
-    "size":  96360124,
-    "md5":  "BD987A2A7AA0A9CBB1889F05F55B22C8",
+    "asset":  "lexola_v2.17.110.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.110/lexola_v2.17.110.rbz",
+    "size":  96361998,
+    "md5":  "A53F482D6B9C03F48EEEA2F8DEFF502C",
     "entries":  475,
-    "commit":  "c92780d",
+    "commit":  "d01cfed",
     "changes":  [
+                    "v2.17.110: loader stamp for the Update Units completeness release (band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront)",
+                    "Update Units completeness: band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront fallback; coverage tool names by instance",
+                    "coverage_matrix: rule_notched skips posts that do not cross the board\u0027s z band; names skipped/solid pairs",
                     "v2.17.109: loader stamp for the FingerRail fixes + LHU wide floor split",
                     "FingerRail fixes: logo proud of the rail, LMU wall boards, divider Y-rail; LHU wide floor split",
                     "V3 waterfall raise + V2 observer re-attach",
                     "LCU-V2: update_existing re-attaches the shared notched observer (build parity)",
                     "LCU-V3 waterfalls lift with Raise Height, matching V1/V2 (Laszlo\u0027s call)",
                     "Camera self-repair + Raise Height fixes",
-                    "Raise Height audit: two measured defects fixed across five builders",
-                    "Placement camera repair: rebuild from values when zoom_extents is futile",
-                    "About page shows update status and offers the update",
-                    "About dialog: update status + guarded update action (updater plan step 3 of 3)"
+                    "Raise Height audit: two measured defects fixed across five builders"
                 ]
 }
