@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.112",
+    "version":  "2.17.113",
     "released":  "2026-09-03",
-    "asset":  "lexola_v2.17.112.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.112/lexola_v2.17.112.rbz",
-    "size":  96365905,
-    "md5":  "851A5396002F80EFF8C9B9418A8C9D38",
+    "asset":  "lexola_v2.17.113.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.113/lexola_v2.17.113.rbz",
+    "size":  96366984,
+    "md5":  "DF4CA7413DCA97E1588AFB709FA49ECC",
     "entries":  475,
-    "commit":  "a1ac660",
+    "commit":  "27de8ad",
     "changes":  [
+                    "v2.17.113: loader stamp for the FR shelf notches + in-place update guard",
+                    "FingerRail shelf boards notched around the rear FR posts; About button installs in place after a dev reload",
                     "v2.17.112: loader stamp for the bottom-section rail profiles",
                     "Bottom-section rails: 2-slot corner front-bottom + toe, 3-slot flat-top dividers (LBU/LBQ/LHU/LFU)",
                     "v2.17.111: loader stamp for the front shelf rail on Update Units",
@@ -15,8 +17,6 @@
                     "knowledge: SketchUp eats the trailing digit of a duplicate definition name (measured 2026-09-02)",
                     "v2.17.110: loader stamp for the Update Units completeness release (band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront)",
                     "Update Units completeness: band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront fallback; coverage tool names by instance",
-                    "coverage_matrix: rule_notched skips posts that do not cross the board\u0027s z band; names skipped/solid pairs",
-                    "v2.17.109: loader stamp for the FingerRail fixes + LHU wide floor split",
-                    "FingerRail fixes: logo proud of the rail, LMU wall boards, divider Y-rail; LHU wide floor split"
+                    "coverage_matrix: rule_notched skips posts that do not cross the board\u0027s z band; names skipped/solid pairs"
                 ]
 }
