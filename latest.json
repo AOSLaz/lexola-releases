@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.113",
+    "version":  "2.17.114",
     "released":  "2026-09-03",
-    "asset":  "lexola_v2.17.113.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.113/lexola_v2.17.113.rbz",
-    "size":  96366984,
-    "md5":  "DF4CA7413DCA97E1588AFB709FA49ECC",
+    "asset":  "lexola_v2.17.114.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.114/lexola_v2.17.114.rbz",
+    "size":  96374948,
+    "md5":  "3F8D19A04FEC4265A98032B7B5BD6B24",
     "entries":  475,
-    "commit":  "27de8ad",
+    "commit":  "4422e14",
     "changes":  [
+                    "v2.17.114: loader stamp for the report readability release",
+                    "Report: readable assembly sheets, honest unit pictures, one look per export, no headerless pages",
                     "v2.17.113: loader stamp for the FR shelf notches + in-place update guard",
                     "FingerRail shelf boards notched around the rear FR posts; About button installs in place after a dev reload",
                     "v2.17.112: loader stamp for the bottom-section rail profiles",
@@ -15,8 +17,6 @@
                     "v2.17.111: loader stamp for the front shelf rail on Update Units",
                     "Update Units injects the front shelf rail on LBU/LBQ/LCU/LHU (placed units predating 2026-08-21)",
                     "knowledge: SketchUp eats the trailing digit of a duplicate definition name (measured 2026-09-02)",
-                    "v2.17.110: loader stamp for the Update Units completeness release (band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront)",
-                    "Update Units completeness: band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront fallback; coverage tool names by instance",
-                    "coverage_matrix: rule_notched skips posts that do not cross the board\u0027s z band; names skipped/solid pairs"
+                    "v2.17.110: loader stamp for the Update Units completeness release (band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront)"
                 ]
 }
