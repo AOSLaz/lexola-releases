@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.110",
-    "released":  "2026-09-02",
-    "asset":  "lexola_v2.17.110.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.110/lexola_v2.17.110.rbz",
-    "size":  96361998,
-    "md5":  "A53F482D6B9C03F48EEEA2F8DEFF502C",
+    "version":  "2.17.111",
+    "released":  "2026-09-03",
+    "asset":  "lexola_v2.17.111.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.111/lexola_v2.17.111.rbz",
+    "size":  96363001,
+    "md5":  "C9AFA39B02E692010279F1C5D69D6334",
     "entries":  475,
-    "commit":  "d01cfed",
+    "commit":  "f64d3f3",
     "changes":  [
+                    "v2.17.111: loader stamp for the front shelf rail on Update Units",
+                    "Update Units injects the front shelf rail on LBU/LBQ/LCU/LHU (placed units predating 2026-08-21)",
+                    "knowledge: SketchUp eats the trailing digit of a duplicate definition name (measured 2026-09-02)",
                     "v2.17.110: loader stamp for the Update Units completeness release (band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront)",
                     "Update Units completeness: band-erase idempotence, LHU/LCU re-stamp ports, LCU-V2 panelfront fallback; coverage tool names by instance",
                     "coverage_matrix: rule_notched skips posts that do not cross the board\u0027s z band; names skipped/solid pairs",
                     "v2.17.109: loader stamp for the FingerRail fixes + LHU wide floor split",
                     "FingerRail fixes: logo proud of the rail, LMU wall boards, divider Y-rail; LHU wide floor split",
                     "V3 waterfall raise + V2 observer re-attach",
-                    "LCU-V2: update_existing re-attaches the shared notched observer (build parity)",
-                    "LCU-V3 waterfalls lift with Raise Height, matching V1/V2 (Laszlo\u0027s call)",
-                    "Camera self-repair + Raise Height fixes",
-                    "Raise Height audit: two measured defects fixed across five builders"
+                    "LCU-V2: update_existing re-attaches the shared notched observer (build parity)"
                 ]
 }
