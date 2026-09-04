@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.116",
-    "released":  "2026-09-04",
-    "asset":  "lexola_v2.17.116.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.116/lexola_v2.17.116.rbz",
-    "size":  96381157,
-    "md5":  "C1DFD2F7FA96474A5D266042B018E3BE",
-    "entries":  476,
-    "commit":  "30fcb88",
-    "changes":  [
-                    "v2.17.116: loader stamp for the legacy-unit solver release",
-                    "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels",
-                    "v2.17.115: loader stamp for the supplier prices release",
-                    "Prices: Larcore real AOS rate, Tricoya + Dekton list rates, provenance per class",
-                    "v2.17.114: loader stamp for the report readability release",
-                    "Report: readable assembly sheets, honest unit pictures, one look per export, no headerless pages",
-                    "v2.17.113: loader stamp for the FR shelf notches + in-place update guard",
-                    "FingerRail shelf boards notched around the rear FR posts; About button installs in place after a dev reload",
-                    "v2.17.112: loader stamp for the bottom-section rail profiles",
-                    "Bottom-section rails: 2-slot corner front-bottom + toe, 3-slot flat-top dividers (LBU/LBQ/LHU/LFU)"
-                ]
+    "version": "2.17.117",
+    "released": "2026-09-04",
+    "asset": "lexola_v2.17.117.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.117/lexola_v2.17.117.rbz",
+    "size": 96563872,
+    "md5": "65CE88EC9084F547B54EC8CED2E30AC7",
+    "entries": 477,
+    "commit": "0cabb79",
+    "changes": [
+        "v2.17.117: loader stamp for the round vent cover release",
+        "Round vent cover 80mm flange / 70mm hole, default ON: 2 holes up to 900mm wide, 4 above, in the back section; Vent Style picker keeps the 268x65 square option",
+        "v2.17.116: loader stamp for the legacy-unit solver release",
+        "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels",
+        "v2.17.115: loader stamp for the supplier prices release",
+        "Prices: Larcore real AOS rate, Tricoya + Dekton list rates, provenance per class",
+        "v2.17.114: loader stamp for the report readability release",
+        "Report: readable assembly sheets, honest unit pictures, one look per export, no headerless pages",
+        "v2.17.113: loader stamp for the FR shelf notches + in-place update guard",
+        "FingerRail shelf boards notched around the rear FR posts; About button installs in place after a dev reload"
+    ]
 }
