@@ -1,22 +1,22 @@
 {
-    "version": "2.17.118",
+    "version": "2.17.119",
     "released": "2026-09-04",
-    "asset": "lexola_v2.17.118.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.118/lexola_v2.17.118.rbz",
-    "size": 96567681,
-    "md5": "564276DFC4087C1D83F992AB9E2E11F3",
+    "asset": "lexola_v2.17.119.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.119/lexola_v2.17.119.rbz",
+    "size": 96568248,
+    "md5": "D8222E1FD3C2A5FC8CC7CD049C2E68DB",
     "entries": 477,
-    "commit": "e510a47",
+    "commit": "e0388ec",
     "changes": [
-        "v2.17.118: loader stamp for the vent count + spacing release",
-        "Vent count is now holes AND covers, pickable on every vented unit; round holes moved out toward the corners",
+        "v2.17.119: loader stamp for the LCU-V3 vent control fix",
+        "LCU-V3 Pentagonal Prism can reach its vent control at last; it sat inside the Panels section that variant hides",
+        "LEXOLA v2.17.118 — vent count is holes+covers, spacing to the corners, dialog fixes",
         "LEXOLA v2.17.117 — round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit",
         "v2.17.116: loader stamp for the legacy-unit solver release",
         "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels",
         "v2.17.115: loader stamp for the supplier prices release",
         "Prices: Larcore real AOS rate, Tricoya + Dekton list rates, provenance per class",
-        "v2.17.114: loader stamp for the report readability release",
         "Report: readable assembly sheets, honest unit pictures, one look per export, no headerless pages",
-        "FingerRail shelf boards notched around the rear FR posts; About button installs in place after a dev reload"
+        "v2.17.113: loader stamp for the FR shelf notches + in-place update guard"
     ]
 }
