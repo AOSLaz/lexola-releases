@@ -1,22 +1,22 @@
 {
-    "version": "2.17.119",
-    "released": "2026-09-04",
-    "asset": "lexola_v2.17.119.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.119/lexola_v2.17.119.rbz",
-    "size": 96568248,
-    "md5": "D8222E1FD3C2A5FC8CC7CD049C2E68DB",
-    "entries": 477,
-    "commit": "e0388ec",
-    "changes": [
-        "v2.17.119: loader stamp for the LCU-V3 vent control fix",
-        "LCU-V3 Pentagonal Prism can reach its vent control at last; it sat inside the Panels section that variant hides",
-        "LEXOLA v2.17.118 — vent count is holes+covers, spacing to the corners, dialog fixes",
-        "LEXOLA v2.17.117 — round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit",
-        "v2.17.116: loader stamp for the legacy-unit solver release",
-        "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels",
-        "v2.17.115: loader stamp for the supplier prices release",
-        "Prices: Larcore real AOS rate, Tricoya + Dekton list rates, provenance per class",
-        "Report: readable assembly sheets, honest unit pictures, one look per export, no headerless pages",
-        "v2.17.113: loader stamp for the FR shelf notches + in-place update guard"
-    ]
+    "version":  "2.17.120",
+    "released":  "2026-09-08",
+    "asset":  "lexola_v2.17.120.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.120/lexola_v2.17.120.rbz",
+    "size":  96570551,
+    "md5":  "B01E4C8B506B95B26820AC0F5F0D4D4F",
+    "entries":  477,
+    "commit":  "a884084",
+    "changes":  [
+                    "Mac: UI.messagebox 3-arg shim; placement lands units on their feet",
+                    "LEXOLA v2.17.119 — LCU-V3 can reach its vent control at last (dialog only)",
+                    "LEXOLA v2.17.118 — vent count is holes+covers, spacing to the corners, dialog fixes",
+                    "LEXOLA v2.17.117 — round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit",
+                    "v2.17.116: loader stamp for the legacy-unit solver release",
+                    "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels",
+                    "v2.17.115: loader stamp for the supplier prices release",
+                    "Prices: Larcore real AOS rate, Tricoya + Dekton list rates, provenance per class",
+                    "v2.17.114: loader stamp for the report readability release",
+                    "Report: readable assembly sheets, honest unit pictures, one look per export, no headerless pages"
+                ]
 }
