@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.121",
+    "version":  "2.17.122",
     "released":  "2026-09-08",
-    "asset":  "lexola_v2.17.121.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.121/lexola_v2.17.121.rbz",
-    "size":  96571308,
-    "md5":  "A88DEFA9028D4F14772BF4B7CB04B4DF",
+    "asset":  "lexola_v2.17.122.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.122/lexola_v2.17.122.rbz",
+    "size":  96573639,
+    "md5":  "EB8F2E1AADA401098872090F0A4EA27D",
     "entries":  477,
-    "commit":  "848a915",
+    "commit":  "734a997",
     "changes":  [
+                    "Update Units brings old units up to the current feature set",
                     "Vent covers follow their panel out of sight",
                     "Mac: UI.messagebox 3-arg shim; placement lands units on their feet",
                     "LEXOLA v2.17.119 — LCU-V3 can reach its vent control at last (dialog only)",
@@ -16,7 +17,6 @@
                     "v2.17.116: loader stamp for the legacy-unit solver release",
                     "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels",
                     "v2.17.115: loader stamp for the supplier prices release",
-                    "Prices: Larcore real AOS rate, Tricoya + Dekton list rates, provenance per class",
-                    "v2.17.114: loader stamp for the report readability release"
+                    "Prices: Larcore real AOS rate, Tricoya + Dekton list rates, provenance per class"
                 ]
 }
