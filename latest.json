@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.128",
+    "version":  "2.17.129",
     "released":  "2026-09-09",
-    "asset":  "lexola_v2.17.128.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.128/lexola_v2.17.128.rbz",
-    "size":  96715673,
-    "md5":  "CB61DEC39CD1BE467ABAC4504FC949CA",
-    "entries":  483,
-    "commit":  "c4fd0e5",
+    "asset":  "lexola_v2.17.129.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.129/lexola_v2.17.129.rbz",
+    "size":  96719944,
+    "md5":  "765BE294EFC6BD6CFE581FA7D5D54B21",
+    "entries":  484,
+    "commit":  "5fc7077",
     "changes":  [
+                    "v2.17.129 - a feedback channel from the Mac, and a pre-ship macOS gate",
                     "v2.17.128 - LFU No Legs: the unit\u0027s STATED width was the legged one",
                     "v2.17.127 - LFU No Legs door style; round vents drawn round; report render look",
                     "v2.17.126 - macOS: the messagebox shim asks the native what it accepts",
@@ -16,7 +17,6 @@
                     "Update Units brings old units up to the current feature set",
                     "Vent covers follow their panel out of sight",
                     "Mac: UI.messagebox 3-arg shim; placement lands units on their feet",
-                    "LEXOLA v2.17.119 ÔÇö LCU-V3 can reach its vent control at last (dialog only)",
-                    "LEXOLA v2.17.118 ÔÇö vent count is holes+covers, spacing to the corners, dialog fixes"
+                    "LEXOLA v2.17.119 ÔÇö LCU-V3 can reach its vent control at last (dialog only)"
                 ]
 }
