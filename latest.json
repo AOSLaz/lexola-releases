@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.127",
+    "version":  "2.17.128",
     "released":  "2026-09-09",
-    "asset":  "lexola_v2.17.127.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.127/lexola_v2.17.127.rbz",
-    "size":  96715298,
-    "md5":  "62EA6915DCD745C476E0A3B6CE6597B7",
+    "asset":  "lexola_v2.17.128.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.128/lexola_v2.17.128.rbz",
+    "size":  96715673,
+    "md5":  "CB61DEC39CD1BE467ABAC4504FC949CA",
     "entries":  483,
-    "commit":  "2b56507",
+    "commit":  "c4fd0e5",
     "changes":  [
+                    "v2.17.128 - LFU No Legs: the unit\u0027s STATED width was the legged one",
                     "v2.17.127 - LFU No Legs door style; round vents drawn round; report render look",
                     "v2.17.126 - macOS: the messagebox shim asks the native what it accepts",
                     "v2.17.125 - plan view: a door leaf\u0027s swing is drawn from its OWN face",
@@ -16,7 +17,6 @@
                     "Vent covers follow their panel out of sight",
                     "Mac: UI.messagebox 3-arg shim; placement lands units on their feet",
                     "LEXOLA v2.17.119 ÔÇö LCU-V3 can reach its vent control at last (dialog only)",
-                    "LEXOLA v2.17.118 ÔÇö vent count is holes+covers, spacing to the corners, dialog fixes",
-                    "LEXOLA v2.17.117 ÔÇö round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit"
+                    "LEXOLA v2.17.118 ÔÇö vent count is holes+covers, spacing to the corners, dialog fixes"
                 ]
 }
