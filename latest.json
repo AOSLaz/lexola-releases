@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.125",
+    "version":  "2.17.126",
     "released":  "2026-09-09",
-    "asset":  "lexola_v2.17.125.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.125/lexola_v2.17.125.rbz",
-    "size":  96584251,
-    "md5":  "83EEB5DBEFE16951B4773EDD69532DF8",
+    "asset":  "lexola_v2.17.126.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.126/lexola_v2.17.126.rbz",
+    "size":  96585440,
+    "md5":  "B3EFA64D37580A0E7BDDF06FCF06387C",
     "entries":  477,
-    "commit":  "7f2797c",
+    "commit":  "7e6ee4e",
     "changes":  [
+                    "v2.17.126 - macOS: the messagebox shim asks the native what it accepts",
                     "v2.17.125 - plan view: a door leaf\u0027s swing is drawn from its OWN face",
                     "v2.17.124 - hinge side in the door\u0027s own viewer frame; Apply mints its materials",
                     "Update Units brings old units up to the current feature set",
@@ -16,7 +17,6 @@
                     "LEXOLA v2.17.119 — LCU-V3 can reach its vent control at last (dialog only)",
                     "LEXOLA v2.17.118 — vent count is holes+covers, spacing to the corners, dialog fixes",
                     "LEXOLA v2.17.117 — round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit",
-                    "v2.17.116: loader stamp for the legacy-unit solver release",
-                    "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels"
+                    "v2.17.116: loader stamp for the legacy-unit solver release"
                 ]
 }
