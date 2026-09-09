@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.126",
+    "version":  "2.17.127",
     "released":  "2026-09-09",
-    "asset":  "lexola_v2.17.126.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.126/lexola_v2.17.126.rbz",
-    "size":  96585440,
-    "md5":  "B3EFA64D37580A0E7BDDF06FCF06387C",
-    "entries":  477,
-    "commit":  "7e6ee4e",
+    "asset":  "lexola_v2.17.127.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.127/lexola_v2.17.127.rbz",
+    "size":  96715298,
+    "md5":  "62EA6915DCD745C476E0A3B6CE6597B7",
+    "entries":  483,
+    "commit":  "2b56507",
     "changes":  [
+                    "v2.17.127 - LFU No Legs door style; round vents drawn round; report render look",
                     "v2.17.126 - macOS: the messagebox shim asks the native what it accepts",
                     "v2.17.125 - plan view: a door leaf\u0027s swing is drawn from its OWN face",
                     "v2.17.124 - hinge side in the door\u0027s own viewer frame; Apply mints its materials",
                     "Update Units brings old units up to the current feature set",
                     "Vent covers follow their panel out of sight",
                     "Mac: UI.messagebox 3-arg shim; placement lands units on their feet",
-                    "LEXOLA v2.17.119 — LCU-V3 can reach its vent control at last (dialog only)",
-                    "LEXOLA v2.17.118 — vent count is holes+covers, spacing to the corners, dialog fixes",
-                    "LEXOLA v2.17.117 — round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit",
-                    "v2.17.116: loader stamp for the legacy-unit solver release"
+                    "LEXOLA v2.17.119 ÔÇö LCU-V3 can reach its vent control at last (dialog only)",
+                    "LEXOLA v2.17.118 ÔÇö vent count is holes+covers, spacing to the corners, dialog fixes",
+                    "LEXOLA v2.17.117 ÔÇö round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit"
                 ]
 }
