@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.124",
+    "version":  "2.17.125",
     "released":  "2026-09-09",
-    "asset":  "lexola_v2.17.124.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.124/lexola_v2.17.124.rbz",
-    "size":  96583647,
-    "md5":  "A5D0046C678C83FCFB9E05A0B3F88EF2",
+    "asset":  "lexola_v2.17.125.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.125/lexola_v2.17.125.rbz",
+    "size":  96584251,
+    "md5":  "83EEB5DBEFE16951B4773EDD69532DF8",
     "entries":  477,
-    "commit":  "853c51d",
+    "commit":  "7f2797c",
     "changes":  [
+                    "v2.17.125 - plan view: a door leaf\u0027s swing is drawn from its OWN face",
                     "v2.17.124 - hinge side in the door\u0027s own viewer frame; Apply mints its materials",
                     "Update Units brings old units up to the current feature set",
                     "Vent covers follow their panel out of sight",
@@ -16,7 +17,6 @@
                     "LEXOLA v2.17.118 — vent count is holes+covers, spacing to the corners, dialog fixes",
                     "LEXOLA v2.17.117 — round vent cover (O80 flange / O70 hole), default ON, 2 or 4 per unit",
                     "v2.17.116: loader stamp for the legacy-unit solver release",
-                    "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels",
-                    "v2.17.115: loader stamp for the supplier prices release"
+                    "Legacy-unit solver: Apply brings pre-channel units to current; exports ask before billing legacy doors as panels"
                 ]
 }
