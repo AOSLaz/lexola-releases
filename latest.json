@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.134",
+    "version":  "2.17.135",
     "released":  "2026-09-10",
-    "asset":  "lexola_v2.17.134.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.134/lexola_v2.17.134.rbz",
-    "size":  96734477,
-    "md5":  "C62DC3B8AFA10BDF882D4E2B8549B659",
+    "asset":  "lexola_v2.17.135.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.135/lexola_v2.17.135.rbz",
+    "size":  96734627,
+    "md5":  "0A347F5DB9DA823FC8EB753EBABF2E4B",
     "entries":  484,
-    "commit":  "b6a3d8d",
+    "commit":  "deeeb15",
     "changes":  [
+                    "v2.17.135 - plan view: a panel edge in a slot draws at its true 10 mm, not inset to 6",
                     "v2.17.134 - plan view drawn from the real profile section, categories grouped and coloured; LMU shelf billing; report look keeps sun-shading",
                     "v2.17.133 - plan view draws the hardware it was silently dropping, and LCU-V3\u0027s rails are frame again",
                     "v2.17.132 - plan-view tolerance note in drawing language: one line, his terminology",
@@ -16,7 +17,6 @@
                     "v2.17.129 - a feedback channel from the Mac, and a pre-ship macOS gate",
                     "v2.17.128 - LFU No Legs: the unit\u0027s STATED width was the legged one",
                     "v2.17.127 - LFU No Legs door style; round vents drawn round; report render look",
-                    "v2.17.126 - macOS: the messagebox shim asks the native what it accepts",
-                    "v2.17.125 - plan view: a door leaf\u0027s swing is drawn from its OWN face"
+                    "v2.17.126 - macOS: the messagebox shim asks the native what it accepts"
                 ]
 }
