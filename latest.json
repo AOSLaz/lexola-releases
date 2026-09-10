@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.130",
+    "version":  "2.17.131",
     "released":  "2026-09-10",
-    "asset":  "lexola_v2.17.130.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.130/lexola_v2.17.130.rbz",
-    "size":  96723015,
-    "md5":  "2CF167339160C654535F0E3B5C706493",
+    "asset":  "lexola_v2.17.131.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.131/lexola_v2.17.131.rbz",
+    "size":  96724695,
+    "md5":  "DA43B89CB0F9368A7CC562078D6B4A7D",
     "entries":  484,
-    "commit":  "5eedd53",
+    "commit":  "c855e9a",
     "changes":  [
+                    "v2.17.131 - assembly take-up stated per joint on the plan and in the takeoff notes; render-look log no longer says the opposite of what it does",
                     "v2.17.130 - macOS errors reach a Desktop log that survives restarts; plan view drops hardware + ghost box; report renders use AO instead of shadows",
                     "v2.17.129 - a feedback channel from the Mac, and a pre-ship macOS gate",
                     "v2.17.128 - LFU No Legs: the unit\u0027s STATED width was the legged one",
@@ -16,7 +17,6 @@
                     "v2.17.125 - plan view: a door leaf\u0027s swing is drawn from its OWN face",
                     "v2.17.124 - hinge side in the door\u0027s own viewer frame; Apply mints its materials",
                     "Update Units brings old units up to the current feature set",
-                    "Vent covers follow their panel out of sight",
-                    "Mac: UI.messagebox 3-arg shim; placement lands units on their feet"
+                    "Vent covers follow their panel out of sight"
                 ]
 }
