@@ -1,13 +1,14 @@
 {
-    "version": "2.17.140",
+    "version": "2.17.141",
     "released": "2026-09-11",
-    "asset": "lexola_v2.17.140.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.140/lexola_v2.17.140.rbz",
-    "size": 96757198,
-    "md5": "826A895D319BD42695A8ACFA95D90778",
+    "asset": "lexola_v2.17.141.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.141/lexola_v2.17.141.rbz",
+    "size": 96759611,
+    "md5": "B1061C3BAF27F67BF621FDA1966A145B",
     "entries": 484,
-    "commit": "d718a8e",
+    "commit": "d892b0a",
     "changes": [
+        "v2.17.141 - an archive installed into a running SketchUp is caught: reload in place on request, else paused until the restart",
         "v2.17.140 - the macOS error channel cannot stay silent: log in the Lexola user dir + Desktop with a live write test, native messagebox arity, placement-tool callbacks recorded",
         "golden baseline re-blessed after v2.17.139: frameless shelf boards by default, cutouttype / shelfframe / shelfchannel attrs; drawer-box and vent-cover rows already changed on 09-08 / 09-10",
         "lexola.rb: stamp 2.17.139",
@@ -16,7 +17,6 @@
         "builder dialog: Profile row reads \"Aluminium · <finish>\"; finish-only lookup kept function-local",
         "builder dialog: Shelves row in the COLOUR - MATERIAL card, Shelf Thickness in the THICKNESS block",
         "v2.17.137 - shelves own material / colour / thickness for BOTH framings; Colour on every cut-list row; material dropdowns list materials; updater judges origin by the registered path",
-        "v2.17.136 - plan view: shelf symbol \"S - h 313 mm\", 2 mm assembly tolerance, \"(+ 0-N mm)\"",
-        "v2.17.135 - plan view: a panel edge in a slot draws at its true 10 mm, not inset to 6"
+        "v2.17.136 - plan view: shelf symbol \"S - h 313 mm\", 2 mm assembly tolerance, \"(+ 0-N mm)\""
     ]
 }
