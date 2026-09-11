@@ -1,13 +1,15 @@
 {
-    "version": "2.17.139",
+    "version": "2.17.140",
     "released": "2026-09-11",
-    "asset": "lexola_v2.17.139.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.139/lexola_v2.17.139.rbz",
-    "size": 96755715,
-    "md5": "608CBE910C72F81F63117F8552A90057",
+    "asset": "lexola_v2.17.140.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.140/lexola_v2.17.140.rbz",
+    "size": 96757198,
+    "md5": "826A895D319BD42695A8ACFA95D90778",
     "entries": 484,
-    "commit": "b682159",
+    "commit": "d718a8e",
     "changes": [
+        "v2.17.140 - the macOS error channel cannot stay silent: log in the Lexola user dir + Desktop with a live write test, native messagebox arity, placement-tool callbacks recorded",
+        "golden baseline re-blessed after v2.17.139: frameless shelf boards by default, cutouttype / shelfframe / shelfchannel attrs; drawer-box and vent-cover rows already changed on 09-08 / 09-10",
         "lexola.rb: stamp 2.17.139",
         "v2.17.139 - cut-out Type presets on every cut-out unit; shelf framing defaults to No; cut-out controls on one row; IDEA tag gone",
         "v2.17.138 - builder COLOUR - MATERIAL card: two dropdowns per row (colour/texture left, material right), heads over the columns; dialog 1320 wide",
@@ -15,8 +17,6 @@
         "builder dialog: Shelves row in the COLOUR - MATERIAL card, Shelf Thickness in the THICKNESS block",
         "v2.17.137 - shelves own material / colour / thickness for BOTH framings; Colour on every cut-list row; material dropdowns list materials; updater judges origin by the registered path",
         "v2.17.136 - plan view: shelf symbol \"S - h 313 mm\", 2 mm assembly tolerance, \"(+ 0-N mm)\"",
-        "v2.17.135 - plan view: a panel edge in a slot draws at its true 10 mm, not inset to 6",
-        "v2.17.134 - plan view drawn from the real profile section, categories grouped and coloured; LMU shelf billing; report look keeps sun-shading",
-        "v2.17.133 - plan view draws the hardware it was silently dropping, and LCU-V3's rails are frame again"
+        "v2.17.135 - plan view: a panel edge in a slot draws at its true 10 mm, not inset to 6"
     ]
 }
