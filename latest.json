@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.137",
-    "released":  "2026-09-11",
-    "asset":  "lexola_v2.17.137.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.137/lexola_v2.17.137.rbz",
-    "size":  96750406,
-    "md5":  "D23C98BC879E295A22A16B02C553DD38",
-    "entries":  484,
-    "commit":  "7fa6c96",
-    "changes":  [
-                    "v2.17.137 - shelves own material / colour / thickness for BOTH framings; Colour on every cut-list row; material dropdowns list materials; updater judges origin by the registered path",
-                    "v2.17.136 - plan view: shelf symbol \"S - h 313 mm\", 2 mm assembly tolerance, \"(+ 0-N mm)\"",
-                    "v2.17.135 - plan view: a panel edge in a slot draws at its true 10 mm, not inset to 6",
-                    "v2.17.134 - plan view drawn from the real profile section, categories grouped and coloured; LMU shelf billing; report look keeps sun-shading",
-                    "v2.17.133 - plan view draws the hardware it was silently dropping, and LCU-V3\u0027s rails are frame again",
-                    "v2.17.132 - plan-view tolerance note in drawing language: one line, his terminology",
-                    "v2.17.131 - assembly take-up stated per joint on the plan and in the takeoff notes; render-look log no longer says the opposite of what it does",
-                    "v2.17.130 - macOS errors reach a Desktop log that survives restarts; plan view drops hardware + ghost box; report renders use AO instead of shadows",
-                    "v2.17.129 - a feedback channel from the Mac, and a pre-ship macOS gate",
-                    "v2.17.128 - LFU No Legs: the unit\u0027s STATED width was the legged one"
-                ]
+    "version": "2.17.138",
+    "released": "2026-09-11",
+    "asset": "lexola_v2.17.138.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.138/lexola_v2.17.138.rbz",
+    "size": 96753810,
+    "md5": "68BA3721465CFEC962F1801495F67F73",
+    "entries": 484,
+    "commit": "c01e82b",
+    "changes": [
+        "v2.17.138 - builder COLOUR - MATERIAL card: two dropdowns per row (colour/texture left, material right), heads over the columns; dialog 1320 wide",
+        "builder dialog: Profile row reads \"Aluminium · <finish>\"; finish-only lookup kept function-local",
+        "builder dialog: Shelves row in the COLOUR - MATERIAL card, Shelf Thickness in the THICKNESS block",
+        "v2.17.137 - shelves own material / colour / thickness for BOTH framings; Colour on every cut-list row; material dropdowns list materials; updater judges origin by the registered path",
+        "v2.17.136 - plan view: shelf symbol \"S - h 313 mm\", 2 mm assembly tolerance, \"(+ 0-N mm)\"",
+        "v2.17.135 - plan view: a panel edge in a slot draws at its true 10 mm, not inset to 6",
+        "v2.17.134 - plan view drawn from the real profile section, categories grouped and coloured; LMU shelf billing; report look keeps sun-shading",
+        "v2.17.133 - plan view draws the hardware it was silently dropping, and LCU-V3's rails are frame again",
+        "v2.17.132 - plan-view tolerance note in drawing language: one line, his terminology",
+        "v2.17.131 - assembly take-up stated per joint on the plan and in the takeoff notes; render-look log no longer says the opposite of what it does"
+    ]
 }
