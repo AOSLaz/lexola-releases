@@ -1,13 +1,15 @@
 {
-    "version": "2.17.138",
+    "version": "2.17.139",
     "released": "2026-09-11",
-    "asset": "lexola_v2.17.138.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.138/lexola_v2.17.138.rbz",
-    "size": 96753810,
-    "md5": "68BA3721465CFEC962F1801495F67F73",
+    "asset": "lexola_v2.17.139.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.139/lexola_v2.17.139.rbz",
+    "size": 96755715,
+    "md5": "608CBE910C72F81F63117F8552A90057",
     "entries": 484,
-    "commit": "c01e82b",
+    "commit": "b682159",
     "changes": [
+        "lexola.rb: stamp 2.17.139",
+        "v2.17.139 - cut-out Type presets on every cut-out unit; shelf framing defaults to No; cut-out controls on one row; IDEA tag gone",
         "v2.17.138 - builder COLOUR - MATERIAL card: two dropdowns per row (colour/texture left, material right), heads over the columns; dialog 1320 wide",
         "builder dialog: Profile row reads \"Aluminium · <finish>\"; finish-only lookup kept function-local",
         "builder dialog: Shelves row in the COLOUR - MATERIAL card, Shelf Thickness in the THICKNESS block",
@@ -15,8 +17,6 @@
         "v2.17.136 - plan view: shelf symbol \"S - h 313 mm\", 2 mm assembly tolerance, \"(+ 0-N mm)\"",
         "v2.17.135 - plan view: a panel edge in a slot draws at its true 10 mm, not inset to 6",
         "v2.17.134 - plan view drawn from the real profile section, categories grouped and coloured; LMU shelf billing; report look keeps sun-shading",
-        "v2.17.133 - plan view draws the hardware it was silently dropping, and LCU-V3's rails are frame again",
-        "v2.17.132 - plan-view tolerance note in drawing language: one line, his terminology",
-        "v2.17.131 - assembly take-up stated per joint on the plan and in the takeoff notes; render-look log no longer says the opposite of what it does"
+        "v2.17.133 - plan view draws the hardware it was silently dropping, and LCU-V3's rails are frame again"
     ]
 }
