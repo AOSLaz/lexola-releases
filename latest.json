@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.142",
+    "version":  "2.17.143",
     "released":  "2026-09-11",
-    "asset":  "lexola_v2.17.142.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.142/lexola_v2.17.142.rbz",
-    "size":  96762943,
-    "md5":  "2D4310FD1B3C878F2520CE08899E6FE6",
+    "asset":  "lexola_v2.17.143.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.143/lexola_v2.17.143.rbz",
+    "size":  96763773,
+    "md5":  "789B0009CEEB750846A1819D990F2295",
     "entries":  484,
-    "commit":  "11e63f2",
+    "commit":  "6282f9b",
     "changes":  [
+                    "v2.17.143 - LCU-V3 worktop door edge runs corner to corner (Laszlo\u0027s blue line)",
                     "lexola.rb: stamp 2.17.142",
                     "corner Type change in the edit dialog now CONVERTS the unit (V1/V2/V3) instead of resizing the old type",
                     "v2.17.141 - an archive installed into a running SketchUp is caught: reload in place on request, else paused until the restart",
@@ -16,7 +17,6 @@
                     "lexola.rb: stamp 2.17.139",
                     "v2.17.139 - cut-out Type presets on every cut-out unit; shelf framing defaults to No; cut-out controls on one row; IDEA tag gone",
                     "v2.17.138 - builder COLOUR - MATERIAL card: two dropdowns per row (colour/texture left, material right), heads over the columns; dialog 1320 wide",
-                    "builder dialog: Profile row reads \"Aluminium · \u003cfinish\u003e\"; finish-only lookup kept function-local",
-                    "builder dialog: Shelves row in the COLOUR - MATERIAL card, Shelf Thickness in the THICKNESS block"
+                    "builder dialog: Profile row reads \"Aluminium · \u003cfinish\u003e\"; finish-only lookup kept function-local"
                 ]
 }
