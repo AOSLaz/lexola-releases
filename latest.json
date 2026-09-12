@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.143",
-    "released":  "2026-09-11",
-    "asset":  "lexola_v2.17.143.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.143/lexola_v2.17.143.rbz",
-    "size":  96763773,
-    "md5":  "789B0009CEEB750846A1819D990F2295",
-    "entries":  484,
-    "commit":  "6282f9b",
+    "version":  "2.17.144",
+    "released":  "2026-09-13",
+    "asset":  "lexola_v2.17.144.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.144/lexola_v2.17.144.rbz",
+    "size":  96773526,
+    "md5":  "F52B7C9509D8099B11B8F1DFCC119A3B",
+    "entries":  486,
+    "commit":  "0a38552",
     "changes":  [
+                    "main: re-snap after an edit-dialog resize (resnap_after_edit hook in the Apply path); gltf_export: no drive letters in code (per-PC read_default for glb_dir / glb_optimizer)",
+                    "lexola.rb: stamp 2.17.144",
+                    "placement_tool: resnap_after_edit + dims_mm_for (re-dock a resized unit through snap_for_existing, cap = size change + 100 mm)",
+                    "main: Export GLB Library menu item + toolbar button (Lexola::GltfExport); partial runs merge into manifest.json",
+                    "gltf_export: SketchUp walk + write_unit + export_library driver; in-SketchUp gate 10/10 units; gltf-transform Draco post-process",
+                    "gltf_export: pure GLB writer + classifier + offline eval (GLB unit library for the web builder, step 1)",
                     "v2.17.143 - LCU-V3 worktop door edge runs corner to corner (Laszlo\u0027s blue line)",
                     "lexola.rb: stamp 2.17.142",
                     "corner Type change in the edit dialog now CONVERTS the unit (V1/V2/V3) instead of resizing the old type",
-                    "v2.17.141 - an archive installed into a running SketchUp is caught: reload in place on request, else paused until the restart",
-                    "v2.17.140 - the macOS error channel cannot stay silent: log in the Lexola user dir + Desktop with a live write test, native messagebox arity, placement-tool callbacks recorded",
-                    "golden baseline re-blessed after v2.17.139: frameless shelf boards by default, cutouttype / shelfframe / shelfchannel attrs; drawer-box and vent-cover rows already changed on 09-08 / 09-10",
-                    "lexola.rb: stamp 2.17.139",
-                    "v2.17.139 - cut-out Type presets on every cut-out unit; shelf framing defaults to No; cut-out controls on one row; IDEA tag gone",
-                    "v2.17.138 - builder COLOUR - MATERIAL card: two dropdowns per row (colour/texture left, material right), heads over the columns; dialog 1320 wide",
-                    "builder dialog: Profile row reads \"Aluminium · \u003cfinish\u003e\"; finish-only lookup kept function-local"
+                    "v2.17.141 - an archive installed into a running SketchUp is caught: reload in place on request, else paused until the restart"
                 ]
 }
