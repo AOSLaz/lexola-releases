@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.144",
-    "released":  "2026-09-13",
-    "asset":  "lexola_v2.17.144.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.144/lexola_v2.17.144.rbz",
-    "size":  96773526,
-    "md5":  "F52B7C9509D8099B11B8F1DFCC119A3B",
+    "version":  "2.17.145",
+    "released":  "2026-09-14",
+    "asset":  "lexola_v2.17.145.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.145/lexola_v2.17.145.rbz",
+    "size":  96777403,
+    "md5":  "82B6312AF21452F09A82C3223BD41945",
     "entries":  486,
-    "commit":  "0a38552",
+    "commit":  "a864d97",
     "changes":  [
+                    "v2.17.145 - loader stamp + an outside-in archive verifier",
+                    "baseline: re-blessed on the 350 cut-out default and the .143 LCU-V3 worktop edge",
+                    "export: connector prices come from suppliers.json, so the report stops printing TBD",
+                    "suppliers.json: load the 32 Matara fitting prices; Registry.fitting_price reads them",
+                    "cut-out manual default 300 -\u003e 350 mm, so the builders agree with the dialog",
+                    "LBR joins the update path: builder_for arm + update_existing + single-owner observer",
+                    "shared: place_vent_covers erases FAMILY-orphan vent covers (fixes Laszlo\u0027s \"vent holes mixed and deformed\")",
                     "main: re-snap after an edit-dialog resize (resnap_after_edit hook in the Apply path); gltf_export: no drive letters in code (per-PC read_default for glb_dir / glb_optimizer)",
                     "lexola.rb: stamp 2.17.144",
-                    "placement_tool: resnap_after_edit + dims_mm_for (re-dock a resized unit through snap_for_existing, cap = size change + 100 mm)",
-                    "main: Export GLB Library menu item + toolbar button (Lexola::GltfExport); partial runs merge into manifest.json",
-                    "gltf_export: SketchUp walk + write_unit + export_library driver; in-SketchUp gate 10/10 units; gltf-transform Draco post-process",
-                    "gltf_export: pure GLB writer + classifier + offline eval (GLB unit library for the web builder, step 1)",
-                    "v2.17.143 - LCU-V3 worktop door edge runs corner to corner (Laszlo\u0027s blue line)",
-                    "lexola.rb: stamp 2.17.142",
-                    "corner Type change in the edit dialog now CONVERTS the unit (V1/V2/V3) instead of resizing the old type",
-                    "v2.17.141 - an archive installed into a running SketchUp is caught: reload in place on request, else paused until the restart"
+                    "placement_tool: resnap_after_edit + dims_mm_for (re-dock a resized unit through snap_for_existing, cap = size change + 100 mm)"
                 ]
 }
