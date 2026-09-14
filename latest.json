@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.145",
+    "version":  "2.17.146",
     "released":  "2026-09-14",
-    "asset":  "lexola_v2.17.145.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.145/lexola_v2.17.145.rbz",
-    "size":  96777403,
-    "md5":  "82B6312AF21452F09A82C3223BD41945",
+    "asset":  "lexola_v2.17.146.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.146/lexola_v2.17.146.rbz",
+    "size":  96778262,
+    "md5":  "CF73B3D601C81E222A07703AD3AA40BF",
     "entries":  486,
-    "commit":  "a864d97",
+    "commit":  "f500df6",
     "changes":  [
+                    "v2.17.146 - loader stamp, release notes, and the outside-in verifier for this build",
+                    "guard: refuse the in-place reload when the installed version is OLDER than the running one",
+                    "v2.17.145 PUBLISHED: release notes",
                     "v2.17.145 - loader stamp + an outside-in archive verifier",
                     "baseline: re-blessed on the 350 cut-out default and the .143 LCU-V3 worktop edge",
                     "export: connector prices come from suppliers.json, so the report stops printing TBD",
                     "suppliers.json: load the 32 Matara fitting prices; Registry.fitting_price reads them",
                     "cut-out manual default 300 -\u003e 350 mm, so the builders agree with the dialog",
                     "LBR joins the update path: builder_for arm + update_existing + single-owner observer",
-                    "shared: place_vent_covers erases FAMILY-orphan vent covers (fixes Laszlo\u0027s \"vent holes mixed and deformed\")",
-                    "main: re-snap after an edit-dialog resize (resnap_after_edit hook in the Apply path); gltf_export: no drive letters in code (per-PC read_default for glb_dir / glb_optimizer)",
-                    "lexola.rb: stamp 2.17.144",
-                    "placement_tool: resnap_after_edit + dims_mm_for (re-dock a resized unit through snap_for_existing, cap = size change + 100 mm)"
+                    "shared: place_vent_covers erases FAMILY-orphan vent covers (fixes Laszlo\u0027s \"vent holes mixed and deformed\")"
                 ]
 }
