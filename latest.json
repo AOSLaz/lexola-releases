@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.146",
+    "version":  "2.17.147",
     "released":  "2026-09-14",
-    "asset":  "lexola_v2.17.146.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.146/lexola_v2.17.146.rbz",
-    "size":  96778262,
-    "md5":  "CF73B3D601C81E222A07703AD3AA40BF",
+    "asset":  "lexola_v2.17.147.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.147/lexola_v2.17.147.rbz",
+    "size":  96778917,
+    "md5":  "015CE7D0303BAD39386E0477526A5CB9",
     "entries":  486,
-    "commit":  "f500df6",
+    "commit":  "0e4f318",
     "changes":  [
+                    "v2.17.147 - loader stamp, release notes, and this build\u0027s outside-in verifier",
+                    "updater: one click for the whole update, not three",
                     "v2.17.146 - loader stamp, release notes, and the outside-in verifier for this build",
                     "guard: refuse the in-place reload when the installed version is OLDER than the running one",
                     "v2.17.145 PUBLISHED: release notes",
@@ -15,8 +17,6 @@
                     "baseline: re-blessed on the 350 cut-out default and the .143 LCU-V3 worktop edge",
                     "export: connector prices come from suppliers.json, so the report stops printing TBD",
                     "suppliers.json: load the 32 Matara fitting prices; Registry.fitting_price reads them",
-                    "cut-out manual default 300 -\u003e 350 mm, so the builders agree with the dialog",
-                    "LBR joins the update path: builder_for arm + update_existing + single-owner observer",
-                    "shared: place_vent_covers erases FAMILY-orphan vent covers (fixes Laszlo\u0027s \"vent holes mixed and deformed\")"
+                    "cut-out manual default 300 -\u003e 350 mm, so the builders agree with the dialog"
                 ]
 }
