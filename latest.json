@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.149",
+    "version":  "2.17.150",
     "released":  "2026-09-17",
-    "asset":  "lexola_v2.17.149.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.149/lexola_v2.17.149.rbz",
-    "size":  99984610,
-    "md5":  "9E2AC846DD3C3444A24A078B1B8BC70A",
+    "asset":  "lexola_v2.17.150.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.150/lexola_v2.17.150.rbz",
+    "size":  99983036,
+    "md5":  "95DCAF95D8D931CDAA1CE95FCC6A4251",
     "entries":  494,
-    "commit":  "1d24256",
+    "commit":  "5e49df1",
     "changes":  [
+                    "v2.17.150 - black sinks: drain knob and overflow cover in the sink\u0027s own black; loader stamp, release notes, verifier",
                     "v2.17.149 - LHU cut-out runs under the upper section (rule A): loader stamp, release notes, verifier",
                     "v2.17.148 - release notes and this build\u0027s in-archive verifier",
                     "sinks + taps: real appliance models in the cut-out, finishes, tap, unit policy, Front/Centre, bundled .skp; erase-before-rebuild, kept through merge, LMU keyed by section; dialog selects readable and always dropdowns",
@@ -16,7 +17,6 @@
                     "updater: one click for the whole update, not three",
                     "v2.17.146 - loader stamp, release notes, and the outside-in verifier for this build",
                     "guard: refuse the in-place reload when the installed version is OLDER than the running one",
-                    "v2.17.145 PUBLISHED: release notes",
-                    "v2.17.145 - loader stamp + an outside-in archive verifier"
+                    "v2.17.145 PUBLISHED: release notes"
                 ]
 }
