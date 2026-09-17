@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.147",
-    "released":  "2026-09-14",
-    "asset":  "lexola_v2.17.147.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.147/lexola_v2.17.147.rbz",
-    "size":  96778917,
-    "md5":  "015CE7D0303BAD39386E0477526A5CB9",
-    "entries":  486,
-    "commit":  "0e4f318",
+    "version":  "2.17.148",
+    "released":  "2026-09-17",
+    "asset":  "lexola_v2.17.148.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.148/lexola_v2.17.148.rbz",
+    "size":  99984322,
+    "md5":  "895AC1256C2941B59FCF8116988F0276",
+    "entries":  494,
+    "commit":  "0893f7b",
     "changes":  [
+                    "v2.17.148 - release notes and this build\u0027s in-archive verifier",
+                    "sinks + taps: real appliance models in the cut-out, finishes, tap, unit policy, Front/Centre, bundled .skp; erase-before-rebuild, kept through merge, LMU keyed by section; dialog selects readable and always dropdowns",
+                    "Remove three tracked .bak files, superseded by their live counterparts",
                     "v2.17.147 - loader stamp, release notes, and this build\u0027s outside-in verifier",
                     "updater: one click for the whole update, not three",
                     "v2.17.146 - loader stamp, release notes, and the outside-in verifier for this build",
                     "guard: refuse the in-place reload when the installed version is OLDER than the running one",
                     "v2.17.145 PUBLISHED: release notes",
                     "v2.17.145 - loader stamp + an outside-in archive verifier",
-                    "baseline: re-blessed on the 350 cut-out default and the .143 LCU-V3 worktop edge",
-                    "export: connector prices come from suppliers.json, so the report stops printing TBD",
-                    "suppliers.json: load the 32 Matara fitting prices; Registry.fitting_price reads them",
-                    "cut-out manual default 300 -\u003e 350 mm, so the builders agree with the dialog"
+                    "baseline: re-blessed on the 350 cut-out default and the .143 LCU-V3 worktop edge"
                 ]
 }
