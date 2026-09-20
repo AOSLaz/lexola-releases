@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.152",
+    "version":  "2.17.154",
     "released":  "2026-09-20",
-    "asset":  "lexola_v2.17.152.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.152/lexola_v2.17.152.rbz",
-    "size":  100100347,
-    "md5":  "5E6B90140C8525B818F33D3EB365AD24",
+    "asset":  "lexola_v2.17.154.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.154/lexola_v2.17.154.rbz",
+    "size":  100106401,
+    "md5":  "30DB1B3990ABBDFB5740E233621663DF",
     "entries":  494,
-    "commit":  "b7beb7a",
+    "commit":  "bee34d8",
     "changes":  [
-                    "v2.17.152 - LHU upper waterfall hides at an LHU-LHU join (fin + upper worktop together); Update Units refreshes adjacency; loader stamp, release notes, verifier",
-                    "builders: badge comments describe the Option B file shipped in v2.17.151 (was \"271 bare faces\")",
-                    "v2.17.151 - Option B badge (keeps the original\u0027s onClick and ScaleTool), honeycomb description; loader stamp, release notes, verifier",
-                    "ship gate: count only LOOSE root units as placed in build_deliverable_set.rb",
-                    "chore: .graphifyignore - keep one-shot scratch and copies of shipped source out of the project graph",
-                    "docs: README overview - 10 mm aluminium honeycomb (Larcore A2) panels, 18 mm Tricoya doors",
-                    "v2.17.150 - black sinks: drain knob and overflow cover in the sink\u0027s own black; loader stamp, release notes, verifier",
-                    "v2.17.149 - LHU cut-out runs under the upper section (rule A): loader stamp, release notes, verifier",
-                    "v2.17.148 - release notes and this build\u0027s in-archive verifier",
-                    "sinks + taps: real appliance models in the cut-out, finishes, tap, unit policy, Front/Centre, bundled .skp; erase-before-rebuild, kept through merge, LMU keyed by section; dialog selects readable and always dropdowns"
+                    "v2.17.154 - v2.17.153 (Circular worktop cut-out) plus the erase-loop guard: loader stamp, release notes, verifier, post-ship sweep tooling",
+                    "erase loops re-check valid? at erase time - the Kitchen Builder Apply raised \"reference to deleted DrawingElement\" on an LHU when it switched a cut-out to Manual",
+                    "release log: the hold-back is stamped 20:47 local (releases-repo commit 742bbd3 = 19:47:05Z), not the 20:53 I had guessed; anonymous re-read 20:48:28 = 2.17.152",
+                    "release: v2.17.153 held back on the updater until its post-ship sweep has run (latest.json re-pointed to the v2.17.152 manifest, release flagged pre-release) - staged script, the fetched .152 manifest, log",
+                    "tooling: runner prints SketchUp private bytes after every job and stops a chain above 3500 MB (the working set under-reads accumulated load); post-ship sweep refuses a process above 3000 MB private; installed_vs_archives.py names the release on disk in Plugins",
+                    "correction to 84c2a9f: chain s0920g returned 26 ok checks / 0 diff in total (LBU LFU LBR 21 = 7 per unit, LHU button path 5), not 27 + 5",
+                    "tests: post-ship sweep for v2.17.153 - update-path rig (Update Units button x2 + Kitchen Builder Apply on a round cut-out), collateral sweep jobs, chunked options matrix, one-command runner for a fresh SketchUp",
+                    "tests: worktop_round_report_look.rb - rasterise the shipped worktop_dim_plan output for a round cut-out (the ship gate\u0027s Worktop PDF draws a placeholder for that plan)",
+                    "release loop script + log for v2.17.153 (staged publish, read-backs, updater check)",
+                    "v2.17.153 - Circular worktop cut-out (Type list: Manual, Circular, ...; one Diameter) on every cut-out unit; merged slab, Plan View, worktop sheet + XLSX carry the circle; loader stamp, release notes, verifier"
                 ]
 }
