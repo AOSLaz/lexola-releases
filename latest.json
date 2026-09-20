@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.153",
+    "version":  "2.17.152",
     "released":  "2026-09-20",
-    "asset":  "lexola_v2.17.153.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.153/lexola_v2.17.153.rbz",
-    "size":  100105664,
-    "md5":  "D0E7B71E57B560DF82974F78F6331244",
+    "asset":  "lexola_v2.17.152.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.152/lexola_v2.17.152.rbz",
+    "size":  100100347,
+    "md5":  "5E6B90140C8525B818F33D3EB365AD24",
     "entries":  494,
-    "commit":  "80ccee2",
+    "commit":  "b7beb7a",
     "changes":  [
-                    "v2.17.153 - Circular worktop cut-out (Type list: Manual, Circular, ...; one Diameter) on every cut-out unit; merged slab, Plan View, worktop sheet + XLSX carry the circle; loader stamp, release notes, verifier",
-                    "tests: IDEA-071 live rig - corrected before/after adjacency check in scenarios A/B, updater head start; release loop log for v2.17.152",
-                    "tests: IDEA-071 live rig - mixed-kitchen Update Units scenario, part-5 scenarios, sweep generator, staged release loop",
                     "v2.17.152 - LHU upper waterfall hides at an LHU-LHU join (fin + upper worktop together); Update Units refreshes adjacency; loader stamp, release notes, verifier",
                     "builders: badge comments describe the Option B file shipped in v2.17.151 (was \"271 bare faces\")",
                     "v2.17.151 - Option B badge (keeps the original\u0027s onClick and ScaleTool), honeycomb description; loader stamp, release notes, verifier",
                     "ship gate: count only LOOSE root units as placed in build_deliverable_set.rb",
                     "chore: .graphifyignore - keep one-shot scratch and copies of shipped source out of the project graph",
                     "docs: README overview - 10 mm aluminium honeycomb (Larcore A2) panels, 18 mm Tricoya doors",
-                    "v2.17.150 - black sinks: drain knob and overflow cover in the sink\u0027s own black; loader stamp, release notes, verifier"
+                    "v2.17.150 - black sinks: drain knob and overflow cover in the sink\u0027s own black; loader stamp, release notes, verifier",
+                    "v2.17.149 - LHU cut-out runs under the upper section (rule A): loader stamp, release notes, verifier",
+                    "v2.17.148 - release notes and this build\u0027s in-archive verifier",
+                    "sinks + taps: real appliance models in the cut-out, finishes, tap, unit policy, Front/Centre, bundled .skp; erase-before-rebuild, kept through merge, LMU keyed by section; dialog selects readable and always dropdowns"
                 ]
 }
