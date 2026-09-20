@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.151",
-    "released":  "2026-09-19",
-    "asset":  "lexola_v2.17.151.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.151/lexola_v2.17.151.rbz",
-    "size":  100096750,
-    "md5":  "527916CB64D3BBE037ACE615A2A8B9F1",
+    "version":  "2.17.152",
+    "released":  "2026-09-20",
+    "asset":  "lexola_v2.17.152.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.152/lexola_v2.17.152.rbz",
+    "size":  100100347,
+    "md5":  "5E6B90140C8525B818F33D3EB365AD24",
     "entries":  494,
-    "commit":  "0ead204",
+    "commit":  "b7beb7a",
     "changes":  [
+                    "v2.17.152 - LHU upper waterfall hides at an LHU-LHU join (fin + upper worktop together); Update Units refreshes adjacency; loader stamp, release notes, verifier",
+                    "builders: badge comments describe the Option B file shipped in v2.17.151 (was \"271 bare faces\")",
                     "v2.17.151 - Option B badge (keeps the original\u0027s onClick and ScaleTool), honeycomb description; loader stamp, release notes, verifier",
                     "ship gate: count only LOOSE root units as placed in build_deliverable_set.rb",
                     "chore: .graphifyignore - keep one-shot scratch and copies of shipped source out of the project graph",
@@ -15,8 +17,6 @@
                     "v2.17.150 - black sinks: drain knob and overflow cover in the sink\u0027s own black; loader stamp, release notes, verifier",
                     "v2.17.149 - LHU cut-out runs under the upper section (rule A): loader stamp, release notes, verifier",
                     "v2.17.148 - release notes and this build\u0027s in-archive verifier",
-                    "sinks + taps: real appliance models in the cut-out, finishes, tap, unit policy, Front/Centre, bundled .skp; erase-before-rebuild, kept through merge, LMU keyed by section; dialog selects readable and always dropdowns",
-                    "Remove three tracked .bak files, superseded by their live counterparts",
-                    "v2.17.147 - loader stamp, release notes, and this build\u0027s outside-in verifier"
+                    "sinks + taps: real appliance models in the cut-out, finishes, tap, unit policy, Front/Centre, bundled .skp; erase-before-rebuild, kept through merge, LMU keyed by section; dialog selects readable and always dropdowns"
                 ]
 }
