@@ -1,22 +1,18 @@
 {
-    "version":  "2.17.154",
-    "released":  "2026-09-20",
-    "asset":  "lexola_v2.17.154.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.154/lexola_v2.17.154.rbz",
-    "size":  100106401,
-    "md5":  "30DB1B3990ABBDFB5740E233621663DF",
+    "version":  "2.17.155",
+    "released":  "2026-09-21",
+    "asset":  "lexola_v2.17.155.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.155/lexola_v2.17.155.rbz",
+    "size":  100110101,
+    "md5":  "13D3765E9CF81EA4674DBC93ABC615BF",
     "entries":  494,
-    "commit":  "bee34d8",
+    "commit":  "2781463",
     "changes":  [
-                    "v2.17.154 - v2.17.153 (Circular worktop cut-out) plus the erase-loop guard: loader stamp, release notes, verifier, post-ship sweep tooling",
-                    "erase loops re-check valid? at erase time - the Kitchen Builder Apply raised \"reference to deleted DrawingElement\" on an LHU when it switched a cut-out to Manual",
-                    "release log: the hold-back is stamped 20:47 local (releases-repo commit 742bbd3 = 19:47:05Z), not the 20:53 I had guessed; anonymous re-read 20:48:28 = 2.17.152",
-                    "release: v2.17.153 held back on the updater until its post-ship sweep has run (latest.json re-pointed to the v2.17.152 manifest, release flagged pre-release) - staged script, the fetched .152 manifest, log",
-                    "tooling: runner prints SketchUp private bytes after every job and stops a chain above 3500 MB (the working set under-reads accumulated load); post-ship sweep refuses a process above 3000 MB private; installed_vs_archives.py names the release on disk in Plugins",
-                    "correction to 84c2a9f: chain s0920g returned 26 ok checks / 0 diff in total (LBU LFU LBR 21 = 7 per unit, LHU button path 5), not 27 + 5",
-                    "tests: post-ship sweep for v2.17.153 - update-path rig (Update Units button x2 + Kitchen Builder Apply on a round cut-out), collateral sweep jobs, chunked options matrix, one-command runner for a fresh SketchUp",
-                    "tests: worktop_round_report_look.rb - rasterise the shipped worktop_dim_plan output for a round cut-out (the ship gate\u0027s Worktop PDF draws a placeholder for that plan)",
-                    "release loop script + log for v2.17.153 (staged publish, read-backs, updater check)",
-                    "v2.17.153 - Circular worktop cut-out (Type list: Manual, Circular, ...; one Diameter) on every cut-out unit; merged slab, Plan View, worktop sheet + XLSX carry the circle; loader stamp, release notes, verifier"
+                    "v2.17.155 - LBQ: repair hidden BBQ top rails, add Overlay door-face panels",
+                    "BBQ top rails: build() emits a SKU-less 1mm placeholder when the run is 0 at BUILD time, and update_existing had no arm to ever replace it - so a unit later widened, or given a smaller cut-out, kept two invisible placeholders where real PG40 profiles belong. The swap reuses the existing swap_old_kind; the run is PER SIDE and carries the shared term, mirroring :px_bbq_top's own run_f",
+                    "Overlay front panels: the alu framing panels now use the INLAY build in every door style (Overlay used to move and resize them onto the door plane, 10mm Alu with an 8mm void behind), and a new :panel_bbq_overlay sub carries the Tricoya door face in front of them - doorthickness + doorpaint, hidden unless Overlay and the unit is wider than cutout+160. FingerRail stays alu-only",
+                    "update_existing gained injection for placed units plus four BBQ panel remap arms (it had none), with the _Overlay arms tested first since \"..._Left_Overlay\" start_with-matches \"..._Left\"",
+                    "named _Overlay not _Door: bom/normalizer.rb returns :door for any name matching /Door/ before it tests /Panel/, which would bill a framing panel as a door leaf",
+                    "verified: rails 6 -> 659 faces + SKU via the real Update Units button, second pass delta 0; zero-run branch unchanged; merged pair RED->GREEN on all four rails; Inlay vs Overlay alu panels identical across styles; merged Overlay pair ok; options matrix 12 variants 0 FAILED 0 NO-OP; coverage matrix all rules hold; notch rule PASS; golden baseline LBQ exactly 2 ADDED; both BOM walks agree"
                 ]
 }
