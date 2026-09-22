@@ -3,18 +3,19 @@
     "released": "2026-09-22",
     "asset": "lexola_v2.17.156.rbz",
     "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.156/lexola_v2.17.156.rbz",
-    "size": 122286394,
-    "md5": "55440889D05F373601D517BBAB938A56",
-    "entries": 912,
-    "commit": "1bdfacf",
+    "size": 131118592,
+    "md5": "1092D91A110FA57038E8E2C2294A4D47",
+    "entries": 919,
+    "commit": "c2106a7",
     "changes": [
-        "v2.17.156 (REBUILT 2026-09-22 with the PBR materials work; the original .156 asset carried only the tap fix)",
-        "MATERIALS: metalness, roughness, normal map and ambient occlusion are now stamped on every material LEXOLA creates, resolved from materials/pbr_families.json by category/brand/range/id - so they never have to be set by hand again",
-        "FIXED: metal was classified by the material's DISPLAY NAME, so 24 non-metals exported as fully metallic - 17 RAL paints (Jet Black, Zinc Yellow, Pearl Gold, Steel Blue, Chrome Green...), 6 granites (Absolute Black, Black Pearl, Silver Forest...) and the basic Black. A black paint at metalness 1 renders nearly pure black. RAL 9006/9007 stay metallic: they really are aluminium-flake paint",
+        "v2.17.156 (REBUILT 2026-09-22 - PBR materials + the Tricoya texture; the original .156 asset carried only the tap fix)",
+        "MATERIALS: metalness, roughness, normal map and ambient occlusion are stamped automatically on every material LEXOLA creates, resolved from materials/pbr_families.json - they never have to be set by hand again",
+        "FIXED: metal was decided by the material's DISPLAY NAME, so 24 non-metals exported as fully metallic - 17 RAL paints (Jet Black, Zinc Yellow, Pearl Gold, Steel Blue, Chrome Green...), 6 granites (Absolute Black, Black Pearl, Silver Forest...) and the basic Black. RAL 9006/9007 stay metallic: they really are aluminium-flake paint",
         "SketchUp and the GLB export now read the SAME table, so a unit and its render cannot disagree",
-        "414 generated normal/roughness/AO maps ship with the textures; maps with no variation are deliberately omitted rather than shipped as blank filler",
-        "Alu Sandwich (Larcore A2) gains a real texture - 2048px over a 2000x2000mm tile - and Tricoya's tile is raised 0.27m -> 2.0m, so neither repeats visibly on a panel",
-        "verified: 8/8 materials carry their table values live with a negative control that correctly fails; golden baseline parts/AABB unchanged (LBU 140, LBQ 136, LHU 163); notch rule 4 pass 0 FAIL; archive 912 entries, all discriminators present, byte-equal to src, leak-clean, 0 macOS blockers",
-        "NOT covered: LMU notch returned n/a (shelfcount 0) - inconclusive, not a pass. Tricoya's albedo is 1024px, so its 2m tile is 1.95mm/px against Alu Sandwich's 0.98"
+        "TRICOYA: rebuilt at a 2000 x 2000 mm seamless tile, 4096 px, from a fibreboard photograph recoloured onto the board's own #C8B08A - fibre stays at its true 1.3 mm, where the previous tile repeated every 270 mm",
+        "ALU SANDWICH (Larcore A2) has a real texture for the first time - 2048 px over 2000 mm. It is a coated sheet, so the surface character is fine orange-peel, not brushed metal",
+        "420 generated normal/roughness/AO maps ship with the textures; maps with no variation are omitted rather than shipped as blank filler",
+        "verified: archive 919 entries against 919 derived beforehand, 44/44 in-archive checks, leak-clean, 0 macOS blockers; golden baseline parts/AABB unchanged (LBU 140, LBQ 136, LHU 163); notch rule 4 pass 0 FAIL",
+        "NOT covered: LMU notch returned n/a (shelfcount 0) - inconclusive, not a pass. In SketchUp's own viewport, with no environment active, metalness/roughness/normal maps have almost no visible effect (measured); they do the work in the GLB exports and external renders"
     ]
 }
