@@ -1,18 +1,17 @@
 {
-    "version":  "2.17.155",
-    "released":  "2026-09-21",
-    "asset":  "lexola_v2.17.155.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.155/lexola_v2.17.155.rbz",
-    "size":  100110101,
-    "md5":  "13D3765E9CF81EA4674DBC93ABC615BF",
+    "version":  "2.17.156",
+    "released":  "2026-09-22",
+    "asset":  "lexola_v2.17.156.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.156/lexola_v2.17.156.rbz",
+    "size":  100110834,
+    "md5":  "10A20460AD9C269AD5667B91E5F77BBA",
     "entries":  494,
-    "commit":  "2781463",
+    "commit":  "4012571",
     "changes":  [
-                    "v2.17.155 - LBQ: repair hidden BBQ top rails, add Overlay door-face panels",
-                    "BBQ top rails: build() emits a SKU-less 1mm placeholder when the run is 0 at BUILD time, and update_existing had no arm to ever replace it - so a unit later widened, or given a smaller cut-out, kept two invisible placeholders where real PG40 profiles belong. The swap reuses the existing swap_old_kind; the run is PER SIDE and carries the shared term, mirroring :px_bbq_top's own run_f",
-                    "Overlay front panels: the alu framing panels now use the INLAY build in every door style (Overlay used to move and resize them onto the door plane, 10mm Alu with an 8mm void behind), and a new :panel_bbq_overlay sub carries the Tricoya door face in front of them - doorthickness + doorpaint, hidden unless Overlay and the unit is wider than cutout+160. FingerRail stays alu-only",
-                    "update_existing gained injection for placed units plus four BBQ panel remap arms (it had none), with the _Overlay arms tested first since \"..._Left_Overlay\" start_with-matches \"..._Left\"",
-                    "named _Overlay not _Door: bom/normalizer.rb returns :door for any name matching /Door/ before it tests /Panel/, which would bill a framing panel as a door leaf",
-                    "verified: rails 6 -> 659 faces + SKU via the real Update Units button, second pass delta 0; zero-run branch unchanged; merged pair RED->GREEN on all four rails; Inlay vs Overlay alu panels identical across styles; merged Overlay pair ok; options matrix 12 variants 0 FAILED 0 NO-OP; coverage matrix all rules hold; notch rule PASS; golden baseline LBQ exactly 2 ADDED; both BOM walks agree"
+                    "v2.17.156 - Apply now writes cutouttap / cutouttapfinish / cutoutfinish (tap could never be added to a placed unit)",
+                    "main.rb store_field_value refused every access:'NONE' attr, and the three cut-out attrs the Kitchen Builder window owns are stamped NONE on purpose - so Apply collected the tap, sent it, iterated it, and dropped it one line before writing. Create always worked; Apply never did, since taps shipped in v2.17.148. Same cause as the `variant` bug fixed 2026-09-11",
+                    "APPLY_WRITABLE_NONE = %w[cutoutfinish cutouttap cutouttapfinish]; merge- and adjacency-owned NONE attrs stay refused (control: sharedleft sent 'Yes' stayed 'No')",
+                    "changing a sink's FINISH on a placed unit was silently a no-op for the same reason - fixed by the same change",
+                    "verified: RED s0923c tap subs 0->0; GREEN s0923d 0->1 with Tap_PEP_chrome placed on the sink's tap hole; all six tap builders LBU LBR LCU LCU-V2 LHU LMU 6/6; golden baseline attribute-only; notch rule PASS"
                 ]
 }
