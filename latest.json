@@ -1,17 +1,20 @@
 {
-    "version":  "2.17.156",
-    "released":  "2026-09-22",
-    "asset":  "lexola_v2.17.156.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.156/lexola_v2.17.156.rbz",
-    "size":  100110834,
-    "md5":  "10A20460AD9C269AD5667B91E5F77BBA",
-    "entries":  494,
-    "commit":  "4012571",
-    "changes":  [
-                    "v2.17.156 - Apply now writes cutouttap / cutouttapfinish / cutoutfinish (tap could never be added to a placed unit)",
-                    "main.rb store_field_value refused every access:'NONE' attr, and the three cut-out attrs the Kitchen Builder window owns are stamped NONE on purpose - so Apply collected the tap, sent it, iterated it, and dropped it one line before writing. Create always worked; Apply never did, since taps shipped in v2.17.148. Same cause as the `variant` bug fixed 2026-09-11",
-                    "APPLY_WRITABLE_NONE = %w[cutoutfinish cutouttap cutouttapfinish]; merge- and adjacency-owned NONE attrs stay refused (control: sharedleft sent 'Yes' stayed 'No')",
-                    "changing a sink's FINISH on a placed unit was silently a no-op for the same reason - fixed by the same change",
-                    "verified: RED s0923c tap subs 0->0; GREEN s0923d 0->1 with Tap_PEP_chrome placed on the sink's tap hole; all six tap builders LBU LBR LCU LCU-V2 LHU LMU 6/6; golden baseline attribute-only; notch rule PASS"
-                ]
+    "version": "2.17.156",
+    "released": "2026-09-22",
+    "asset": "lexola_v2.17.156.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.156/lexola_v2.17.156.rbz",
+    "size": 122286394,
+    "md5": "55440889D05F373601D517BBAB938A56",
+    "entries": 912,
+    "commit": "1bdfacf",
+    "changes": [
+        "v2.17.156 (REBUILT 2026-09-22 with the PBR materials work; the original .156 asset carried only the tap fix)",
+        "MATERIALS: metalness, roughness, normal map and ambient occlusion are now stamped on every material LEXOLA creates, resolved from materials/pbr_families.json by category/brand/range/id - so they never have to be set by hand again",
+        "FIXED: metal was classified by the material's DISPLAY NAME, so 24 non-metals exported as fully metallic - 17 RAL paints (Jet Black, Zinc Yellow, Pearl Gold, Steel Blue, Chrome Green...), 6 granites (Absolute Black, Black Pearl, Silver Forest...) and the basic Black. A black paint at metalness 1 renders nearly pure black. RAL 9006/9007 stay metallic: they really are aluminium-flake paint",
+        "SketchUp and the GLB export now read the SAME table, so a unit and its render cannot disagree",
+        "414 generated normal/roughness/AO maps ship with the textures; maps with no variation are deliberately omitted rather than shipped as blank filler",
+        "Alu Sandwich (Larcore A2) gains a real texture - 2048px over a 2000x2000mm tile - and Tricoya's tile is raised 0.27m -> 2.0m, so neither repeats visibly on a panel",
+        "verified: 8/8 materials carry their table values live with a negative control that correctly fails; golden baseline parts/AABB unchanged (LBU 140, LBQ 136, LHU 163); notch rule 4 pass 0 FAIL; archive 912 entries, all discriminators present, byte-equal to src, leak-clean, 0 macOS blockers",
+        "NOT covered: LMU notch returned n/a (shelfcount 0) - inconclusive, not a pass. Tricoya's albedo is 1024px, so its 2m tile is 1.95mm/px against Alu Sandwich's 0.98"
+    ]
 }
