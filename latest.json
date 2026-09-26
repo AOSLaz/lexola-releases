@@ -1,18 +1,17 @@
 {
-    "version": "2.17.157",
-    "released": "2026-09-26",
-    "asset": "lexola_v2.17.157.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.157/lexola_v2.17.157.rbz",
-    "size": 139548889,
-    "md5": "C5CDF1E2D642DE0F3A3CBAB53D964364",
-    "entries": 922,
-    "commit": "430c424",
-    "changes": [
-        "v2.17.157 - Alu Sandwich (Larcore) panels wear the brushed-aluminium face chosen on 22 September (1 m tile, metalness 0.5 / roughness 0.9), plus the Tricoya and Aluminium values set by eye that day",
-        "FIXED: two High units or two BBQ units side by side, unmerged, with waterfalls on - the worktops overlapped 40 mm at the join; they now meet exactly and keep their 20 mm lip on open ends",
-        "FIXED: a newly built Corner V3 had no worktop cut-out until it was rebuilt; it is cut straight away now",
-        "FIXED: SketchUp memory - material images were reloaded every time LEXOLA touched a material and the undo history kept every copy (about 740 MB per touch with the new Alu Sandwich face); each image now loads once",
-        "FIXED: building a unit with the Manual cut-out type added an unused grey material called 'manual' to the model",
-        "verified: 922 entries, 38/38 in-archive checks, 0 macOS blockers; golden baseline parts/AABB unchanged on all 10 units; notch rule 6 pass 0 fail; options matrices LHU 15 / LBQ 12 / LCU-V3 14 variants, 0 failed, 0 no-op; deliverable ship gate PASS"
-    ]
+  "version": "2.17.158",
+  "released": "2026-09-26",
+  "asset": "lexola_v2.17.158.rbz",
+  "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.158/lexola_v2.17.158.rbz",
+  "size": 139559800,
+  "md5": "C9A5D2075C23CE145E63096B2EF4E41A",
+  "entries": 923,
+  "commit": "b589ac6",
+  "changes": [
+    "v2.17.158 - Your own textures in the LEXOLA library: '+ Add texture' in Kitchen Materials and in the Kitchen Builder picker opens a 'My textures' window (image, name, what it is, which parts, real tile size); it is kept on this PC, survives updates, and appears under 'My textures' in both windows",
+    "FIXED: a corner unit (LCU) or bar unit (LBR) with a worktop cut-out lost the worktop lip over its waterfalls; the worktop now has the same outline as without a cut-out",
+    "FIXED: two units with cut-outs side by side overlapped their worktops 40 mm after Update Adjacency, and switching a waterfall on in Component Options left the worktop edge behind; both now follow",
+    "FIXED: in the Kitchen Builder material picker the highlighted colour/pattern category now follows your click",
+    "Known limit: an uploaded texture lies the way SketchUp maps it by default (on tall doors and side panels a grained image runs across the part); following the 2026-08-07 grain rule is next"
+  ]
 }
