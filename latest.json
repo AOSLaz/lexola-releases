@@ -1,17 +1,22 @@
 {
-  "version": "2.17.158",
-  "released": "2026-09-26",
-  "asset": "lexola_v2.17.158.rbz",
-  "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.158/lexola_v2.17.158.rbz",
-  "size": 139559800,
-  "md5": "C9A5D2075C23CE145E63096B2EF4E41A",
-  "entries": 923,
-  "commit": "b589ac6",
-  "changes": [
-    "v2.17.158 - Your own textures in the LEXOLA library: '+ Add texture' in Kitchen Materials and in the Kitchen Builder picker opens a 'My textures' window (image, name, what it is, which parts, real tile size); it is kept on this PC, survives updates, and appears under 'My textures' in both windows",
-    "FIXED: a corner unit (LCU) or bar unit (LBR) with a worktop cut-out lost the worktop lip over its waterfalls; the worktop now has the same outline as without a cut-out",
-    "FIXED: two units with cut-outs side by side overlapped their worktops 40 mm after Update Adjacency, and switching a waterfall on in Component Options left the worktop edge behind; both now follow",
-    "FIXED: in the Kitchen Builder material picker the highlighted colour/pattern category now follows your click",
-    "Known limit: an uploaded texture lies the way SketchUp maps it by default (on tall doors and side panels a grained image runs across the part); following the 2026-08-07 grain rule is next"
-  ]
+    "version":  "2.17.159",
+    "released":  "2026-09-26",
+    "asset":  "lexola_v2.17.159.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.159/lexola_v2.17.159.rbz",
+    "size":  139563068,
+    "md5":  "AFEC415D71630AFC4E15264C12F7B881",
+    "entries":  923,
+    "commit":  "36a805e",
+    "changes":  [
+                    "v2.17.159 - Rotate 90 for uploaded textures (stored turned); the 8 approved 2026-27 themes replace the 5 bundled boards; Merge Worktops lays the continuous grain at merge time",
+                    "v2.17.158 - user textures in the material library (both windows); cut-out worktop slabs keep their waterfall lip (LCU V1, LBR), follow adjacency and the waterfall switches; builder picker category highlight",
+                    "v2.17.157 - IDEA-175 worktop seam overlap, IDEA-177 fresh LCU-V3 cut-out, texture reload memory blow-up, stray \"manual\" material; ships the 2026-09-22 material refinement",
+                    "Material refinements from Laszlo\u0027s model, with provenance separated from my test leftovers",
+                    "Tricoya: 2000mm tile built from Laszlo\u0027s fibreboard photo, recoloured",
+                    "Tricoya tile raised 0.27 m -\u003e 2.0 m (Laszlo: minimum 2000x2000mm)",
+                    "PBR maps: add the 32 files the first commit missed, exclude a stray backup",
+                    "PBR materials: one data-driven resolver for metalness/roughness/normal/AO",
+                    "v2.17.156 - Apply now writes cutouttap / cutouttapfinish / cutoutfinish (tap could never be added to a placed unit)",
+                    "v2.17.155 - LBQ: repair hidden BBQ top rails, add Overlay door-face panels"
+                ]
 }
