@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.162",
-    "released":  "2026-09-28",
-    "asset":  "lexola_v2.17.162.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.162/lexola_v2.17.162.rbz",
-    "size":  139568056,
-    "md5":  "85CD7E1CD599BF8C8297D1F71F3EE17A",
-    "entries":  923,
-    "commit":  "a04a9d7",
+    "version":  "2.17.163",
+    "released":  "2026-09-29",
+    "asset":  "lexola_v2.17.163.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.163/lexola_v2.17.163.rbz",
+    "size":  139580845,
+    "md5":  "05BB7DDF71E43ECFEFB31FF8EA02CBC4",
+    "entries":  924,
+    "commit":  "5b01736",
     "changes":  [
+                    "v2.17.163 - Hero Reel: product films of the selected units (6 camera moves, 1920x1080 + 1080x1920, mp4 via ffmpeg); dimensions start off",
                     "v2.17.162 - in-app update: every failure reaches the About page, one click (show_warning false), About shows the running version",
                     "v2.17.161 - Mac error capture: every exception raised inside a LEXOLA file reaches LEXOLA_errors.log (TracePoint, macOS only)",
                     "v2.17.160 - the badge material Metal_10_1K is metal (1.0 / roughness 0.08) in the PBR table: SketchUp\u0027s palette stamping and the GLB export",
@@ -16,7 +17,6 @@
                     "v2.17.157 - IDEA-175 worktop seam overlap, IDEA-177 fresh LCU-V3 cut-out, texture reload memory blow-up, stray \"manual\" material; ships the 2026-09-22 material refinement",
                     "Material refinements from Laszlo\u0027s model, with provenance separated from my test leftovers",
                     "Tricoya: 2000mm tile built from Laszlo\u0027s fibreboard photo, recoloured",
-                    "Tricoya tile raised 0.27 m -\u003e 2.0 m (Laszlo: minimum 2000x2000mm)",
-                    "PBR maps: add the 32 files the first commit missed, exclude a stray backup"
+                    "Tricoya tile raised 0.27 m -\u003e 2.0 m (Laszlo: minimum 2000x2000mm)"
                 ]
 }
