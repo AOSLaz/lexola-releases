@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.160",
-    "released":  "2026-09-27",
-    "asset":  "lexola_v2.17.160.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.160/lexola_v2.17.160.rbz",
-    "size":  139563886,
-    "md5":  "36DFA84F085DC3C643B51FB940661BD7",
+    "version":  "2.17.161",
+    "released":  "2026-09-28",
+    "asset":  "lexola_v2.17.161.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.161/lexola_v2.17.161.rbz",
+    "size":  139566166,
+    "md5":  "3F4EB10FDD13E46589C9A4FE76133194",
     "entries":  923,
-    "commit":  "37323bf",
+    "commit":  "0e3b30b",
     "changes":  [
+                    "v2.17.161 - Mac error capture: every exception raised inside a LEXOLA file reaches LEXOLA_errors.log (TracePoint, macOS only)",
                     "v2.17.160 - the badge material Metal_10_1K is metal (1.0 / roughness 0.08) in the PBR table: SketchUp\u0027s palette stamping and the GLB export",
                     "v2.17.159 - Rotate 90 for uploaded textures (stored turned); the 8 approved 2026-27 themes replace the 5 bundled boards; Merge Worktops lays the continuous grain at merge time",
                     "v2.17.158 - user textures in the material library (both windows); cut-out worktop slabs keep their waterfall lip (LCU V1, LBR), follow adjacency and the waterfall switches; builder picker category highlight",
@@ -16,7 +17,6 @@
                     "Tricoya: 2000mm tile built from Laszlo\u0027s fibreboard photo, recoloured",
                     "Tricoya tile raised 0.27 m -\u003e 2.0 m (Laszlo: minimum 2000x2000mm)",
                     "PBR maps: add the 32 files the first commit missed, exclude a stray backup",
-                    "PBR materials: one data-driven resolver for metalness/roughness/normal/AO",
-                    "v2.17.156 - Apply now writes cutouttap / cutouttapfinish / cutoutfinish (tap could never be added to a placed unit)"
+                    "PBR materials: one data-driven resolver for metalness/roughness/normal/AO"
                 ]
 }
