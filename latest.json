@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.161",
+    "version":  "2.17.162",
     "released":  "2026-09-28",
-    "asset":  "lexola_v2.17.161.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.161/lexola_v2.17.161.rbz",
-    "size":  139566166,
-    "md5":  "3F4EB10FDD13E46589C9A4FE76133194",
+    "asset":  "lexola_v2.17.162.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.162/lexola_v2.17.162.rbz",
+    "size":  139568056,
+    "md5":  "85CD7E1CD599BF8C8297D1F71F3EE17A",
     "entries":  923,
-    "commit":  "0e3b30b",
+    "commit":  "a04a9d7",
     "changes":  [
+                    "v2.17.162 - in-app update: every failure reaches the About page, one click (show_warning false), About shows the running version",
                     "v2.17.161 - Mac error capture: every exception raised inside a LEXOLA file reaches LEXOLA_errors.log (TracePoint, macOS only)",
                     "v2.17.160 - the badge material Metal_10_1K is metal (1.0 / roughness 0.08) in the PBR table: SketchUp\u0027s palette stamping and the GLB export",
                     "v2.17.159 - Rotate 90 for uploaded textures (stored turned); the 8 approved 2026-27 themes replace the 5 bundled boards; Merge Worktops lays the continuous grain at merge time",
@@ -16,7 +17,6 @@
                     "Material refinements from Laszlo\u0027s model, with provenance separated from my test leftovers",
                     "Tricoya: 2000mm tile built from Laszlo\u0027s fibreboard photo, recoloured",
                     "Tricoya tile raised 0.27 m -\u003e 2.0 m (Laszlo: minimum 2000x2000mm)",
-                    "PBR maps: add the 32 files the first commit missed, exclude a stray backup",
-                    "PBR materials: one data-driven resolver for metalness/roughness/normal/AO"
+                    "PBR maps: add the 32 files the first commit missed, exclude a stray backup"
                 ]
 }
