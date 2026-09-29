@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.164",
+    "version":  "2.17.165",
     "released":  "2026-09-29",
-    "asset":  "lexola_v2.17.164.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.164/lexola_v2.17.164.rbz",
-    "size":  139585067,
-    "md5":  "46C04528A5A25DAA7EE69A17E809A346",
+    "asset":  "lexola_v2.17.165.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.165/lexola_v2.17.165.rbz",
+    "size":  139585548,
+    "md5":  "CA8CB8F7800EDDEE034FA66426D32755",
     "entries":  924,
-    "commit":  "dffbbc3",
+    "commit":  "8ff1168",
     "changes":  [
+                    "v2.17.165 - the 8 presets shared with the LEXOLA web builder (library 3.6)",
+                    "library 3.6 - the 8 presets Laszlo picked for the web builder become the bundled boards; the six dropped 3.5 themes retire; Modern Dark returns as p26_modern_dark",
+                    "golden_baseline.rb: record real part positions (posfmt 2) + re-capture on v2.17.164",
                     "v2.17.164 - drawer boxes fit their opening on every door style (IDEA-197); the upper worktop covers the upper waterfalls (IDEA-176)",
                     "IDEA-197 + IDEA-176 - drawer boxes fit their opening on every door style; the upper worktop covers the upper waterfalls",
                     "v2.17.163 follow-up - tools/hold_aside.py (release hold-aside without CRLF) + shelf-notch sweep result in e2e_163_live.txt",
                     "v2.17.163 - Hero Reel: product films of the selected units (6 camera moves, 1920x1080 + 1080x1920, mp4 via ffmpeg); dimensions start off",
                     "v2.17.162 - in-app update: every failure reaches the About page, one click (show_warning false), About shows the running version",
                     "v2.17.161 - Mac error capture: every exception raised inside a LEXOLA file reaches LEXOLA_errors.log (TracePoint, macOS only)",
-                    "v2.17.160 - the badge material Metal_10_1K is metal (1.0 / roughness 0.08) in the PBR table: SketchUp\u0027s palette stamping and the GLB export",
-                    "v2.17.159 - Rotate 90 for uploaded textures (stored turned); the 8 approved 2026-27 themes replace the 5 bundled boards; Merge Worktops lays the continuous grain at merge time",
-                    "v2.17.158 - user textures in the material library (both windows); cut-out worktop slabs keep their waterfall lip (LCU V1, LBR), follow adjacency and the waterfall switches; builder picker category highlight",
-                    "v2.17.157 - IDEA-175 worktop seam overlap, IDEA-177 fresh LCU-V3 cut-out, texture reload memory blow-up, stray \"manual\" material; ships the 2026-09-22 material refinement"
+                    "v2.17.160 - the badge material Metal_10_1K is metal (1.0 / roughness 0.08) in the PBR table: SketchUp\u0027s palette stamping and the GLB export"
                 ]
 }
