@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.165",
+    "version":  "2.17.166",
     "released":  "2026-09-29",
-    "asset":  "lexola_v2.17.165.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.165/lexola_v2.17.165.rbz",
-    "size":  139585548,
-    "md5":  "CA8CB8F7800EDDEE034FA66426D32755",
+    "asset":  "lexola_v2.17.166.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.166/lexola_v2.17.166.rbz",
+    "size":  139588199,
+    "md5":  "AA138EC188B2C4CF2632DDC3625D6A80",
     "entries":  924,
-    "commit":  "8ff1168",
+    "commit":  "2d112f3",
     "changes":  [
+                    "v2.17.166 - LBQ FingerRail caps at 2 drawers (IDEA-198); the taller LHU keeps the seam posts and its upper fin starts on the lower neighbour\u0027s upper worktop (IDEA-199, IDEA-071); Dekton worktop textures at 1.4 m (c38224f)",
+                    "IDEA-198 + IDEA-199 + IDEA-071 - LBQ FingerRail caps at 2 drawers; the taller LHU keeps the seam posts; its upper fin starts on the lower neighbour\u0027s upper worktop",
+                    "library: the 24 fetched Dekton worktops get size_m [1.4, 1.4] (were drawn at the 0.5 m default)",
                     "v2.17.165 - the 8 presets shared with the LEXOLA web builder (library 3.6)",
                     "library 3.6 - the 8 presets Laszlo picked for the web builder become the bundled boards; the six dropped 3.5 themes retire; Modern Dark returns as p26_modern_dark",
                     "golden_baseline.rb: record real part positions (posfmt 2) + re-capture on v2.17.164",
                     "v2.17.164 - drawer boxes fit their opening on every door style (IDEA-197); the upper worktop covers the upper waterfalls (IDEA-176)",
                     "IDEA-197 + IDEA-176 - drawer boxes fit their opening on every door style; the upper worktop covers the upper waterfalls",
                     "v2.17.163 follow-up - tools/hold_aside.py (release hold-aside without CRLF) + shelf-notch sweep result in e2e_163_live.txt",
-                    "v2.17.163 - Hero Reel: product films of the selected units (6 camera moves, 1920x1080 + 1080x1920, mp4 via ffmpeg); dimensions start off",
-                    "v2.17.162 - in-app update: every failure reaches the About page, one click (show_warning false), About shows the running version",
-                    "v2.17.161 - Mac error capture: every exception raised inside a LEXOLA file reaches LEXOLA_errors.log (TracePoint, macOS only)",
-                    "v2.17.160 - the badge material Metal_10_1K is metal (1.0 / roughness 0.08) in the PBR table: SketchUp\u0027s palette stamping and the GLB export"
+                    "v2.17.163 - Hero Reel: product films of the selected units (6 camera moves, 1920x1080 + 1080x1920, mp4 via ffmpeg); dimensions start off"
                 ]
 }
