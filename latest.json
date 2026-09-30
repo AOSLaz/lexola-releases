@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.168",
+    "version":  "2.17.169",
     "released":  "2026-09-30",
-    "asset":  "lexola_v2.17.168.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.168/lexola_v2.17.168.rbz",
-    "size":  139592471,
-    "md5":  "A7120AC68B614DBF83DAC2D9CBBD7FD5",
+    "asset":  "lexola_v2.17.169.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.169/lexola_v2.17.169.rbz",
+    "size":  139593775,
+    "md5":  "8047D5BEBD45771CA23E336941B7A0BB",
     "entries":  924,
-    "commit":  "2ad735f",
+    "commit":  "0d88a5e",
     "changes":  [
+                    "v2.17.169 - Mac toolbar: button state checks cannot raise with no model open; Show LEXOLA Toolbar; toolbar state in the report (5364c11)",
+                    "Mac toolbar: button state checks can no longer raise; Show LEXOLA Toolbar menu item; toolbar state in the Diagnostic report",
                     "v2.17.168 - merged seam: shelves and floors run 10 mm into the shared post and keep their corner notches (55e9c36)",
                     "Merged seam: shelf boards and floors run 10 mm into the shared post and keep their corner notches (Laszlo 2026-09-30, \"option 1\")",
                     "v2.17.167 - the taller LHU\u0027s upper waterfall is cut above a lower neighbour\u0027s upper worktop whether or not that neighbour\u0027s upper covers it (4d52526)",
@@ -15,8 +17,6 @@
                     "bridge.rb: a job that fails OUTSIDE its own eval now leaves out/\u003cname\u003e.log with the failure",
                     "v2.17.166 - LBQ FingerRail caps at 2 drawers (IDEA-198); the taller LHU keeps the seam posts and its upper fin starts on the lower neighbour\u0027s upper worktop (IDEA-199, IDEA-071); Dekton worktop textures at 1.4 m (c38224f)",
                     "IDEA-198 + IDEA-199 + IDEA-071 - LBQ FingerRail caps at 2 drawers; the taller LHU keeps the seam posts; its upper fin starts on the lower neighbour\u0027s upper worktop",
-                    "library: the 24 fetched Dekton worktops get size_m [1.4, 1.4] (were drawn at the 0.5 m default)",
-                    "v2.17.165 - the 8 presets shared with the LEXOLA web builder (library 3.6)",
-                    "library 3.6 - the 8 presets Laszlo picked for the web builder become the bundled boards; the six dropped 3.5 themes retire; Modern Dark returns as p26_modern_dark"
+                    "library: the 24 fetched Dekton worktops get size_m [1.4, 1.4] (were drawn at the 0.5 m default)"
                 ]
 }
