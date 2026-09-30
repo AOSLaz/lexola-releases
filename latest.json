@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.167",
+    "version":  "2.17.168",
     "released":  "2026-09-30",
-    "asset":  "lexola_v2.17.167.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.167/lexola_v2.17.167.rbz",
-    "size":  139588954,
-    "md5":  "8A77E42B60B6F788483A092F58D6B84B",
+    "asset":  "lexola_v2.17.168.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.168/lexola_v2.17.168.rbz",
+    "size":  139592471,
+    "md5":  "A7120AC68B614DBF83DAC2D9CBBD7FD5",
     "entries":  924,
-    "commit":  "f32ae14",
+    "commit":  "2ad735f",
     "changes":  [
+                    "v2.17.168 - merged seam: shelves and floors run 10 mm into the shared post and keep their corner notches (55e9c36)",
+                    "Merged seam: shelf boards and floors run 10 mm into the shared post and keep their corner notches (Laszlo 2026-09-30, \"option 1\")",
                     "v2.17.167 - the taller LHU\u0027s upper waterfall is cut above a lower neighbour\u0027s upper worktop whether or not that neighbour\u0027s upper covers it (4d52526)",
                     "IDEA-071 follow-up - the taller LHU\u0027s upper fin is cut above a LOWER neighbour\u0027s upper worktop whether or not that neighbour\u0027s upper covers it",
                     "bridge.rb: a job that fails OUTSIDE its own eval now leaves out/\u003cname\u003e.log with the failure",
@@ -15,8 +17,6 @@
                     "IDEA-198 + IDEA-199 + IDEA-071 - LBQ FingerRail caps at 2 drawers; the taller LHU keeps the seam posts; its upper fin starts on the lower neighbour\u0027s upper worktop",
                     "library: the 24 fetched Dekton worktops get size_m [1.4, 1.4] (were drawn at the 0.5 m default)",
                     "v2.17.165 - the 8 presets shared with the LEXOLA web builder (library 3.6)",
-                    "library 3.6 - the 8 presets Laszlo picked for the web builder become the bundled boards; the six dropped 3.5 themes retire; Modern Dark returns as p26_modern_dark",
-                    "golden_baseline.rb: record real part positions (posfmt 2) + re-capture on v2.17.164",
-                    "v2.17.164 - drawer boxes fit their opening on every door style (IDEA-197); the upper worktop covers the upper waterfalls (IDEA-176)"
+                    "library 3.6 - the 8 presets Laszlo picked for the web builder become the bundled boards; the six dropped 3.5 themes retire; Modern Dark returns as p26_modern_dark"
                 ]
 }
