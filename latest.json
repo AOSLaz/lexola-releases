@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.170",
+    "version":  "2.17.171",
     "released":  "2026-10-01",
-    "asset":  "lexola_v2.17.170.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.170/lexola_v2.17.170.rbz",
-    "size":  139604383,
-    "md5":  "E202C28E58AFA19C4D6DF756589B2E44",
+    "asset":  "lexola_v2.17.171.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.171/lexola_v2.17.171.rbz",
+    "size":  139605524,
+    "md5":  "6A190AFBE84006F5EA4E38C9EEC70B01",
     "entries":  924,
-    "commit":  "aa83eac",
+    "commit":  "2761d95",
     "changes":  [
+                    "v2.17.171 - the report never shrinks a sheet: extra pages at full size; the sheet footer repeats on every page (cf22e81..a3e104d)",
+                    "Report footer gap: drop the trailing margins instead of a spacer block (the spacer spilled onto an empty page)",
+                    "Report footer: keep the 12 px gap above it collapsing with the last block\u0027s margin (cutting sheets grow 1.055 again)",
+                    "Report: never shrink a sheet - it takes the extra page; the sheet footer repeats on every page so it can never print alone",
+                    "v2.17.170 records: A3 measured (A4 report placed onto A3 as Fit to page) + the type-floor split; check scripts",
+                    "tools: su_dialog_list/read/press - answer a SketchUp native prompt in a TEST process by window handle via UI Automation (refuses unless the dialog text matches)",
                     "v2.17.170 - the report prints at full size, every sheet fits its page(s), X-ray parts lists sized and aligned, worktop labels readable (fd23f31..5f30d61)",
                     "Report: fixes from the adversarial pre-release review of fd23f31..423f72f (one ship-blocker)",
                     "Report fit: a grown sheet must not wrap its header (the project code printed split over two lines)",
-                    "Report: every sheet fits its page(s) - no split rows or cards, no near-empty spill pages; X-ray lists aligned and underlined",
-                    "X-ray parts sheet: callouts and parts list as big as the page allows, no row broken",
-                    "Report PDF prints at full size again; worktop plan readable",
-                    "v2.17.169 - Mac toolbar: button state checks cannot raise with no model open; Show LEXOLA Toolbar; toolbar state in the report (5364c11)",
-                    "Mac toolbar: button state checks can no longer raise; Show LEXOLA Toolbar menu item; toolbar state in the Diagnostic report",
-                    "v2.17.168 - merged seam: shelves and floors run 10 mm into the shared post and keep their corner notches (55e9c36)",
-                    "Merged seam: shelf boards and floors run 10 mm into the shared post and keep their corner notches (Laszlo 2026-09-30, \"option 1\")"
+                    "Report: every sheet fits its page(s) - no split rows or cards, no near-empty spill pages; X-ray lists aligned and underlined"
                 ]
 }
