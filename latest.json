@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.174",
+    "version":  "2.17.175",
     "released":  "2026-10-09",
-    "asset":  "lexola_v2.17.174.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.174/lexola_v2.17.174.rbz",
-    "size":  139613384,
-    "md5":  "5861E48DC7DC2D92B9DB12342CD35885",
+    "asset":  "lexola_v2.17.175.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.175/lexola_v2.17.175.rbz",
+    "size":  139615112,
+    "md5":  "AC5AC29F60146844801FD3B597B1C5AE",
     "entries":  925,
-    "commit":  "ae9ad6d",
+    "commit":  "1b32f33",
     "changes":  [
+                    "v2.17.175 - LEXOLA\u0027s clean-up removes only its own leftovers; your unused components stay (Laszlo: \"Ship v2.17.175\")",
+                    "Purge only LEXOLA\u0027s own orphan definitions; Export GLB Library keeps his materials (Laszlo: \"LEXOLA-only\")",
                     "v2.17.174 - the 2nd LCU-V2 / LCU-V3 of a kitchen gets the texture fix too (Laszlo: \"2.17.174\")",
                     "Texture layout: match a unit\u0027s parts by the code on their INSTANCE name, not a prefix from the definition name",
                     "v2.17.173 - textures at their real size under DC scaling + a per-part random offset (Laszlo\u0027s pick \"B. Offset\")",
@@ -15,8 +17,6 @@
                     "v2.17.172 - LFU: no floor plate under a ground-standing fridge; height floor = fridge + 40; worktop and size stamp follow the frame (8fc45d8)",
                     "LFU: no floor plate under a fridge that stands on the ground; height floor = fridge + 40; slab, hole and size stamp follow the frame (Laszlo 2026-10-09)",
                     "v2.17.171 - the report never shrinks a sheet: extra pages at full size; the sheet footer repeats on every page (cf22e81..a3e104d)",
-                    "Report footer gap: drop the trailing margins instead of a spacer block (the spacer spilled onto an empty page)",
-                    "Report footer: keep the 12 px gap above it collapsing with the last block\u0027s margin (cutting sheets grow 1.055 again)",
-                    "Report: never shrink a sheet - it takes the extra page; the sheet footer repeats on every page so it can never print alone"
+                    "Report footer gap: drop the trailing margins instead of a spacer block (the spacer spilled onto an empty page)"
                 ]
 }
