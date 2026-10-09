@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.171",
-    "released":  "2026-10-01",
-    "asset":  "lexola_v2.17.171.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.171/lexola_v2.17.171.rbz",
-    "size":  139605524,
-    "md5":  "6A190AFBE84006F5EA4E38C9EEC70B01",
+    "version":  "2.17.172",
+    "released":  "2026-10-09",
+    "asset":  "lexola_v2.17.172.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.172/lexola_v2.17.172.rbz",
+    "size":  139607567,
+    "md5":  "7A39EEB0B62A54A368623F57BDB26244",
     "entries":  924,
-    "commit":  "2761d95",
+    "commit":  "155af8e",
     "changes":  [
+                    "v2.17.172 - LFU: no floor plate under a ground-standing fridge; height floor = fridge + 40; worktop and size stamp follow the frame (8fc45d8)",
+                    "LFU: no floor plate under a fridge that stands on the ground; height floor = fridge + 40; slab, hole and size stamp follow the frame (Laszlo 2026-10-09)",
                     "v2.17.171 - the report never shrinks a sheet: extra pages at full size; the sheet footer repeats on every page (cf22e81..a3e104d)",
                     "Report footer gap: drop the trailing margins instead of a spacer block (the spacer spilled onto an empty page)",
                     "Report footer: keep the 12 px gap above it collapsing with the last block\u0027s margin (cutting sheets grow 1.055 again)",
@@ -15,8 +17,6 @@
                     "v2.17.170 records: A3 measured (A4 report placed onto A3 as Fit to page) + the type-floor split; check scripts",
                     "tools: su_dialog_list/read/press - answer a SketchUp native prompt in a TEST process by window handle via UI Automation (refuses unless the dialog text matches)",
                     "v2.17.170 - the report prints at full size, every sheet fits its page(s), X-ray parts lists sized and aligned, worktop labels readable (fd23f31..5f30d61)",
-                    "Report: fixes from the adversarial pre-release review of fd23f31..423f72f (one ship-blocker)",
-                    "Report fit: a grown sheet must not wrap its header (the project code printed split over two lines)",
-                    "Report: every sheet fits its page(s) - no split rows or cards, no near-empty spill pages; X-ray lists aligned and underlined"
+                    "Report: fixes from the adversarial pre-release review of fd23f31..423f72f (one ship-blocker)"
                 ]
 }
