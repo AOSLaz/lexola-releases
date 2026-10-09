@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.173",
+    "version":  "2.17.174",
     "released":  "2026-10-09",
-    "asset":  "lexola_v2.17.173.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.173/lexola_v2.17.173.rbz",
-    "size":  139613168,
-    "md5":  "5F259D2EB7C65B625D38F8AAFD103E4C",
+    "asset":  "lexola_v2.17.174.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.174/lexola_v2.17.174.rbz",
+    "size":  139613384,
+    "md5":  "5861E48DC7DC2D92B9DB12342CD35885",
     "entries":  925,
-    "commit":  "b0c25a3",
+    "commit":  "ae9ad6d",
     "changes":  [
+                    "v2.17.174 - the 2nd LCU-V2 / LCU-V3 of a kitchen gets the texture fix too (Laszlo: \"2.17.174\")",
+                    "Texture layout: match a unit\u0027s parts by the code on their INSTANCE name, not a prefix from the definition name",
                     "v2.17.173 - textures at their real size under DC scaling + a per-part random offset (Laszlo\u0027s pick \"B. Offset\")",
                     "Textures at their real size under DC scaling + a per-part random offset (Laszlo 2026-10-09)",
                     "v2.17.172 - LFU: no floor plate under a ground-standing fridge; height floor = fridge + 40; worktop and size stamp follow the frame (8fc45d8)",
@@ -15,8 +17,6 @@
                     "v2.17.171 - the report never shrinks a sheet: extra pages at full size; the sheet footer repeats on every page (cf22e81..a3e104d)",
                     "Report footer gap: drop the trailing margins instead of a spacer block (the spacer spilled onto an empty page)",
                     "Report footer: keep the 12 px gap above it collapsing with the last block\u0027s margin (cutting sheets grow 1.055 again)",
-                    "Report: never shrink a sheet - it takes the extra page; the sheet footer repeats on every page so it can never print alone",
-                    "v2.17.170 records: A3 measured (A4 report placed onto A3 as Fit to page) + the type-floor split; check scripts",
-                    "tools: su_dialog_list/read/press - answer a SketchUp native prompt in a TEST process by window handle via UI Automation (refuses unless the dialog text matches)"
+                    "Report: never shrink a sheet - it takes the extra page; the sheet footer repeats on every page so it can never print alone"
                 ]
 }
