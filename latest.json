@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.179",
+    "version":  "2.17.180",
     "released":  "2026-10-10",
-    "asset":  "lexola_v2.17.179.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.179/lexola_v2.17.179.rbz",
-    "size":  139634501,
-    "md5":  "CCA4A33D8FF375A4FD0D8759EBBB95CC",
+    "asset":  "lexola_v2.17.180.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.180/lexola_v2.17.180.rbz",
+    "size":  139635180,
+    "md5":  "63C6D7346D712EE20A0A25DDF243ED35",
     "entries":  927,
-    "commit":  "e23a44f",
+    "commit":  "cc4d7ad",
     "changes":  [
+                    "v2.17.180 - Soft Shadows: less waiting after each change, the shadow unchanged (Laszlo: \"Ship v2.17.180 now\")",
+                    "Soft Shadows speed: keep each part definition\u0027s face box, not-a-box flag and child list across passes",
+                    "Records: the published v2.17.179 notes now carry the after-publish checks (Laszlo: \"yes update the notes\")",
+                    "Records: v2.17.179 after publishing -- the button\u0027s click tested for real, coverage grid + notch rule on the installed copy",
                     "v2.17.179 - Soft Shadows gets its own toolbar button (Laszlo: \"C looks the best, 1, yes 2.17.179\")",
                     "Soft Shadows toolbar button (Laszlo\u0027s picks: icon C, click 1): after Quick Info, opens the window, pressed while on",
                     "Records: correct the published v2.17.176 / v2.17.177 notes -- the contact rework shipped as v2.17.178",
                     "Records: v2.17.178 menu-wiring check on the installed copy (his question: where is Soft Shadows?)",
                     "v2.17.178 - Soft Shadows: darker right where a unit meets the ground, at any sun height (Laszlo\u0027s pick C)",
-                    "Soft Shadows contact look C (Laszlo\u0027s pick on board 4): the fade runs over each shadow\u0027s own length, plus a contact ring",
-                    "v2.17.177 - every LEXOLA unit tidies its own leftovers after a build (Laszlo: \"v2.17.177 now\")",
-                    "Build purge in every builder: LFU, LBR, LCU-V2, LCU-V3 and POD now tidy LEXOLA\u0027s leftovers after a build",
-                    "v2.17.176 - Soft shadows under your units; old pod leftovers are cleaned up again (Laszlo: \"One v2.17.176\")",
-                    "Soft Shadows (IDEA-195): a live soft ground shadow under LEXOLA units, following the sun (Laszlo\u0027s picks B / X / Strong)"
+                    "Soft Shadows contact look C (Laszlo\u0027s pick on board 4): the fade runs over each shadow\u0027s own length, plus a contact ring"
                 ]
 }
