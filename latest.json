@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.175",
+    "version":  "2.17.176",
     "released":  "2026-10-09",
-    "asset":  "lexola_v2.17.175.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.175/lexola_v2.17.175.rbz",
-    "size":  139615112,
-    "md5":  "AC5AC29F60146844801FD3B597B1C5AE",
-    "entries":  925,
-    "commit":  "1b32f33",
+    "asset":  "lexola_v2.17.176.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.176/lexola_v2.17.176.rbz",
+    "size":  139632118,
+    "md5":  "643178931CFF654D40DD53CE978AA212",
+    "entries":  926,
+    "commit":  "0433520",
     "changes":  [
+                    "v2.17.176 - Soft shadows under your units; old pod leftovers are cleaned up again (Laszlo: \"One v2.17.176\")",
+                    "Soft Shadows (IDEA-195): a live soft ground shadow under LEXOLA units, following the sun (Laszlo\u0027s picks B / X / Strong)",
+                    "Purge probe FINDINGS: record v2.17.175 shipped with the fast path and the v2.17.176 LPF follow-up",
+                    "Purge name rule: recognise the legacy pod name LPF and \u0027code-x\u0027 roots; a part needs a character after \u0027_\u0027",
                     "v2.17.175 - LEXOLA\u0027s clean-up removes only its own leftovers; your unused components stay (Laszlo: \"Ship v2.17.175\")",
                     "Purge only LEXOLA\u0027s own orphan definitions; Export GLB Library keeps his materials (Laszlo: \"LEXOLA-only\")",
                     "v2.17.174 - the 2nd LCU-V2 / LCU-V3 of a kitchen gets the texture fix too (Laszlo: \"2.17.174\")",
                     "Texture layout: match a unit\u0027s parts by the code on their INSTANCE name, not a prefix from the definition name",
                     "v2.17.173 - textures at their real size under DC scaling + a per-part random offset (Laszlo\u0027s pick \"B. Offset\")",
-                    "Textures at their real size under DC scaling + a per-part random offset (Laszlo 2026-10-09)",
-                    "v2.17.172 - LFU: no floor plate under a ground-standing fridge; height floor = fridge + 40; worktop and size stamp follow the frame (8fc45d8)",
-                    "LFU: no floor plate under a fridge that stands on the ground; height floor = fridge + 40; slab, hole and size stamp follow the frame (Laszlo 2026-10-09)",
-                    "v2.17.171 - the report never shrinks a sheet: extra pages at full size; the sheet footer repeats on every page (cf22e81..a3e104d)",
-                    "Report footer gap: drop the trailing margins instead of a spacer block (the spacer spilled onto an empty page)"
+                    "Textures at their real size under DC scaling + a per-part random offset (Laszlo 2026-10-09)"
                 ]
 }
