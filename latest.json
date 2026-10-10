@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.177",
+    "version":  "2.17.178",
     "released":  "2026-10-10",
-    "asset":  "lexola_v2.17.177.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.177/lexola_v2.17.177.rbz",
-    "size":  139632731,
-    "md5":  "708811D90CB606663C1C6799211D2B7D",
+    "asset":  "lexola_v2.17.178.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.178/lexola_v2.17.178.rbz",
+    "size":  139633348,
+    "md5":  "BD85EDB6CA23349DAD6E0FC97AD63039",
     "entries":  926,
-    "commit":  "ea23fde",
+    "commit":  "7e7f383",
     "changes":  [
+                    "v2.17.178 - Soft Shadows: darker right where a unit meets the ground, at any sun height (Laszlo\u0027s pick C)",
+                    "Soft Shadows contact look C (Laszlo\u0027s pick on board 4): the fade runs over each shadow\u0027s own length, plus a contact ring",
                     "v2.17.177 - every LEXOLA unit tidies its own leftovers after a build (Laszlo: \"v2.17.177 now\")",
                     "Build purge in every builder: LFU, LBR, LCU-V2, LCU-V3 and POD now tidy LEXOLA\u0027s leftovers after a build",
                     "v2.17.176 - Soft shadows under your units; old pod leftovers are cleaned up again (Laszlo: \"One v2.17.176\")",
@@ -15,8 +17,6 @@
                     "Purge probe FINDINGS: record v2.17.175 shipped with the fast path and the v2.17.176 LPF follow-up",
                     "Purge name rule: recognise the legacy pod name LPF and \u0027code-x\u0027 roots; a part needs a character after \u0027_\u0027",
                     "v2.17.175 - LEXOLA\u0027s clean-up removes only its own leftovers; your unused components stay (Laszlo: \"Ship v2.17.175\")",
-                    "Purge only LEXOLA\u0027s own orphan definitions; Export GLB Library keeps his materials (Laszlo: \"LEXOLA-only\")",
-                    "v2.17.174 - the 2nd LCU-V2 / LCU-V3 of a kitchen gets the texture fix too (Laszlo: \"2.17.174\")",
-                    "Texture layout: match a unit\u0027s parts by the code on their INSTANCE name, not a prefix from the definition name"
+                    "Purge only LEXOLA\u0027s own orphan definitions; Export GLB Library keeps his materials (Laszlo: \"LEXOLA-only\")"
                 ]
 }
