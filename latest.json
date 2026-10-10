@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.176",
-    "released":  "2026-10-09",
-    "asset":  "lexola_v2.17.176.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.176/lexola_v2.17.176.rbz",
-    "size":  139632118,
-    "md5":  "643178931CFF654D40DD53CE978AA212",
+    "version":  "2.17.177",
+    "released":  "2026-10-10",
+    "asset":  "lexola_v2.17.177.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.177/lexola_v2.17.177.rbz",
+    "size":  139632731,
+    "md5":  "708811D90CB606663C1C6799211D2B7D",
     "entries":  926,
-    "commit":  "0433520",
+    "commit":  "ea23fde",
     "changes":  [
+                    "v2.17.177 - every LEXOLA unit tidies its own leftovers after a build (Laszlo: \"v2.17.177 now\")",
+                    "Build purge in every builder: LFU, LBR, LCU-V2, LCU-V3 and POD now tidy LEXOLA\u0027s leftovers after a build",
                     "v2.17.176 - Soft shadows under your units; old pod leftovers are cleaned up again (Laszlo: \"One v2.17.176\")",
                     "Soft Shadows (IDEA-195): a live soft ground shadow under LEXOLA units, following the sun (Laszlo\u0027s picks B / X / Strong)",
                     "Purge probe FINDINGS: record v2.17.175 shipped with the fast path and the v2.17.176 LPF follow-up",
@@ -15,8 +17,6 @@
                     "v2.17.175 - LEXOLA\u0027s clean-up removes only its own leftovers; your unused components stay (Laszlo: \"Ship v2.17.175\")",
                     "Purge only LEXOLA\u0027s own orphan definitions; Export GLB Library keeps his materials (Laszlo: \"LEXOLA-only\")",
                     "v2.17.174 - the 2nd LCU-V2 / LCU-V3 of a kitchen gets the texture fix too (Laszlo: \"2.17.174\")",
-                    "Texture layout: match a unit\u0027s parts by the code on their INSTANCE name, not a prefix from the definition name",
-                    "v2.17.173 - textures at their real size under DC scaling + a per-part random offset (Laszlo\u0027s pick \"B. Offset\")",
-                    "Textures at their real size under DC scaling + a per-part random offset (Laszlo 2026-10-09)"
+                    "Texture layout: match a unit\u0027s parts by the code on their INSTANCE name, not a prefix from the definition name"
                 ]
 }
