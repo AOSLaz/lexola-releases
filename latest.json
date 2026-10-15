@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.183",
+    "version":  "2.17.184",
     "released":  "2026-10-15",
-    "asset":  "lexola_v2.17.183.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.183/lexola_v2.17.183.rbz",
-    "size":  139706273,
-    "md5":  "F1DCC2CB6CD34F7B89556260B02CDF93",
+    "asset":  "lexola_v2.17.184.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.184/lexola_v2.17.184.rbz",
+    "size":  139712704,
+    "md5":  "BF00EEE21C79BC823764B794610D5ECB",
     "entries":  927,
-    "commit":  "0b4fe7d",
+    "commit":  "925414a",
     "changes":  [
+                    "v2.17.184 - LEXOLA badge on LCU-V2 and POD; corner badges hide when a unit docks on their front (IDEA-205)",
+                    "Records: office AOS template badge redrawn as the v2.17.183 HD badge (inside its own Lexola_Logo, 77 DC keys kept; whole-document diff clean; File \u003e New proven)",
+                    "Records: v2.17.183 badge on non-default builds + a merged kitchen (LBU 900, LBU/LHU FingerRail, snapped LBU+LBQ): old vs HD badge box within 0.0002 mm",
+                    "Records: v2.17.183 publish loop and read-backs (published, latest.json -\u003e v2.17.183, anonymous download byte-identical)",
                     "v2.17.183 - HD LEXOLA badge (Laszlo: \"swap the high quality logo to sketchup Lexola extension as well\")",
                     "graphify scope: retire the nested src/ graph leftovers, carry their rules into the project .graphifyignore",
                     "Records: open issue #4 measured as he saw it - the real Interact click handler (toggle_sub) on a fresh default LBU: +514.0 mm OUT; stale-state case closes correctly",
                     "Records: open issues #3 (worktop lip after Flip 180) and #4 (Interact door swing) re-checked on the installed v2.17.182",
                     "Records: v2.17.182 release notes, publish loop and read-backs (published, latest.json -\u003e v2.17.182, anonymous download byte-identical)",
-                    "v2.17.182 - Soft Shadows: a per-model switch \"Units keep their own shadows\" (Laszlo: \"Switch per model (Recommended)\")",
-                    "Soft Shadows: a per-model switch \"Units keep their own shadows\" (his pick after a real client scene)",
-                    "Records: v2.17.181 release notes, publish loop and read-backs (published, latest.json -\u003e v2.17.181, anonymous download byte-identical)",
-                    "v2.17.181 - Soft Shadows: the units keep their own shadows and the shadow fades out from them (Laszlo: \"strong fade out the best, build it into 2.17.181\")",
-                    "Soft Shadows: the units keep their own shadows (R3) and the shadow fades out from them (board 6 \"c\")"
+                    "v2.17.182 - Soft Shadows: a per-model switch \"Units keep their own shadows\" (Laszlo: \"Switch per model (Recommended)\")"
                 ]
 }
