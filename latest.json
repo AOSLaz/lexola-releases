@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.182",
-    "released":  "2026-10-10",
-    "asset":  "lexola_v2.17.182.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.182/lexola_v2.17.182.rbz",
-    "size":  139640912,
-    "md5":  "5C186A0FD2EE68A262E4D9896C3187D7",
+    "version":  "2.17.183",
+    "released":  "2026-10-15",
+    "asset":  "lexola_v2.17.183.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.183/lexola_v2.17.183.rbz",
+    "size":  139706273,
+    "md5":  "F1DCC2CB6CD34F7B89556260B02CDF93",
     "entries":  927,
-    "commit":  "c025265",
+    "commit":  "0b4fe7d",
     "changes":  [
+                    "v2.17.183 - HD LEXOLA badge (Laszlo: \"swap the high quality logo to sketchup Lexola extension as well\")",
+                    "graphify scope: retire the nested src/ graph leftovers, carry their rules into the project .graphifyignore",
+                    "Records: open issue #4 measured as he saw it - the real Interact click handler (toggle_sub) on a fresh default LBU: +514.0 mm OUT; stale-state case closes correctly",
+                    "Records: open issues #3 (worktop lip after Flip 180) and #4 (Interact door swing) re-checked on the installed v2.17.182",
+                    "Records: v2.17.182 release notes, publish loop and read-backs (published, latest.json -\u003e v2.17.182, anonymous download byte-identical)",
                     "v2.17.182 - Soft Shadows: a per-model switch \"Units keep their own shadows\" (Laszlo: \"Switch per model (Recommended)\")",
                     "Soft Shadows: a per-model switch \"Units keep their own shadows\" (his pick after a real client scene)",
                     "Records: v2.17.181 release notes, publish loop and read-backs (published, latest.json -\u003e v2.17.181, anonymous download byte-identical)",
                     "v2.17.181 - Soft Shadows: the units keep their own shadows and the shadow fades out from them (Laszlo: \"strong fade out the best, build it into 2.17.181\")",
-                    "Soft Shadows: the units keep their own shadows (R3) and the shadow fades out from them (board 6 \"c\")",
-                    "v2.17.180 - Soft Shadows: less waiting after each change, the shadow unchanged (Laszlo: \"Ship v2.17.180 now\")",
-                    "Soft Shadows speed: keep each part definition\u0027s face box, not-a-box flag and child list across passes",
-                    "Records: the published v2.17.179 notes now carry the after-publish checks (Laszlo: \"yes update the notes\")",
-                    "Records: v2.17.179 after publishing -- the button\u0027s click tested for real, coverage grid + notch rule on the installed copy",
-                    "v2.17.179 - Soft Shadows gets its own toolbar button (Laszlo: \"C looks the best, 1, yes 2.17.179\")"
+                    "Soft Shadows: the units keep their own shadows (R3) and the shadow fades out from them (board 6 \"c\")"
                 ]
 }
