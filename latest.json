@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.186",
+    "version":  "2.17.187",
     "released":  "2026-10-16",
-    "asset":  "lexola_v2.17.186.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.186/lexola_v2.17.186.rbz",
-    "size":  139720432,
-    "md5":  "C2702631E39F0C68A93B4A4558D5A392",
+    "asset":  "lexola_v2.17.187.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.187/lexola_v2.17.187.rbz",
+    "size":  139721145,
+    "md5":  "49C5695B5812B2BCF752BCB2485AEDA9",
     "entries":  928,
-    "commit":  "a0a470c",
+    "commit":  "9047715",
     "changes":  [
+                    "v2.17.187 - LCU-V3 feet billed as feet again (Lexola_Foot), in both BOM walks",
                     "v2.17.186 - POD lid no longer stretched by a material apply",
                     "v2.17.185 - stray Plugins-file guard (Jody\u0027s Mac errors) + four LCU-V3 fixes",
                     "Golden baseline re-captured on the installed v2.17.184 (Laszlo: \"1 then /learn\")",
@@ -16,7 +17,6 @@
                     "Records: office AOS template badge redrawn as the v2.17.183 HD badge (inside its own Lexola_Logo, 77 DC keys kept; whole-document diff clean; File \u003e New proven)",
                     "Records: v2.17.183 badge on non-default builds + a merged kitchen (LBU 900, LBU/LHU FingerRail, snapped LBU+LBQ): old vs HD badge box within 0.0002 mm",
                     "Records: v2.17.183 publish loop and read-backs (published, latest.json -\u003e v2.17.183, anonymous download byte-identical)",
-                    "v2.17.183 - HD LEXOLA badge (Laszlo: \"swap the high quality logo to sketchup Lexola extension as well\")",
-                    "graphify scope: retire the nested src/ graph leftovers, carry their rules into the project .graphifyignore"
+                    "v2.17.183 - HD LEXOLA badge (Laszlo: \"swap the high quality logo to sketchup Lexola extension as well\")"
                 ]
 }
