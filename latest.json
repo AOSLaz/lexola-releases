@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.187",
+    "version":  "2.17.188",
     "released":  "2026-10-16",
-    "asset":  "lexola_v2.17.187.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.187/lexola_v2.17.187.rbz",
-    "size":  139721145,
-    "md5":  "49C5695B5812B2BCF752BCB2485AEDA9",
+    "asset":  "lexola_v2.17.188.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.188/lexola_v2.17.188.rbz",
+    "size":  139722142,
+    "md5":  "10A8E275614343A48BA11988FF7F7A99",
     "entries":  928,
-    "commit":  "9047715",
+    "commit":  "b15099f",
     "changes":  [
+                    "v2.17.188 - LCU-V3 fronts keep their size through Apply/Update Units; V3 badge own DC material; engine connector prices",
+                    "Tools: release-gate receipts (C1) + retro F1 TestScope net, with both helpers they load",
                     "v2.17.187 - LCU-V3 feet billed as feet again (Lexola_Foot), in both BOM walks",
                     "v2.17.186 - POD lid no longer stretched by a material apply",
                     "v2.17.185 - stray Plugins-file guard (Jody\u0027s Mac errors) + four LCU-V3 fixes",
@@ -15,8 +17,6 @@
                     "Records: v2.17.184 publish loop, HOME install and the GLB library re-export from the installed version",
                     "v2.17.184 - LEXOLA badge on LCU-V2 and POD; corner badges hide when a unit docks on their front (IDEA-205)",
                     "Records: office AOS template badge redrawn as the v2.17.183 HD badge (inside its own Lexola_Logo, 77 DC keys kept; whole-document diff clean; File \u003e New proven)",
-                    "Records: v2.17.183 badge on non-default builds + a merged kitchen (LBU 900, LBU/LHU FingerRail, snapped LBU+LBQ): old vs HD badge box within 0.0002 mm",
-                    "Records: v2.17.183 publish loop and read-backs (published, latest.json -\u003e v2.17.183, anonymous download byte-identical)",
-                    "v2.17.183 - HD LEXOLA badge (Laszlo: \"swap the high quality logo to sketchup Lexola extension as well\")"
+                    "Records: v2.17.183 badge on non-default builds + a merged kitchen (LBU 900, LBU/LHU FingerRail, snapped LBU+LBQ): old vs HD badge box within 0.0002 mm"
                 ]
 }
