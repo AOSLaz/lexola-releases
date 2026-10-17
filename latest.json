@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.189",
-    "released":  "2026-10-16",
-    "asset":  "lexola_v2.17.189.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.189/lexola_v2.17.189.rbz",
-    "size":  139723076,
-    "md5":  "76B9B7A8736642D079ABAC176A6F42BF",
+    "version":  "2.17.190",
+    "released":  "2026-10-17",
+    "asset":  "lexola_v2.17.190.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.190/lexola_v2.17.190.rbz",
+    "size":  139723624,
+    "md5":  "C425FEAEB7C3A3D20A14B00363F62F17",
     "entries":  928,
-    "commit":  "7495b00",
+    "commit":  "84c05f0",
     "changes":  [
+                    "v2.17.190 - library 3.7: the twelve LEXOLA colour themes are the bundled boards (one list with the W6 web builder)",
                     "v2.17.189 - LCU-V3 drawer fronts build the Shaker look; V3 locked-dim gate catches small squashes; V3 look = None/Shaker",
                     "Golden baseline re-captured on the installed v2.17.188 (Laszlo: re-capture so the intended V3 badge diff is absorbed)",
                     "v2.17.188 - LCU-V3 fronts keep their size through Apply/Update Units; V3 badge own DC material; engine connector prices",
@@ -16,7 +17,6 @@
                     "v2.17.186 - POD lid no longer stretched by a material apply",
                     "v2.17.185 - stray Plugins-file guard (Jody\u0027s Mac errors) + four LCU-V3 fixes",
                     "Golden baseline re-captured on the installed v2.17.184 (Laszlo: \"1 then /learn\")",
-                    "Records: v2.17.184 publish loop, HOME install and the GLB library re-export from the installed version",
-                    "v2.17.184 - LEXOLA badge on LCU-V2 and POD; corner badges hide when a unit docks on their front (IDEA-205)"
+                    "Records: v2.17.184 publish loop, HOME install and the GLB library re-export from the installed version"
                 ]
 }
