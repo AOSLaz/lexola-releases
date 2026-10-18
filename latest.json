@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.194",
+    "version":  "2.17.195",
     "released":  "2026-10-18",
-    "asset":  "lexola_v2.17.194.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.194/lexola_v2.17.194.rbz",
-    "size":  150309454,
-    "md5":  "4BBD39C971729E91E7067C4080C22CEF",
+    "asset":  "lexola_v2.17.195.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.195/lexola_v2.17.195.rbz",
+    "size":  150615224,
+    "md5":  "3E1247EE8163FD0B417D35510EBA1D90",
     "entries":  932,
-    "commit":  "57a8c45",
+    "commit":  "de9c67b",
     "changes":  [
+                    "v2.17.195 - Update Units brings placed LEXOLA materials up to the material library; Star Galaxy picture B",
+                    "Proofs for v2.17.194: SketchUp renders of the installed copy (Blue Pearl slab 2520 px at 1435.1 mm, Baltic Brown 447.2 x 272.8, Star Galaxy 1400 x 1470) + before/after board vs the 2.17.192 renders",
+                    "Proofs for v2.17.194: installed through Lexola::Updater (932/932), cold start loads 2.17.194 and refreshes his user library 3.7 -\u003e 3.8 (12/0), placed granite unchanged until a new unit, W6 self-test 140/140",
                     "v2.17.194 - library 3.8: granite worktops at their real size (Blue Pearl whole-slab picture, Baltic Brown real grain, photos keep their shape)",
                     "Proofs for v2.17.193: installed through Lexola::Updater (932/932), cold start loads 2.17.193, LBU|LMU with shelves 0/0 on the installed copy, golden 10/10 NO REGRESSIONS",
                     "v2.17.193 - even-spaced shelves in LBU / LBQ / LHU drop 20 mm like the LMU, so default shelves line up at every seam",
                     "Proofs for v2.17.192: the shipped Dekton files = the materials session\u0027s list; the user library carries them; the installed SketchUp loads them",
                     "Golden baseline re-captured on the installed v2.17.192: LBU, LBQ, LHU, LMU only (the 6 new seam dup attrs)",
                     "v2.17.192 - one set of seam Y rails, no 4040 back post inside an LHU\u0027s 4080, one shelf rail per level at a seam",
-                    "v2.17.192 materials - real Cosentino Dekton Korso / Nilium / Portum / Radium / Ventus; refreshed Alu Sandwich + Tricoya thumbs",
-                    "Proofs for v2.17.191: placed kitchen + Update Units, merged upper run beside a taller LHU; GLB deploy script",
-                    "Golden baseline re-captured on the installed v2.17.191: the LHU only (Laszlo: \"Extension default\", 600 upper)",
-                    "v2.17.191 - LHU default upper cabinet 600 (total 2200); LHU seam upper waterfall/worktop follow the neighbour\u0027s TOTAL height"
+                    "v2.17.192 materials - real Cosentino Dekton Korso / Nilium / Portum / Radium / Ventus; refreshed Alu Sandwich + Tricoya thumbs"
                 ]
 }
