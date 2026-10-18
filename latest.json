@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.192",
+    "version":  "2.17.193",
     "released":  "2026-10-18",
-    "asset":  "lexola_v2.17.192.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.192/lexola_v2.17.192.rbz",
-    "size":  147766855,
-    "md5":  "2E6C6F1220E208B7EA5180C6E6033049",
+    "asset":  "lexola_v2.17.193.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.193/lexola_v2.17.193.rbz",
+    "size":  147767653,
+    "md5":  "19822FF8A618298DFA2FC2F874C757FA",
     "entries":  932,
-    "commit":  "38cbb8e",
+    "commit":  "1e48f5c",
     "changes":  [
+                    "v2.17.193 - even-spaced shelves in LBU / LBQ / LHU drop 20 mm like the LMU, so default shelves line up at every seam",
+                    "Proofs for v2.17.192: the shipped Dekton files = the materials session\u0027s list; the user library carries them; the installed SketchUp loads them",
+                    "Golden baseline re-captured on the installed v2.17.192: LBU, LBQ, LHU, LMU only (the 6 new seam dup attrs)",
                     "v2.17.192 - one set of seam Y rails, no 4040 back post inside an LHU\u0027s 4080, one shelf rail per level at a seam",
                     "v2.17.192 materials - real Cosentino Dekton Korso / Nilium / Portum / Radium / Ventus; refreshed Alu Sandwich + Tricoya thumbs",
                     "Proofs for v2.17.191: placed kitchen + Update Units, merged upper run beside a taller LHU; GLB deploy script",
                     "Golden baseline re-captured on the installed v2.17.191: the LHU only (Laszlo: \"Extension default\", 600 upper)",
                     "v2.17.191 - LHU default upper cabinet 600 (total 2200); LHU seam upper waterfall/worktop follow the neighbour\u0027s TOTAL height",
                     "v2.17.190 - library 3.7: the twelve LEXOLA colour themes are the bundled boards (one list with the W6 web builder)",
-                    "v2.17.189 - LCU-V3 drawer fronts build the Shaker look; V3 locked-dim gate catches small squashes; V3 look = None/Shaker",
-                    "Golden baseline re-captured on the installed v2.17.188 (Laszlo: re-capture so the intended V3 badge diff is absorbed)",
-                    "v2.17.188 - LCU-V3 fronts keep their size through Apply/Update Units; V3 badge own DC material; engine connector prices",
-                    "Tools: release-gate receipts (C1) + retro F1 TestScope net, with both helpers they load"
+                    "v2.17.189 - LCU-V3 drawer fronts build the Shaker look; V3 locked-dim gate catches small squashes; V3 look = None/Shaker"
                 ]
 }
