@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.195",
+    "version":  "2.17.196",
     "released":  "2026-10-18",
-    "asset":  "lexola_v2.17.195.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.195/lexola_v2.17.195.rbz",
-    "size":  150615224,
-    "md5":  "3E1247EE8163FD0B417D35510EBA1D90",
+    "asset":  "lexola_v2.17.196.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.196/lexola_v2.17.196.rbz",
+    "size":  150616472,
+    "md5":  "A5F75B418861C497E52AE1F548531664",
     "entries":  932,
-    "commit":  "de9c67b",
+    "commit":  "fb565eb",
     "changes":  [
+                    "v2.17.196 - Update Units keeps each unit\u0027s operation open: a 4-unit kitchen placed 2026-09-03 went from 1652 s to 85.6 s, units unchanged",
+                    "Check for v2.17.195: matt Dekton does not render brighter than a plain material with the same picture (Korso 1.11x vs 1.10x top, 1.03x vs 1.05x angled, default client-file light); the earlier board\u0027s ~1.9x was that document\u0027s light",
+                    "Proof for v2.17.195: a brand-new Star Galaxy unit on the installed copy loads star_galaxy.jpg 1200x1200 px at 1000x1000 mm, mean = the file\u0027s, worktop face painted granite_star_galaxy",
+                    "Proofs for v2.17.195 (gate follow-up): top-down renders before/after Update Units on the installed copy (Star Galaxy, Korso, Portum changed, Blue Pearl unchanged, Nilium saturated white both times); a copy of a real Sep-03 client kitchen: 2 library materials brought up, 0 existing non-library materials changed, second press 0 - Update Units itself took 1652 s then 599 s on its 4 units (material step 0.023 s)",
+                    "Proofs for v2.17.195: installed through Lexola::Updater (932/932); cold start on the installed copy: opening a kitchen placed with 2.17.194 / .191 / .155 changes 0 of 27 materials, Update Units brings 5 up (STANDARD 10/10, his 2 own unchanged), a second press changes 0",
                     "v2.17.195 - Update Units brings placed LEXOLA materials up to the material library; Star Galaxy picture B",
                     "Proofs for v2.17.194: SketchUp renders of the installed copy (Blue Pearl slab 2520 px at 1435.1 mm, Baltic Brown 447.2 x 272.8, Star Galaxy 1400 x 1470) + before/after board vs the 2.17.192 renders",
                     "Proofs for v2.17.194: installed through Lexola::Updater (932/932), cold start loads 2.17.194 and refreshes his user library 3.7 -\u003e 3.8 (12/0), placed granite unchanged until a new unit, W6 self-test 140/140",
                     "v2.17.194 - library 3.8: granite worktops at their real size (Blue Pearl whole-slab picture, Baltic Brown real grain, photos keep their shape)",
-                    "Proofs for v2.17.193: installed through Lexola::Updater (932/932), cold start loads 2.17.193, LBU|LMU with shelves 0/0 on the installed copy, golden 10/10 NO REGRESSIONS",
-                    "v2.17.193 - even-spaced shelves in LBU / LBQ / LHU drop 20 mm like the LMU, so default shelves line up at every seam",
-                    "Proofs for v2.17.192: the shipped Dekton files = the materials session\u0027s list; the user library carries them; the installed SketchUp loads them",
-                    "Golden baseline re-captured on the installed v2.17.192: LBU, LBQ, LHU, LMU only (the 6 new seam dup attrs)",
-                    "v2.17.192 - one set of seam Y rails, no 4040 back post inside an LHU\u0027s 4080, one shelf rail per level at a seam",
-                    "v2.17.192 materials - real Cosentino Dekton Korso / Nilium / Portum / Radium / Ventus; refreshed Alu Sandwich + Tricoya thumbs"
+                    "Proofs for v2.17.193: installed through Lexola::Updater (932/932), cold start loads 2.17.193, LBU|LMU with shelves 0/0 on the installed copy, golden 10/10 NO REGRESSIONS"
                 ]
 }
