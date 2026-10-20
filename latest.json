@@ -1,22 +1,22 @@
 {
-    "version":  "2.17.196",
-    "released":  "2026-10-18",
-    "asset":  "lexola_v2.17.196.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.196/lexola_v2.17.196.rbz",
-    "size":  150616472,
-    "md5":  "A5F75B418861C497E52AE1F548531664",
-    "entries":  932,
-    "commit":  "fb565eb",
+    "version":  "2.17.197",
+    "released":  "2026-10-20",
+    "asset":  "lexola_v2.17.197.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.197/lexola_v2.17.197.rbz",
+    "size":  150927188,
+    "md5":  "360BBF90D23B73A71F02C334C6D0811E",
+    "entries":  933,
+    "commit":  "8148ed6",
     "changes":  [
+                    "v2.17.197 - the LBQ places the real BBQ model in its cut-out (Napoleon 700 32\" BIG32RB), with Show/Hide and X/Y/Z offsets; appliance library lookup per folder",
+                    "LBQ BBQ model: default seat X 0 / Y +30 / Z -20 mm (Laszlo\u0027s hand position); never rename a model definition that already has instances (his hand-placed library copy keeps its name)",
+                    "LBQ BBQ model: Update Units restamps the four attrs on pre-2.17.197 units (values kept); dialog defaults Y 30 / Z -20 (Laszlo\u0027s seat)",
+                    "LBQ: place the real BBQ model in the grill cut-out, with Show/Hide and X/Y/Z offsets (WIP, not gated)",
+                    "Appliance models: read the AOS appliance library (one folder per appliance) and keep its hand-placed models out of the purge",
+                    "Proof for v2.17.196: the Pod on the installed copy - Update Units 7.9 s / 21 transactions, the swapped-in pod has the same 52 parts, faces and outer box (0 part rows differing); release notes updated",
+                    "Proofs for v2.17.196: installed through Lexola::Updater (932/932); cold start on the installed copy, a fresh copy of the 4-unit kitchen placed 2026-09-03: Update Units 93.2 s (2.17.195: 1652 s / 1658 s), units identical to 2.17.195; release notes corrected to \"about a minute and a half\"",
                     "v2.17.196 - Update Units keeps each unit\u0027s operation open: a 4-unit kitchen placed 2026-09-03 went from 1652 s to 85.6 s, units unchanged",
                     "Check for v2.17.195: matt Dekton does not render brighter than a plain material with the same picture (Korso 1.11x vs 1.10x top, 1.03x vs 1.05x angled, default client-file light); the earlier board\u0027s ~1.9x was that document\u0027s light",
-                    "Proof for v2.17.195: a brand-new Star Galaxy unit on the installed copy loads star_galaxy.jpg 1200x1200 px at 1000x1000 mm, mean = the file\u0027s, worktop face painted granite_star_galaxy",
-                    "Proofs for v2.17.195 (gate follow-up): top-down renders before/after Update Units on the installed copy (Star Galaxy, Korso, Portum changed, Blue Pearl unchanged, Nilium saturated white both times); a copy of a real Sep-03 client kitchen: 2 library materials brought up, 0 existing non-library materials changed, second press 0 - Update Units itself took 1652 s then 599 s on its 4 units (material step 0.023 s)",
-                    "Proofs for v2.17.195: installed through Lexola::Updater (932/932); cold start on the installed copy: opening a kitchen placed with 2.17.194 / .191 / .155 changes 0 of 27 materials, Update Units brings 5 up (STANDARD 10/10, his 2 own unchanged), a second press changes 0",
-                    "v2.17.195 - Update Units brings placed LEXOLA materials up to the material library; Star Galaxy picture B",
-                    "Proofs for v2.17.194: SketchUp renders of the installed copy (Blue Pearl slab 2520 px at 1435.1 mm, Baltic Brown 447.2 x 272.8, Star Galaxy 1400 x 1470) + before/after board vs the 2.17.192 renders",
-                    "Proofs for v2.17.194: installed through Lexola::Updater (932/932), cold start loads 2.17.194 and refreshes his user library 3.7 -\u003e 3.8 (12/0), placed granite unchanged until a new unit, W6 self-test 140/140",
-                    "v2.17.194 - library 3.8: granite worktops at their real size (Blue Pearl whole-slab picture, Baltic Brown real grain, photos keep their shape)",
-                    "Proofs for v2.17.193: installed through Lexola::Updater (932/932), cold start loads 2.17.193, LBU|LMU with shelves 0/0 on the installed copy, golden 10/10 NO REGRESSIONS"
+                    "Proof for v2.17.195: a brand-new Star Galaxy unit on the installed copy loads star_galaxy.jpg 1200x1200 px at 1000x1000 mm, mean = the file\u0027s, worktop face painted granite_star_galaxy"
                 ]
 }
