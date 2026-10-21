@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.207",
+    "version":  "2.17.208",
     "released":  "2026-10-21",
-    "asset":  "lexola_v2.17.207.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.207/lexola_v2.17.207.rbz",
-    "size":  154808256,
-    "md5":  "3AF00BD2140EA1A5783A400A134FCB37",
+    "asset":  "lexola_v2.17.208.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.208/lexola_v2.17.208.rbz",
+    "size":  154756760,
+    "md5":  "2AA3BA19F7328F024C3414B14B706318",
     "entries":  936,
-    "commit":  "4afcd45",
+    "commit":  "38a8841",
     "changes":  [
+                    "v2.17.208 - BeefEater 1600S 4B / 5B hood rebuilt to Beefeater\u0027s side drawing",
                     "v2.17.207 - BeefEater 1600S 4B / 5B heads: thermometer dial and knob pointers no longer buried",
                     "v2.17.206 - BeefEater 1600S 5B v7 head: dark end caps at both ends of the hood",
                     "v2.17.205 - BeefEater 1600S 4B / 5B v6 heads: fine knurl on the knob skirt",
@@ -16,7 +17,6 @@
                     "v2.17.202 - LEXOLA turns on \"Use sun for shading\" in a kitchen document, once",
                     "v2.17.201 - Napoleon BIG32RB (N732) v3 head: the real Napoleon dial, chrome thermometer housing, stainless rotisserie motor",
                     "v2.17.200 - Napoleon BIG32RB (N732) v2 head: chrome knobs, stainless handle ends, badge, buttons, dial, vent logo and the real panel printing",
-                    "v2.17.199 - BeefEater 1600S 4B / 5B v3 heads: classic stainless, chrome knobs at the measured real layout, real stickers / knob rings / gauge",
-                    "Golden baseline: LBQ re-captured on the installed v2.17.198 (N665 v14 head, offsets 0; 171 parts, AABB 1140x849.7x1340); CHECK on the installed copy: no regressions. Previous file kept as _superseded_20261021_pre-198-n665"
+                    "v2.17.199 - BeefEater 1600S 4B / 5B v3 heads: classic stainless, chrome knobs at the measured real layout, real stickers / knob rings / gauge"
                 ]
 }
