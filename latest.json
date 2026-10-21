@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.204",
+    "version":  "2.17.205",
     "released":  "2026-10-21",
-    "asset":  "lexola_v2.17.204.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.204/lexola_v2.17.204.rbz",
-    "size":  154786324,
-    "md5":  "C0592142C15A14E9AB18E766143E371B",
+    "asset":  "lexola_v2.17.205.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.205/lexola_v2.17.205.rbz",
+    "size":  154798887,
+    "md5":  "7C290C4C60D4E96A892684E52D88603A",
     "entries":  936,
-    "commit":  "0190d0d",
+    "commit":  "64c7b60",
     "changes":  [
+                    "v2.17.205 - BeefEater 1600S 4B / 5B v6 heads: fine knurl on the knob skirt",
                     "v2.17.204 - BeefEater 1600S 4B / 5B v5 heads: chrome knob face with the dark ribbed skirt",
                     "v2.17.203 - BeefEater 1600S 4B / 5B v4 heads: the real knob markings, all visible",
                     "v2.17.202 - LEXOLA turns on \"Use sun for shading\" in a kitchen document, once",
@@ -16,7 +17,6 @@
                     "v2.17.199 - BeefEater 1600S 4B / 5B v3 heads: classic stainless, chrome knobs at the measured real layout, real stickers / knob rings / gauge",
                     "Golden baseline: LBQ re-captured on the installed v2.17.198 (N665 v14 head, offsets 0; 171 parts, AABB 1140x849.7x1340); CHECK on the installed copy: no regressions. Previous file kept as _superseded_20261021_pre-198-n665",
                     "v2.17.198 - every BBQ sits where Laszlo placed it by hand; Napoleon 665 ships the approved v14 head; a model is reused only from the same file",
-                    "Kitchen Builder BBQ card: Show / Hide on the Type row, Type uses the gold-caption .inline-row like Offset",
-                    "Appliance DB 1.7: BBQ seats = Laszlo\u0027s hand placement (2026-10-20 23:38, BBQ_seats_2026-10-20.skp)"
+                    "Kitchen Builder BBQ card: Show / Hide on the Type row, Type uses the gold-caption .inline-row like Offset"
                 ]
 }
