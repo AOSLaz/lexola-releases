@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.208",
+    "version":  "2.17.209",
     "released":  "2026-10-21",
-    "asset":  "lexola_v2.17.208.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.208/lexola_v2.17.208.rbz",
-    "size":  154756760,
-    "md5":  "2AA3BA19F7328F024C3414B14B706318",
+    "asset":  "lexola_v2.17.209.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.209/lexola_v2.17.209.rbz",
+    "size":  154768846,
+    "md5":  "B839DE01463F9F7691F5463CA68505C8",
     "entries":  936,
-    "commit":  "38a8841",
+    "commit":  "93018a0",
     "changes":  [
+                    "v2.17.209 - BeefEater 1600S 4B / 5B hood front to the Beefeater drawing, handle tube, black ends",
                     "v2.17.208 - BeefEater 1600S 4B / 5B hood rebuilt to Beefeater\u0027s side drawing",
                     "v2.17.207 - BeefEater 1600S 4B / 5B heads: thermometer dial and knob pointers no longer buried",
                     "v2.17.206 - BeefEater 1600S 5B v7 head: dark end caps at both ends of the hood",
@@ -16,7 +17,6 @@
                     "v2.17.203 - BeefEater 1600S 4B / 5B v4 heads: the real knob markings, all visible",
                     "v2.17.202 - LEXOLA turns on \"Use sun for shading\" in a kitchen document, once",
                     "v2.17.201 - Napoleon BIG32RB (N732) v3 head: the real Napoleon dial, chrome thermometer housing, stainless rotisserie motor",
-                    "v2.17.200 - Napoleon BIG32RB (N732) v2 head: chrome knobs, stainless handle ends, badge, buttons, dial, vent logo and the real panel printing",
-                    "v2.17.199 - BeefEater 1600S 4B / 5B v3 heads: classic stainless, chrome knobs at the measured real layout, real stickers / knob rings / gauge"
+                    "v2.17.200 - Napoleon BIG32RB (N732) v2 head: chrome knobs, stainless handle ends, badge, buttons, dial, vent logo and the real panel printing"
                 ]
 }
