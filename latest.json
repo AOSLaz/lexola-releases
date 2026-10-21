@@ -1,13 +1,14 @@
 {
-    "version":  "2.17.205",
+    "version":  "2.17.206",
     "released":  "2026-10-21",
-    "asset":  "lexola_v2.17.205.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.205/lexola_v2.17.205.rbz",
-    "size":  154798887,
-    "md5":  "7C290C4C60D4E96A892684E52D88603A",
+    "asset":  "lexola_v2.17.206.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.206/lexola_v2.17.206.rbz",
+    "size":  154811722,
+    "md5":  "0AF32622C25C06DF4585C54868EB4DB0",
     "entries":  936,
-    "commit":  "64c7b60",
+    "commit":  "3a67c78",
     "changes":  [
+                    "v2.17.206 - BeefEater 1600S 5B v7 head: dark end caps at both ends of the hood",
                     "v2.17.205 - BeefEater 1600S 4B / 5B v6 heads: fine knurl on the knob skirt",
                     "v2.17.204 - BeefEater 1600S 4B / 5B v5 heads: chrome knob face with the dark ribbed skirt",
                     "v2.17.203 - BeefEater 1600S 4B / 5B v4 heads: the real knob markings, all visible",
@@ -16,7 +17,6 @@
                     "v2.17.200 - Napoleon BIG32RB (N732) v2 head: chrome knobs, stainless handle ends, badge, buttons, dial, vent logo and the real panel printing",
                     "v2.17.199 - BeefEater 1600S 4B / 5B v3 heads: classic stainless, chrome knobs at the measured real layout, real stickers / knob rings / gauge",
                     "Golden baseline: LBQ re-captured on the installed v2.17.198 (N665 v14 head, offsets 0; 171 parts, AABB 1140x849.7x1340); CHECK on the installed copy: no regressions. Previous file kept as _superseded_20261021_pre-198-n665",
-                    "v2.17.198 - every BBQ sits where Laszlo placed it by hand; Napoleon 665 ships the approved v14 head; a model is reused only from the same file",
-                    "Kitchen Builder BBQ card: Show / Hide on the Type row, Type uses the gold-caption .inline-row like Offset"
+                    "v2.17.198 - every BBQ sits where Laszlo placed it by hand; Napoleon 665 ships the approved v14 head; a model is reused only from the same file"
                 ]
 }
