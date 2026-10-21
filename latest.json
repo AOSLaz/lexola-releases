@@ -1,10 +1,10 @@
 {
-    "version":  "2.17.199",
+    "version":  "2.17.200",
     "released":  "2026-10-21",
-    "asset":  "lexola_v2.17.199.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.199/lexola_v2.17.199.rbz",
-    "size":  154370149,
-    "md5":  "47F4BBF3F2ADBEE7AD369256A0C60836",
+    "asset":  "lexola_v2.17.200.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.200/lexola_v2.17.200.rbz",
+    "size":  154633408,
+    "md5":  "97DBC68CCDCE13A7EE5B28AAF4C93FBA",
     "entries":  936,
     "commit":  "5ed4f0e",
     "changes":  [
