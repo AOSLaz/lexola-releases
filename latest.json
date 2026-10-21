@@ -6,8 +6,9 @@
     "size":  154633408,
     "md5":  "97DBC68CCDCE13A7EE5B28AAF4C93FBA",
     "entries":  936,
-    "commit":  "5ed4f0e",
+    "commit":  "7282ced",
     "changes":  [
+                    "v2.17.200 - Napoleon BIG32RB (N732) v2 head: chrome knobs, stainless handle ends, badge, buttons, dial, vent logo and the real panel printing",
                     "v2.17.199 - BeefEater 1600S 4B / 5B v3 heads: classic stainless, chrome knobs at the measured real layout, real stickers / knob rings / gauge",
                     "Golden baseline: LBQ re-captured on the installed v2.17.198 (N665 v14 head, offsets 0; 171 parts, AABB 1140x849.7x1340); CHECK on the installed copy: no regressions. Previous file kept as _superseded_20261021_pre-198-n665",
                     "v2.17.198 - every BBQ sits where Laszlo placed it by hand; Napoleon 665 ships the approved v14 head; a model is reused only from the same file",
@@ -16,7 +17,6 @@
                     "LBQ BBQ model (2.17.198 candidate, NOT released): each model\u0027s seat lives in its Appliance DB finish (datum origin|bounds + seat_mm); unit offsets are adjustments, default 0; N665 / B4 / B5 get their library models; Update Units resets the 2.17.197 unit defaults (0/30/-20) to 0",
                     "Kitchen Builder BBQ card: Offset X / Y / Z on ONE row (.inline-row, as Smooth Ends) - Laszlo: \"those should be in one line, saving space\"",
                     "Proofs for v2.17.197: installed through Lexola::Updater (933/933 identical); cold start on the installed copy builds an N732 LBQ with the Napoleon head at 465/30/900 from the AOS library (appliance_models_dir set on the office PC); golden baseline re-captured for LBQ (only its 4 new attrs change; CHECK on the installed copy: no regressions)",
-                    "v2.17.197 - the LBQ places the real BBQ model in its cut-out (Napoleon 700 32\" BIG32RB), with Show/Hide and X/Y/Z offsets; appliance library lookup per folder",
-                    "LBQ BBQ model: default seat X 0 / Y +30 / Z -20 mm (Laszlo\u0027s hand position); never rename a model definition that already has instances (his hand-placed library copy keeps its name)"
+                    "v2.17.197 - the LBQ places the real BBQ model in its cut-out (Napoleon 700 32\" BIG32RB), with Show/Hide and X/Y/Z offsets; appliance library lookup per folder"
                 ]
 }
