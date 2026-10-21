@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.198",
+    "version":  "2.17.199",
     "released":  "2026-10-21",
-    "asset":  "lexola_v2.17.198.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.198/lexola_v2.17.198.rbz",
-    "size":  154006428,
-    "md5":  "9B77D028F1BE1D95DEE5B487CBABC082",
+    "asset":  "lexola_v2.17.199.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.199/lexola_v2.17.199.rbz",
+    "size":  154370149,
+    "md5":  "47F4BBF3F2ADBEE7AD369256A0C60836",
     "entries":  936,
-    "commit":  "905d007",
+    "commit":  "5ed4f0e",
     "changes":  [
+                    "v2.17.199 - BeefEater 1600S 4B / 5B v3 heads: classic stainless, chrome knobs at the measured real layout, real stickers / knob rings / gauge",
+                    "Golden baseline: LBQ re-captured on the installed v2.17.198 (N665 v14 head, offsets 0; 171 parts, AABB 1140x849.7x1340); CHECK on the installed copy: no regressions. Previous file kept as _superseded_20261021_pre-198-n665",
                     "v2.17.198 - every BBQ sits where Laszlo placed it by hand; Napoleon 665 ships the approved v14 head; a model is reused only from the same file",
                     "Kitchen Builder BBQ card: Show / Hide on the Type row, Type uses the gold-caption .inline-row like Offset",
                     "Appliance DB 1.7: BBQ seats = Laszlo\u0027s hand placement (2026-10-20 23:38, BBQ_seats_2026-10-20.skp)",
@@ -15,8 +17,6 @@
                     "Kitchen Builder BBQ card: Offset X / Y / Z on ONE row (.inline-row, as Smooth Ends) - Laszlo: \"those should be in one line, saving space\"",
                     "Proofs for v2.17.197: installed through Lexola::Updater (933/933 identical); cold start on the installed copy builds an N732 LBQ with the Napoleon head at 465/30/900 from the AOS library (appliance_models_dir set on the office PC); golden baseline re-captured for LBQ (only its 4 new attrs change; CHECK on the installed copy: no regressions)",
                     "v2.17.197 - the LBQ places the real BBQ model in its cut-out (Napoleon 700 32\" BIG32RB), with Show/Hide and X/Y/Z offsets; appliance library lookup per folder",
-                    "LBQ BBQ model: default seat X 0 / Y +30 / Z -20 mm (Laszlo\u0027s hand position); never rename a model definition that already has instances (his hand-placed library copy keeps its name)",
-                    "LBQ BBQ model: Update Units restamps the four attrs on pre-2.17.197 units (values kept); dialog defaults Y 30 / Z -20 (Laszlo\u0027s seat)",
-                    "LBQ: place the real BBQ model in the grill cut-out, with Show/Hide and X/Y/Z offsets (WIP, not gated)"
+                    "LBQ BBQ model: default seat X 0 / Y +30 / Z -20 mm (Laszlo\u0027s hand position); never rename a model definition that already has instances (his hand-placed library copy keeps its name)"
                 ]
 }
