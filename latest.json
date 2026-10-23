@@ -1,13 +1,15 @@
 {
-    "version":  "2.18.0",
+    "version":  "2.18.1",
     "released":  "2026-10-23",
-    "asset":  "lexola_v2.18.0.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.0/lexola_v2.18.0.rbz",
-    "size":  154820083,
-    "md5":  "7A7B7C12DDDF8D984E04B1EEA2E2AE5F",
-    "entries":  941,
-    "commit":  "34cbbe9",
+    "asset":  "lexola_v2.18.1.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.1/lexola_v2.18.1.rbz",
+    "size":  154862395,
+    "md5":  "EE76581035CFFF6818F06467088F6037",
+    "entries":  942,
+    "commit":  "23f65d9",
     "changes":  [
+                    "Draw frame v2.18.1: work inside an open unit, Matara connectors drawn, SketchUp\u0027s own edits followed",
+                    "v2.18.0 release files (main 34cbbe9): gates g218f 7 PASS, ship gate PASS, verify_218e 43/0, mac 0 blockers",
                     "Draw frame slot covers: the \"Exposed slots\" option (his decision, now built into v2.18.0)",
                     "Draw frame v2.18.0 pre-release review: 10 confirmed defects fixed",
                     "v2.18.0 release files: gates g218d 7 PASS, ship gate PASS, verify_218c 37/0 (control first 2.18.0 build FAIL), mac 0 blockers",
@@ -15,8 +17,6 @@
                     "Draw frame machining: each bar\u0027s anchor bores = its joined ends, on the top / btm / side face",
                     "Draw frame slot covers: the strip is Matara\u0027s own part (4.21.10 STEP section), not our model",
                     "Draw frame joints: universal + 2 M8 nuts by default, angle bracket STD per unit, gold/orange joint markers",
-                    "Draw frame slot covers, step 4: billed in BOTH BOM walks, packed into 2000 mm strips, priced per strip",
-                    "Draw frame slot covers, steps 1-3 (WIP - BOM not yet): cover_strips, per-slot picks, drawn strips, Covers mode",
-                    "Draw frame connectors: one anchor per JOINED bar end for custom units (not 2 per rail)"
+                    "Draw frame slot covers, step 4: billed in BOTH BOM walks, packed into 2000 mm strips, priced per strip"
                 ]
 }
