@@ -1,13 +1,15 @@
 {
-    "version":  "2.17.212",
+    "version":  "2.17.213",
     "released":  "2026-10-23",
-    "asset":  "lexola_v2.17.212.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.212/lexola_v2.17.212.rbz",
-    "size":  154773695,
-    "md5":  "2E6A472A8FE1E447B42D955F183ADAFE",
-    "entries":  937,
-    "commit":  "c0380c2",
+    "asset":  "lexola_v2.17.213.rbz",
+    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.17.213/lexola_v2.17.213.rbz",
+    "size":  154779715,
+    "md5":  "80CB7C84B1E96F14F2A7034BB2FD2FBC",
+    "entries":  938,
+    "commit":  "cba1a9e",
     "changes":  [
+                    "v2.17.213 release files: gates g213 7 PASS, ship gate PASS, verify_213 20/0 (control .212 FAIL 17), mac 0 blockers (+1 unshimmed inputbox, like export.rb\u0027s); custom-unit matrix 15/0, RED control fails",
+                    "v2.17.213 - \"Make custom unit from selection\": hand-drawn frames, slabs and panels become a LEXOLA unit (LXC) the reports bill",
                     "v2.17.212 release files: gates g212 7 PASS, ship gate PASS, verify_212 10/0 (control .211 FAIL 5), mac 0 blockers; real export: V3 0 duplicate codes, other 9 units 0 changed (215 rows)",
                     "v2.17.212 - LCU-V3 part codes unique (were 18 of 33 rows in 6 shared codes)",
                     "v2.17.211 release files: gates g211 (7 PASS), ship gate PASS, verify_211 20/0 (control .210 FAIL 15), mac 0 blockers, notes",
@@ -15,8 +17,6 @@
                     "v2.17.210 - Unit cost data for the cost calculator (new read-only menu command)",
                     "v2.17.209 - BeefEater 1600S 4B / 5B hood front to the Beefeater drawing, handle tube, black ends",
                     "v2.17.208 - BeefEater 1600S 4B / 5B hood rebuilt to Beefeater\u0027s side drawing",
-                    "v2.17.207 - BeefEater 1600S 4B / 5B heads: thermometer dial and knob pointers no longer buried",
-                    "v2.17.206 - BeefEater 1600S 5B v7 head: dark end caps at both ends of the hood",
-                    "v2.17.205 - BeefEater 1600S 4B / 5B v6 heads: fine knurl on the knob skirt"
+                    "v2.17.207 - BeefEater 1600S 4B / 5B heads: thermometer dial and knob pointers no longer buried"
                 ]
 }
