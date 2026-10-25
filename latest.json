@@ -1,14 +1,16 @@
 {
-    "version": "2.18.5",
+    "version": "2.18.6",
     "released": "2026-10-25",
-    "asset": "lexola_v2.18.5.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.5/lexola_v2.18.5.rbz",
-    "size": 154962744,
-    "md5": "679C3CB54DCB79DC0BE0A4F24C2A94FC",
-    "entries": 945,
-    "commit": "7036647",
+    "asset": "lexola_v2.18.6.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.6/lexola_v2.18.6.rbz",
+    "size": 155196115,
+    "md5": "E9F4331C39802BCC16BBB0C4FF66939B",
+    "entries": 946,
+    "commit": "47928c7",
     "changes": [
-        "The BOM CSV export and the legacy report list the connectors the order bills: anchors or inner brackets A / B, per unit",
-        "A unit placed before 2.18.4 lists its anchors there, not its old brackets"
+        "Connectors: a third style, T-Matic - FATH 099G103 automatic connector, drawn from FATH's own model; no drilling, no end bore",
+        "Choose it per unit in the builder's Connectors row (Anchor stays the default); a rail end with no free slot takes an anchor",
+        "The order sheets word connectors by each unit's style; unit weights include every connector",
+        "The T-Matic's fit in the Matara slot is not yet tested with a real part"
     ]
 }
