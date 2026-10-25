@@ -1,22 +1,17 @@
 {
-    "version":  "2.18.2",
-    "released":  "2026-10-24",
-    "asset":  "lexola_v2.18.2.rbz",
-    "url":  "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.2/lexola_v2.18.2.rbz",
-    "size":  154931029,
-    "md5":  "222C60313B73B24CCA9EE4C461D6BF79",
-    "entries":  943,
-    "commit":  "c49b7b9",
-    "changes":  [
-                    "LEXOLA 2.18.2: version bump (undo fix + Draw frame next-release increments)",
-                    "Undo-defect harness: the private test-SketchUp bridge and runners behind the measurements",
-                    "Undo of an auto-snap sticks: MateObserver no longer re-snaps a unit that Undo / Redo moved",
-                    "LCU-V3: a Component Options change is ONE undo step (the observer rebuild joins DC\u0027s step)",
-                    "Undo of a Component Options change: the unit observers no longer rebuild while SketchUp undoes / redoes",
-                    "Draw frame: the status bar and palette say where a bar starts - centred on a bar\u0027s face, its outer corner at a corner snap",
-                    "Draw frame: a bar started on a bar\u0027s FACE is built centred on it (Laszlo\u0027s call)",
-                    "Draw frame: the section marker before the click no longer vanishes over a T-slot",
-                    "Draw frame: the open look picks T1 / T3 / T4 each behind one constant, defaults unchanged (increment 22a)",
-                    "Draw frame: the marker on the drawn end shows exactly the joint the click will make - per core, from the plan (increment 21)"
-                ]
+    "version": "2.18.3",
+    "released": "2026-10-25",
+    "asset": "lexola_v2.18.3.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.3/lexola_v2.18.3.rbz",
+    "size": 154952193,
+    "md5": "4DF873DC500DA10E0F339B79E38B504D",
+    "entries": 944,
+    "commit": "c09a9e7",
+    "changes": [
+        "Slot covers on every unit: Unit Options > Slot Covers (off | exposed slots) and Cover Colour",
+        "Strips stop at every part, follow resizes and neighbours, and run to the LCU-V3 angle cut",
+        "Draw frame Covers mode works on built units",
+        "Covers listed in both BOM lists and both reports",
+        "The LCU-V3 badge stays on its front rail; File > Open puts a misplaced one back"
+    ]
 }
