@@ -1,17 +1,17 @@
 {
-    "version": "2.18.3",
+    "version": "2.18.4",
     "released": "2026-10-25",
-    "asset": "lexola_v2.18.3.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.3/lexola_v2.18.3.rbz",
-    "size": 154952193,
-    "md5": "4DF873DC500DA10E0F339B79E38B504D",
-    "entries": 944,
-    "commit": "c09a9e7",
+    "asset": "lexola_v2.18.4.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.4/lexola_v2.18.4.rbz",
+    "size": 154962065,
+    "md5": "9FAA39E10421C7A36B5EB49CF40AEBF4",
+    "entries": 945,
+    "commit": "0f695de",
     "changes": [
-        "Slot covers on every unit: Unit Options > Slot Covers (off | exposed slots) and Cover Colour",
-        "Strips stop at every part, follow resizes and neighbours, and run to the LCU-V3 angle cut",
-        "Draw frame Covers mode works on built units",
-        "Covers listed in both BOM lists and both reports",
-        "The LCU-V3 badge stays on its front rail; File > Open puts a misplaced one back"
+        "Connectors drawn on every unit: one at each rail end that joins another profile, exactly as the order bills them",
+        "New Connectors option: Matara anchor 3.11.40.01 (default) or inner brackets 3.41.10A / B",
+        "LBU and LCU no longer draw brackets on top of anchors; rail ends that join nothing take none",
+        "Slot covers stop at the connectors; each unit's report page lists its connectors and covers",
+        "A POD resize is one Undo step; Update Units keeps connectors and covers with each unit"
     ]
 }
