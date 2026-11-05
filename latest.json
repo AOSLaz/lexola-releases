@@ -1,16 +1,14 @@
 {
-    "version": "2.18.6",
-    "released": "2026-10-25",
-    "asset": "lexola_v2.18.6.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.6/lexola_v2.18.6.rbz",
-    "size": 155196115,
-    "md5": "E9F4331C39802BCC16BBB0C4FF66939B",
+    "version": "2.18.7",
+    "released": "2026-11-05",
+    "asset": "lexola_v2.18.7.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.7/lexola_v2.18.7.rbz",
+    "size": 155196328,
+    "md5": "4F3AD196C7319247F9E585C2CE0F0CCC",
     "entries": 946,
-    "commit": "47928c7",
+    "commit": "dba4c60",
     "changes": [
-        "Connectors: a third style, T-Matic - FATH 099G103 automatic connector, drawn from FATH's own model; no drilling, no end bore",
-        "Choose it per unit in the builder's Connectors row (Anchor stays the default); a rail end with no free slot takes an anchor",
-        "The order sheets word connectors by each unit's style; unit weights include every connector",
-        "The T-Matic's fit in the Matara slot is not yet tested with a real part"
+        "The aluminium frame now renders as brighter, more metallic anodised aluminium (metal 0.85, roughness 0.40) - Laszlo's pick of five rendered finishes",
+        "Nothing else changed: no part, size or BOM line moves"
     ]
 }
