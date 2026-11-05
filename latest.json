@@ -1,14 +1,14 @@
 {
-    "version": "2.18.14",
+    "version": "2.18.15",
     "released": "2026-11-05",
-    "asset": "lexola_v2.18.14.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.14/lexola_v2.18.14.rbz",
-    "size": 158017514,
-    "md5": "152E9F6579E10789BD6A78F4F2C43ED5",
+    "asset": "lexola_v2.18.15.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.15/lexola_v2.18.15.rbz",
+    "size": 158017802,
+    "md5": "7E123599A1C7BDF8C29751BEA1EF5599",
     "entries": 947,
-    "commit": "9806b77",
+    "commit": "3db64b6",
     "changes": [
-        "Gozney Dome: the shell is a little lighter, a warm cream closer to the real Bone oven (it was a darker tan)",
-        "Nothing else changes: no unit, part, size, position, material or BOM line moves"
+        "Fridge unit: a Show Fridge on/off switch in the Kitchen Builder, under the fridge Type - it shows or hides the fridge placeholder (also for several units at once)",
+        "Nothing else changes: no part, size, position, material or BOM line of any unit moves"
     ]
 }
