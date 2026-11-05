@@ -1,14 +1,15 @@
 {
-    "version": "2.18.7",
+    "version": "2.18.8",
     "released": "2026-11-05",
-    "asset": "lexola_v2.18.7.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.7/lexola_v2.18.7.rbz",
-    "size": 155196328,
-    "md5": "4F3AD196C7319247F9E585C2CE0F0CCC",
+    "asset": "lexola_v2.18.8.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.8/lexola_v2.18.8.rbz",
+    "size": 155197037,
+    "md5": "A4C663898335DA5779D1EA95617EA076",
     "entries": 946,
-    "commit": "dba4c60",
+    "commit": "e98c449",
     "changes": [
-        "The aluminium frame now renders as brighter, more metallic anodised aluminium (metal 0.85, roughness 0.40) - Laszlo's pick of five rendered finishes",
+        "Update Units now also brings the aluminium frame finish of kitchens placed before 2.18.7 up to the new finish",
+        "The other basic colours follow the material library's finish the same way; their colour stays as it is",
         "Nothing else changed: no part, size or BOM line moves"
     ]
 }
