@@ -1,15 +1,14 @@
 {
-    "version": "2.18.11",
+    "version": "2.18.12",
     "released": "2026-11-05",
-    "asset": "lexola_v2.18.11.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.11/lexola_v2.18.11.rbz",
-    "size": 158013944,
-    "md5": "064F732C7E462282AE0FDC9DE02EA9A5",
+    "asset": "lexola_v2.18.12.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.12/lexola_v2.18.12.rbz",
+    "size": 158017861,
+    "md5": "933CE1EF5588D88541DD9EAB67C14D9D",
     "entries": 947,
-    "commit": "232e882",
+    "commit": "88a7b3d",
     "changes": [
-        "GLB export (web builder): a built-in appliance (BBQ, sink, tap, Gozney Dome) keeps its own metal and gloss finish instead of plain matt grey",
-        "GLB export: an appliance's printed details go with it (on the Napoleon: the badge, the thermometer dial, the control panel labels)",
-        "The Gozney Dome model now carries the finishes it was designed with (polished stainless band, brass and aluminium knobs, champagne logo)"
+        "Gozney Dome: its stainless band now shades as the straight wall it is, so its reflections run up and down like the real oven's (they ran across it)",
+        "Nothing else changes: no unit, part, size, position, material or BOM line moves"
     ]
 }
