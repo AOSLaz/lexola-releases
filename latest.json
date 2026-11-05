@@ -1,12 +1,12 @@
 {
-    "version": "2.18.13",
+    "version": "2.18.14",
     "released": "2026-11-05",
-    "asset": "lexola_v2.18.13.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.13/lexola_v2.18.13.rbz",
-    "size": 158017360,
-    "md5": "CCBD0DE473362385422B3622C28660E7",
+    "asset": "lexola_v2.18.14.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.14/lexola_v2.18.14.rbz",
+    "size": 158017514,
+    "md5": "152E9F6579E10789BD6A78F4F2C43ED5",
     "entries": 947,
-    "commit": "5fe4eec",
+    "commit": "9806b77",
     "changes": [
         "Gozney Dome: the shell is a little lighter, a warm cream closer to the real Bone oven (it was a darker tan)",
         "Nothing else changes: no unit, part, size, position, material or BOM line moves"
