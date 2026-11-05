@@ -1,16 +1,15 @@
 {
-    "version": "2.18.9",
+    "version": "2.18.10",
     "released": "2026-11-05",
-    "asset": "lexola_v2.18.9.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.9/lexola_v2.18.9.rbz",
-    "size": 157999055,
-    "md5": "C40BE45432B41961CD9A5F9C67784FB8",
+    "asset": "lexola_v2.18.10.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.10/lexola_v2.18.10.rbz",
+    "size": 158000536,
+    "md5": "61E16789E4D81C05921C472D605FC9C1",
     "entries": 947,
-    "commit": "827b017",
+    "commit": "8b0dcaf",
     "changes": [
-        "New: a Gozney Dome Gen 2 pizza oven can stand on a unit's worktop (Kitchen Builder, Pizza oven card)",
-        "It is centred on the unit, its back on the worktop's back edge, and drawn only where it fits (a Base unit 830 mm wide or more)",
-        "The order lists it as its own line; it has no price or supplier yet",
-        "Fixed: Apply in the edit window no longer removes a unit's tap or turns a black sink silver"
+        "The report's Appliances page now lists the Gozney Dome pizza oven by name (no price yet) when a unit carries it",
+        "The GLB export gives every part of the Dome one 'oven' category, so the web builder no longer paints it like a panel",
+        "When a sink is where the Dome would stand, the Kitchen Builder now says so ('It would stand on the sink or tap')"
     ]
 }
