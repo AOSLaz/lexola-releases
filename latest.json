@@ -1,15 +1,16 @@
 {
-    "version": "2.18.8",
+    "version": "2.18.9",
     "released": "2026-11-05",
-    "asset": "lexola_v2.18.8.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.8/lexola_v2.18.8.rbz",
-    "size": 155197037,
-    "md5": "A4C663898335DA5779D1EA95617EA076",
-    "entries": 946,
-    "commit": "e98c449",
+    "asset": "lexola_v2.18.9.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.9/lexola_v2.18.9.rbz",
+    "size": 157999055,
+    "md5": "C40BE45432B41961CD9A5F9C67784FB8",
+    "entries": 947,
+    "commit": "827b017",
     "changes": [
-        "Update Units now also brings the aluminium frame finish of kitchens placed before 2.18.7 up to the new finish",
-        "The other basic colours follow the material library's finish the same way; their colour stays as it is",
-        "Nothing else changed: no part, size or BOM line moves"
+        "New: a Gozney Dome Gen 2 pizza oven can stand on a unit's worktop (Kitchen Builder, Pizza oven card)",
+        "It is centred on the unit, its back on the worktop's back edge, and drawn only where it fits (a Base unit 830 mm wide or more)",
+        "The order lists it as its own line; it has no price or supplier yet",
+        "Fixed: Apply in the edit window no longer removes a unit's tap or turns a black sink silver"
     ]
 }
