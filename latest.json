@@ -1,15 +1,15 @@
 {
-    "version": "2.18.10",
+    "version": "2.18.11",
     "released": "2026-11-05",
-    "asset": "lexola_v2.18.10.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.10/lexola_v2.18.10.rbz",
-    "size": 158000536,
-    "md5": "61E16789E4D81C05921C472D605FC9C1",
+    "asset": "lexola_v2.18.11.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.11/lexola_v2.18.11.rbz",
+    "size": 158013944,
+    "md5": "064F732C7E462282AE0FDC9DE02EA9A5",
     "entries": 947,
-    "commit": "8b0dcaf",
+    "commit": "232e882",
     "changes": [
-        "The report's Appliances page now lists the Gozney Dome pizza oven by name (no price yet) when a unit carries it",
-        "The GLB export gives every part of the Dome one 'oven' category, so the web builder no longer paints it like a panel",
-        "When a sink is where the Dome would stand, the Kitchen Builder now says so ('It would stand on the sink or tap')"
+        "GLB export (web builder): a built-in appliance (BBQ, sink, tap, Gozney Dome) keeps its own metal and gloss finish instead of plain matt grey",
+        "GLB export: an appliance's printed details go with it (on the Napoleon: the badge, the thermometer dial, the control panel labels)",
+        "The Gozney Dome model now carries the finishes it was designed with (polished stainless band, brass and aluminium knobs, champagne logo)"
     ]
 }
