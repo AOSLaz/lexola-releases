@@ -1,15 +1,13 @@
 {
-    "version": "2.18.19",
+    "version": "2.18.20",
     "released": "2026-11-06",
-    "asset": "lexola_v2.18.19.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.19/lexola_v2.18.19.rbz",
-    "size": 219444666,
-    "md5": "395F1A39FB566BC26A122E67EEE6380E",
+    "asset": "lexola_v2.18.20.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.20/lexola_v2.18.20.rbz",
+    "size": 228662954,
+    "md5": "021568EA3A4F94CDA4F054365A83FC7A",
     "entries": 957,
-    "commit": "36c54b4",
+    "commit": "7282033",
     "changes": [
-        "Pizza oven: the Alfa Moderno 2, 3 and 5 Pizze ovens, in the colours Alfa sells each one",
-        "Pizza oven: a Colour choice beside the oven - the Gozney Dome now also in Off Black",
-        "Pizza oven: an Alfa stands on its four feet on the worktop; the report names the oven's colour"
+        "Pizza oven: the Alfa Moderno door and arch now have a fine brushed-steel finish instead of coarse vertical stripes"
     ]
 }
