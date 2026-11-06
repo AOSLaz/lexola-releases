@@ -1,14 +1,15 @@
 {
-    "version": "2.18.18",
+    "version": "2.18.19",
     "released": "2026-11-06",
-    "asset": "lexola_v2.18.18.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.18/lexola_v2.18.18.rbz",
-    "size": 159117437,
-    "md5": "0580954ADE10578B5C9C22EADBCC3B44",
-    "entries": 948,
-    "commit": "8fc94fa",
+    "asset": "lexola_v2.18.19.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.19/lexola_v2.18.19.rbz",
+    "size": 219444666,
+    "md5": "395F1A39FB566BC26A122E67EEE6380E",
+    "entries": 957,
+    "commit": "36c54b4",
     "changes": [
-        "Fridge unit: a fridge placed in a model that already had the 2.18.16 fridge now gets the light satin stainless and the clear glass too",
-        "Fridge unit: the glass door stays flat and clear (no magnifier reflections) in existing models as well as new ones"
+        "Pizza oven: the Alfa Moderno 2, 3 and 5 Pizze ovens, in the colours Alfa sells each one",
+        "Pizza oven: a Colour choice beside the oven - the Gozney Dome now also in Off Black",
+        "Pizza oven: an Alfa stands on its four feet on the worktop; the report names the oven's colour"
     ]
 }
