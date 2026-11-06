@@ -1,14 +1,14 @@
 {
-    "version": "2.18.15",
-    "released": "2026-11-05",
-    "asset": "lexola_v2.18.15.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.15/lexola_v2.18.15.rbz",
-    "size": 158017802,
-    "md5": "7E123599A1C7BDF8C29751BEA1EF5599",
-    "entries": 947,
-    "commit": "3db64b6",
+    "version": "2.18.16",
+    "released": "2026-11-06",
+    "asset": "lexola_v2.18.16.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.16/lexola_v2.18.16.rbz",
+    "size": 159113756,
+    "md5": "0FB2949616144ED7349CEE8909AAAC33",
+    "entries": 948,
+    "commit": "ceee78d",
     "changes": [
-        "Fridge unit: a Show Fridge on/off switch in the Kitchen Builder, under the fridge Type - it shows or hides the fridge placeholder (also for several units at once)",
-        "Nothing else changes: no part, size, position, material or BOM line of any unit moves"
+        "Fridge unit: with Show Fridge on, the HCK C-150 fridge now stands in the unit as a real model (brushed stainless, glass door, handle) instead of the blue box",
+        "A fridge type with no model yet keeps the blue box; nothing is added to the parts list or the order"
     ]
 }
