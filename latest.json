@@ -1,14 +1,14 @@
 {
-    "version": "2.18.17",
+    "version": "2.18.18",
     "released": "2026-11-06",
-    "asset": "lexola_v2.18.17.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.17/lexola_v2.18.17.rbz",
-    "size": 159116514,
-    "md5": "6D40539D75FB5B70243479F0A0B8EF18",
+    "asset": "lexola_v2.18.18.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.18/lexola_v2.18.18.rbz",
+    "size": 159117437,
+    "md5": "0580954ADE10578B5C9C22EADBCC3B44",
     "entries": 948,
-    "commit": "5de2c15",
+    "commit": "8fc94fa",
     "changes": [
-        "Fridge unit: the fridge steel now reads as light satin stainless with a fine hairline grain, instead of scratched metal",
-        "Fridge unit: the glass door is flat and clear - it no longer bends reflections like a magnifier"
+        "Fridge unit: a fridge placed in a model that already had the 2.18.16 fridge now gets the light satin stainless and the clear glass too",
+        "Fridge unit: the glass door stays flat and clear (no magnifier reflections) in existing models as well as new ones"
     ]
 }
