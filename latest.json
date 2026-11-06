@@ -1,14 +1,14 @@
 {
-    "version": "2.18.16",
+    "version": "2.18.17",
     "released": "2026-11-06",
-    "asset": "lexola_v2.18.16.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.16/lexola_v2.18.16.rbz",
-    "size": 159113756,
-    "md5": "0FB2949616144ED7349CEE8909AAAC33",
+    "asset": "lexola_v2.18.17.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.17/lexola_v2.18.17.rbz",
+    "size": 159116514,
+    "md5": "6D40539D75FB5B70243479F0A0B8EF18",
     "entries": 948,
-    "commit": "ceee78d",
+    "commit": "5de2c15",
     "changes": [
-        "Fridge unit: with Show Fridge on, the HCK C-150 fridge now stands in the unit as a real model (brushed stainless, glass door, handle) instead of the blue box",
-        "A fridge type with no model yet keeps the blue box; nothing is added to the parts list or the order"
+        "Fridge unit: the fridge steel now reads as light satin stainless with a fine hairline grain, instead of scratched metal",
+        "Fridge unit: the glass door is flat and clear - it no longer bends reflections like a magnifier"
     ]
 }
