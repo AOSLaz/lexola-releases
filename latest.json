@@ -1,14 +1,13 @@
 {
-    "version": "2.18.21",
+    "version": "2.18.22",
     "released": "2026-11-08",
-    "asset": "lexola_v2.18.21.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.21/lexola_v2.18.21.rbz",
-    "size": 229673282,
-    "md5": "5A959B31387A9933488F9E60A1D2DA93",
-    "entries": 958,
-    "commit": "85f74a0",
+    "asset": "lexola_v2.18.22.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.22/lexola_v2.18.22.rbz",
+    "size": 231068397,
+    "md5": "2D2BDC52251111C937B0935684531238",
+    "entries": 960,
+    "commit": "1264469",
     "changes": [
-        "BBQ: the BeefEater 1600S 3 burner now has a real model in the unit",
-        "BBQ: the BeefEater 1600S 3, 4 and 5 burner sit 20 mm further forward, with steel knob dishes instead of white"
+        "BBQ: the Napoleon 700 Series 38 and 44 now have real models in the unit"
     ]
 }
