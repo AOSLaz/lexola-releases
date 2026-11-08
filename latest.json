@@ -1,13 +1,14 @@
 {
-    "version": "2.18.20",
-    "released": "2026-11-06",
-    "asset": "lexola_v2.18.20.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.20/lexola_v2.18.20.rbz",
-    "size": 228662954,
-    "md5": "021568EA3A4F94CDA4F054365A83FC7A",
-    "entries": 957,
-    "commit": "7282033",
+    "version": "2.18.21",
+    "released": "2026-11-08",
+    "asset": "lexola_v2.18.21.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.21/lexola_v2.18.21.rbz",
+    "size": 229673282,
+    "md5": "5A959B31387A9933488F9E60A1D2DA93",
+    "entries": 958,
+    "commit": "85f74a0",
     "changes": [
-        "Pizza oven: the Alfa Moderno door and arch now have a fine brushed-steel finish instead of coarse vertical stripes"
+        "BBQ: the BeefEater 1600S 3 burner now has a real model in the unit",
+        "BBQ: the BeefEater 1600S 3, 4 and 5 burner sit 20 mm further forward, with steel knob dishes instead of white"
     ]
 }
