@@ -1,14 +1,13 @@
 {
-    "version": "2.18.24",
+    "version": "2.18.25",
     "released": "2026-11-10",
-    "asset": "lexola_v2.18.24.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.24/lexola_v2.18.24.rbz",
-    "size": 237603949,
-    "md5": "6513F3C5C7323F52DA749F6812AEA4EC",
+    "asset": "lexola_v2.18.25.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.25/lexola_v2.18.25.rbz",
+    "size": 236807487,
+    "md5": "69501A44BDE2A372499A0943CE2E2704",
     "entries": 961,
-    "commit": "f5a39df",
+    "commit": "b087e6e",
     "changes": [
-        "The HCK C2-AF double fridge: no centre wall inside, the same height and feet as the C-150, and the inner bottom step.",
-        "The HCK C-150 single fridge: a one-piece door, the double's steel and the hammered interior, and the inner bottom step."
+        "HCK fridges: a seamless brushed-steel finish, no more repeating stripes"
     ]
 }
