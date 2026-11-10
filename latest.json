@@ -1,14 +1,14 @@
 {
-    "version": "2.18.23",
+    "version": "2.18.24",
     "released": "2026-11-10",
-    "asset": "lexola_v2.18.23.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.23/lexola_v2.18.23.rbz",
-    "size": 235145340,
-    "md5": "BABD7187BAB00FC840085168B8559DB3",
+    "asset": "lexola_v2.18.24.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.24/lexola_v2.18.24.rbz",
+    "size": 237603949,
+    "md5": "6513F3C5C7323F52DA749F6812AEA4EC",
     "entries": 961,
-    "commit": "70c9706",
+    "commit": "f5a39df",
     "changes": [
-        "The HCK C2-AF double glass-door fridge now shows as the real model in the Fridge Unit when Show Fridge is on.",
-        "The appliance list updates to 1.25 (C2-AF size and weight from HCK)."
+        "The HCK C2-AF double fridge: no centre wall inside, the same height and feet as the C-150, and the inner bottom step.",
+        "The HCK C-150 single fridge: a one-piece door, the double's steel and the hammered interior, and the inner bottom step."
     ]
 }
