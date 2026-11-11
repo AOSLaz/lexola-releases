@@ -1,13 +1,13 @@
 {
-    "version": "2.18.27",
+    "version": "2.18.28",
     "released": "2026-11-11",
-    "asset": "lexola_v2.18.27.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.27/lexola_v2.18.27.rbz",
-    "size": 236828612,
-    "md5": "806AA28A2CC2FBC169D7745BEDBE894E",
+    "asset": "lexola_v2.18.28.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.28/lexola_v2.18.28.rbz",
+    "size": 236833066,
+    "md5": "046469C56DAF68B0E475101FFE5920A7",
     "entries": 963,
-    "commit": "9c41b21",
+    "commit": "3f17cf6",
     "changes": [
-        "HCK C-150 fridge: the top hinge no longer flickers"
+        "Overhang legs tied to the frame with bars; the post face a bar lands on keeps its slot; tidier overhang rows in the Kitchen Builder"
     ]
 }
