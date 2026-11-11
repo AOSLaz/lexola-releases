@@ -1,14 +1,13 @@
 {
-    "version": "2.18.26",
+    "version": "2.18.27",
     "released": "2026-11-11",
-    "asset": "lexola_v2.18.26.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.26/lexola_v2.18.26.rbz",
-    "size": 236828581,
-    "md5": "D8B7A981CC6C48BCB7B70C1044C52B74",
+    "asset": "lexola_v2.18.27.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.27/lexola_v2.18.27.rbz",
+    "size": 236828612,
+    "md5": "806AA28A2CC2FBC169D7745BEDBE894E",
     "entries": 963,
-    "commit": "5a6c1d5",
+    "commit": "9c41b21",
     "changes": [
-        "Worktop overhang: 300 mm on the back or the ends of any unit, with brackets or legs under it",
-        "Merging and unmerging units now also rebuilds their worktops"
+        "HCK C-150 fridge: the top hinge no longer flickers"
     ]
 }
