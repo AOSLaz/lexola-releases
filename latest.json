@@ -1,13 +1,13 @@
 {
-    "version": "2.18.28",
+    "version": "2.18.29",
     "released": "2026-11-11",
-    "asset": "lexola_v2.18.28.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.28/lexola_v2.18.28.rbz",
-    "size": 236833066,
-    "md5": "046469C56DAF68B0E475101FFE5920A7",
+    "asset": "lexola_v2.18.29.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.29/lexola_v2.18.29.rbz",
+    "size": 236833532,
+    "md5": "520B412A107D793924AD322F0A657A85",
     "entries": 963,
-    "commit": "3f17cf6",
+    "commit": "bb364da",
     "changes": [
-        "Overhang legs tied to the frame with bars; the post face a bar lands on keeps its slot; tidier overhang rows in the Kitchen Builder"
+        "Overhang: a bar meeting a leg at a joined unit now lands on a slot; LCU-V2's front corner post slotted where a leg bar meets it"
     ]
 }
