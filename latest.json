@@ -1,13 +1,14 @@
 {
-    "version": "2.18.29",
-    "released": "2026-11-11",
-    "asset": "lexola_v2.18.29.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.29/lexola_v2.18.29.rbz",
-    "size": 236833532,
-    "md5": "520B412A107D793924AD322F0A657A85",
-    "entries": 963,
-    "commit": "bb364da",
+    "version": "2.18.31",
+    "released": "2026-11-18",
+    "asset": "lexola_v2.18.31.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.31/lexola_v2.18.31.rbz",
+    "size": 240400295,
+    "md5": "CB529A5E209C36578374CEF5C0CC0568",
+    "entries": 964,
+    "commit": "36723cd",
     "changes": [
-        "Overhang: a bar meeting a leg at a joined unit now lands on a slot; LCU-V2's front corner post slotted where a leg bar meets it"
+        "BBQ: Napoleon Prestige PRO 500 - real head",
+        "BBQ: Napoleon Prestige PRO 500 + 665 - truer metal finish"
     ]
 }
