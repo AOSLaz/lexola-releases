@@ -1,13 +1,13 @@
 {
-    "version": "2.18.36",
+    "version": "2.18.37",
     "released": "2026-11-20",
-    "asset": "lexola_v2.18.36.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.36/lexola_v2.18.36.rbz",
-    "size": 240752741,
-    "md5": "7E07AB616727C1FFC275C1C62EA51148",
+    "asset": "lexola_v2.18.37.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.37/lexola_v2.18.37.rbz",
+    "size": 240749088,
+    "md5": "39847637FF883B9E9046CA08E504D5BC",
     "entries": 974,
-    "commit": "1884ba1",
+    "commit": "d77454a",
     "changes": [
-        "SketchUp 2027 no longer keeps filling up memory: LEXOLA switches Ruby's memory clean-up back on when another extension (Poliigon) has switched it off"
+        "LEXOLA key: the single LEXOLA key is back on SketchUp's toolbar with a clearer look; one click opens the LEXOLA panel, the next closes it"
     ]
 }
