@@ -1,13 +1,13 @@
 {
-    "version": "2.18.32",
+    "version": "2.18.33",
     "released": "2026-11-20",
-    "asset": "lexola_v2.18.32.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.32/lexola_v2.18.32.rbz",
-    "size": 240725846,
-    "md5": "D40075A5BF03E0AD3603447E22FD3984",
+    "asset": "lexola_v2.18.33.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.33/lexola_v2.18.33.rbz",
+    "size": 240733850,
+    "md5": "2B314087D37104A0AC0627953A24F0DD",
     "entries": 972,
-    "commit": "1805d19",
+    "commit": "bfb7809",
     "changes": [
-        "Toolbar: one LEXOLA key opens the LEXOLA rail / panel; the old toolbar stays as LEXOLA Classic"
+        "Oak and Walnut doors and panels, a grain direction for doors and panels, and wood that no longer repeats from unit to unit"
     ]
 }
