@@ -1,14 +1,13 @@
 {
-    "version": "2.18.34",
+    "version": "2.18.35",
     "released": "2026-11-20",
-    "asset": "lexola_v2.18.34.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.34/lexola_v2.18.34.rbz",
-    "size": 240734822,
-    "md5": "84C1AFC510771EC7393B1F3C124643AB",
-    "entries": 972,
-    "commit": "addca37",
+    "asset": "lexola_v2.18.35.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.35/lexola_v2.18.35.rbz",
+    "size": 240751175,
+    "md5": "8E47F222188EF2B12668CE5BD5318762",
+    "entries": 973,
+    "commit": "557fca1",
     "changes": [
-        "Kitchen Materials: a Grain switch (Horizontal / Vertical) for doors and panels",
-        "Kitchen Materials: setting something back to how it was after an Apply now applies too"
+        "LEXOLA panel: see-through glass on SketchUp 2027; the single LEXOLA key is gone (LEXOLA Classic stays); the Kitchen Builder always fits its window and shows everything"
     ]
 }
