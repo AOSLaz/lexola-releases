@@ -1,14 +1,13 @@
 {
-    "version": "2.18.31",
-    "released": "2026-11-18",
-    "asset": "lexola_v2.18.31.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.31/lexola_v2.18.31.rbz",
-    "size": 240400295,
-    "md5": "CB529A5E209C36578374CEF5C0CC0568",
-    "entries": 964,
-    "commit": "36723cd",
+    "version": "2.18.32",
+    "released": "2026-11-20",
+    "asset": "lexola_v2.18.32.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.32/lexola_v2.18.32.rbz",
+    "size": 240725846,
+    "md5": "D40075A5BF03E0AD3603447E22FD3984",
+    "entries": 972,
+    "commit": "1805d19",
     "changes": [
-        "BBQ: Napoleon Prestige PRO 500 - real head",
-        "BBQ: Napoleon Prestige PRO 500 + 665 - truer metal finish"
+        "Toolbar: one LEXOLA key opens the LEXOLA rail / panel; the old toolbar stays as LEXOLA Classic"
     ]
 }
