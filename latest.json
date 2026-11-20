@@ -1,13 +1,13 @@
 {
-    "version": "2.18.35",
+    "version": "2.18.36",
     "released": "2026-11-20",
-    "asset": "lexola_v2.18.35.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.35/lexola_v2.18.35.rbz",
-    "size": 240751175,
-    "md5": "8E47F222188EF2B12668CE5BD5318762",
-    "entries": 973,
-    "commit": "557fca1",
+    "asset": "lexola_v2.18.36.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.36/lexola_v2.18.36.rbz",
+    "size": 240752741,
+    "md5": "7E07AB616727C1FFC275C1C62EA51148",
+    "entries": 974,
+    "commit": "1884ba1",
     "changes": [
-        "LEXOLA panel: see-through glass on SketchUp 2027; the single LEXOLA key is gone (LEXOLA Classic stays); the Kitchen Builder always fits its window and shows everything"
+        "SketchUp 2027 no longer keeps filling up memory: LEXOLA switches Ruby's memory clean-up back on when another extension (Poliigon) has switched it off"
     ]
 }
