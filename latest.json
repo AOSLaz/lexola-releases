@@ -1,13 +1,14 @@
 {
-    "version": "2.18.38",
+    "version": "2.18.39",
     "released": "2026-11-20",
-    "asset": "lexola_v2.18.38.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.38/lexola_v2.18.38.rbz",
-    "size": 199447494,
-    "md5": "8D281CFFDEEFD3DCA002B30B8276D51C",
-    "entries": 972,
-    "commit": "9ea33bf",
+    "asset": "lexola_v2.18.39.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.39/lexola_v2.18.39.rbz",
+    "size": 140455704,
+    "md5": "043370D25216A60E6CACAF2CC6DADFCE",
+    "entries": 998,
+    "commit": "6512b24",
     "changes": [
-        "Pizza ovens: each Alfa Moderno size now uses one model and takes its colour when placed, so LEXOLA is about 41 MB smaller to download; the ovens look the same"
+        "Kitchen Materials: new Textures High | Light switch. Light uses lighter pictures for a smaller, faster model; the Dekton pictures are also smaller files now",
+        "The LEXOLA panel no longer moves lower each time it is opened and closed, and a panel left off-screen comes back into view"
     ]
 }
