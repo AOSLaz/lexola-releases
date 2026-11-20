@@ -1,13 +1,13 @@
 {
-    "version": "2.18.37",
+    "version": "2.18.38",
     "released": "2026-11-20",
-    "asset": "lexola_v2.18.37.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.37/lexola_v2.18.37.rbz",
-    "size": 240749088,
-    "md5": "39847637FF883B9E9046CA08E504D5BC",
-    "entries": 974,
-    "commit": "d77454a",
+    "asset": "lexola_v2.18.38.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.38/lexola_v2.18.38.rbz",
+    "size": 199447494,
+    "md5": "8D281CFFDEEFD3DCA002B30B8276D51C",
+    "entries": 972,
+    "commit": "9ea33bf",
     "changes": [
-        "LEXOLA key: the single LEXOLA key is back on SketchUp's toolbar with a clearer look; one click opens the LEXOLA panel, the next closes it"
+        "Pizza ovens: each Alfa Moderno size now uses one model and takes its colour when placed, so LEXOLA is about 41 MB smaller to download; the ovens look the same"
     ]
 }
