@@ -1,13 +1,14 @@
 {
-    "version": "2.18.33",
+    "version": "2.18.34",
     "released": "2026-11-20",
-    "asset": "lexola_v2.18.33.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.33/lexola_v2.18.33.rbz",
-    "size": 240733850,
-    "md5": "2B314087D37104A0AC0627953A24F0DD",
+    "asset": "lexola_v2.18.34.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.34/lexola_v2.18.34.rbz",
+    "size": 240734822,
+    "md5": "84C1AFC510771EC7393B1F3C124643AB",
     "entries": 972,
-    "commit": "bfb7809",
+    "commit": "addca37",
     "changes": [
-        "Oak and Walnut doors and panels, a grain direction for doors and panels, and wood that no longer repeats from unit to unit"
+        "Kitchen Materials: a Grain switch (Horizontal / Vertical) for doors and panels",
+        "Kitchen Materials: setting something back to how it was after an Apply now applies too"
     ]
 }
