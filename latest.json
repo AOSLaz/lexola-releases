@@ -1,14 +1,13 @@
 {
-    "version": "2.18.39",
-    "released": "2026-11-20",
-    "asset": "lexola_v2.18.39.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.39/lexola_v2.18.39.rbz",
-    "size": 140455704,
-    "md5": "043370D25216A60E6CACAF2CC6DADFCE",
-    "entries": 998,
-    "commit": "6512b24",
+    "version": "2.18.40",
+    "released": "2026-11-21",
+    "asset": "lexola_v2.18.40.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.40/lexola_v2.18.40.rbz",
+    "size": 156218918,
+    "md5": "2800097016FF5AA0EE7D649CCD45C853",
+    "entries": 1069,
+    "commit": "c76e300",
     "changes": [
-        "Kitchen Materials: new Textures High | Light switch. Light uses lighter pictures for a smaller, faster model; the Dekton pictures are also smaller files now",
-        "The LEXOLA panel no longer moves lower each time it is opened and closed, and a panel left off-screen comes back into view"
+        "Materials: Compact Laminate (15 decors) replaces Equitone; Interact tool shows the hand cursor"
     ]
 }
