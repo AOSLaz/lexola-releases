@@ -1,13 +1,16 @@
 {
-    "version": "2.18.40",
-    "released": "2026-11-21",
-    "asset": "lexola_v2.18.40.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.40/lexola_v2.18.40.rbz",
-    "size": 156218918,
-    "md5": "2800097016FF5AA0EE7D649CCD45C853",
-    "entries": 1069,
-    "commit": "c76e300",
+    "version": "2.18.41",
+    "released": "2026-11-23",
+    "asset": "lexola_v2.18.41.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.41/lexola_v2.18.41.rbz",
+    "size": 168418439,
+    "md5": "E066583AC731C22205DFBA745735DF58",
+    "entries": 1106,
+    "commit": "e76aa6d",
     "changes": [
-        "Materials: Compact Laminate (15 decors) replaces Equitone; Interact tool shows the hand cursor"
+        "Slot covers get their own toolbar key and a Black or Frame colour choice",
+        "Finger Rail units join cleanly on every unit type (run Merge Profiles again on kitchens merged before); the fridge unit's front posts are smooth inside",
+        "Five more timber woods, a texture rotation choice and a clearer Kitchen Materials window",
+        "Compact laminate parts are ordered at 12 mm"
     ]
 }
