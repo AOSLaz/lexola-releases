@@ -1,13 +1,13 @@
 {
-    "version": "2.18.42",
+    "version": "2.18.43",
     "released": "2026-11-24",
-    "asset": "lexola_v2.18.42.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.42/lexola_v2.18.42.rbz",
-    "size": 168419664,
-    "md5": "C571DBCA4F4D9FA17A149CD4E4A6B6FF",
+    "asset": "lexola_v2.18.43.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.43/lexola_v2.18.43.rbz",
+    "size": 168419956,
+    "md5": "66B1C9E54376CF4FAE1A6BCFF89E1449",
     "entries": 1106,
-    "commit": "0c4f617",
+    "commit": "0023ddf",
     "changes": [
-        "Plan view: worktop depth at both ends of a run; reports show the unit sizes you set; a PDF open in a viewer is no longer reported as replaced"
+        "Reports show the unit sizes you set on every sheet (AOS, Workshop, Frame and Panels), not only the plan view"
     ]
 }
