@@ -1,16 +1,13 @@
 {
-    "version": "2.18.41",
-    "released": "2026-11-23",
-    "asset": "lexola_v2.18.41.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.41/lexola_v2.18.41.rbz",
-    "size": 168418439,
-    "md5": "E066583AC731C22205DFBA745735DF58",
+    "version": "2.18.42",
+    "released": "2026-11-24",
+    "asset": "lexola_v2.18.42.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.42/lexola_v2.18.42.rbz",
+    "size": 168419664,
+    "md5": "C571DBCA4F4D9FA17A149CD4E4A6B6FF",
     "entries": 1106,
-    "commit": "e76aa6d",
+    "commit": "0c4f617",
     "changes": [
-        "Slot covers get their own toolbar key and a Black or Frame colour choice",
-        "Finger Rail units join cleanly on every unit type (run Merge Profiles again on kitchens merged before); the fridge unit's front posts are smooth inside",
-        "Five more timber woods, a texture rotation choice and a clearer Kitchen Materials window",
-        "Compact laminate parts are ordered at 12 mm"
+        "Plan view: worktop depth at both ends of a run; reports show the unit sizes you set; a PDF open in a viewer is no longer reported as replaced"
     ]
 }
