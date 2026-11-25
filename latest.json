@@ -1,13 +1,13 @@
 {
-    "version": "2.18.45",
+    "version": "2.18.46",
     "released": "2026-11-25",
-    "asset": "lexola_v2.18.45.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.45/lexola_v2.18.45.rbz",
-    "size": 168420512,
-    "md5": "4BB9072FA5EA348BF92A54B1548EB514",
+    "asset": "lexola_v2.18.46.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.46/lexola_v2.18.46.rbz",
+    "size": 168423428,
+    "md5": "5D146B03AA6B4825F38DE1CB70111FC2",
     "entries": 1106,
-    "commit": "6042497",
+    "commit": "18278b6",
     "changes": [
-        "The panel glass stays on after an update (it switched off until the panel was reopened)"
+        "Worktop thickness can be set from 1 to 300 mm, and sinks, taps and BBQ heads rise with the worktop"
     ]
 }
