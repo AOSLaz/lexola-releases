@@ -1,13 +1,13 @@
 {
-    "version": "2.18.43",
-    "released": "2026-11-24",
-    "asset": "lexola_v2.18.43.rbz",
-    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.43/lexola_v2.18.43.rbz",
-    "size": 168419956,
-    "md5": "66B1C9E54376CF4FAE1A6BCFF89E1449",
+    "version": "2.18.44",
+    "released": "2026-11-25",
+    "asset": "lexola_v2.18.44.rbz",
+    "url": "https://github.com/AOSLaz/lexola-releases/releases/download/v2.18.44/lexola_v2.18.44.rbz",
+    "size": 168420222,
+    "md5": "A6AD8305ECCC2E1F296E4BA1B38EE4D7",
     "entries": 1106,
-    "commit": "0023ddf",
+    "commit": "fa338d3",
     "changes": [
-        "Reports show the unit sizes you set on every sheet (AOS, Workshop, Frame and Panels), not only the plan view"
+        "Smoother orbit and pan: the panel glass holds its picture while the view moves"
     ]
 }
